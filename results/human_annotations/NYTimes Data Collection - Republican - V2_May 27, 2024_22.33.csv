@@ -1,0 +1,800 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q_RecaptchaScore,Q84,consent,QDem_Age,QDem_Gend,QDem_Race,QDem_Race_6_TEXT,Q_DemRepub,Q_DemRepub_6_TEXT,QDem_Income,Q136,100_Q138,408_Q138,409_Q138,410_Q138,411_Q138,412_Q138,413_Q138,414_Q138,415_Q138,416_Q138,417_Q138,418_Q138,419_Q138,420_Q138,421_Q138,422_Q138,423_Q138,424_Q138,425_Q138,426_Q138,427_Q138,428_Q138,429_Q138,430_Q138,431_Q138,432_Q138,433_Q138,434_Q138,435_Q138,436_Q138,437_Q138,438_Q138,439_Q138,440_Q138,441_Q138,442_Q138,443_Q138,444_Q138,445_Q138,446_Q138,447_Q138,448_Q138,449_Q138,450_Q138,451_Q138,452_Q138,453_Q138,454_Q138,455_Q138,456_Q138,457_Q138,458_Q138,459_Q138,460_Q138,461_Q138,462_Q138,463_Q138,464_Q138,465_Q138,466_Q138,467_Q138,468_Q138,469_Q138,470_Q138,471_Q138,472_Q138,473_Q138,474_Q138,475_Q138,476_Q138,477_Q138,478_Q138,479_Q138,480_Q138,481_Q138,482_Q138,483_Q138,484_Q138,485_Q138,486_Q138,487_Q138,488_Q138,489_Q138,490_Q138,491_Q138,492_Q138,493_Q138,494_Q138,495_Q138,496_Q138,497_Q138,498_Q138,499_Q138,500_Q138,501_Q138,502_Q138,503_Q138,504_Q138,505_Q138,506_Q138,507_Q138,508_Q138,509_Q138,510_Q138,511_Q138,512_Q138,513_Q138,514_Q138,515_Q138,516_Q138,517_Q138,518_Q138,519_Q138,520_Q138,521_Q138,522_Q138,523_Q138,524_Q138,525_Q138,526_Q138,527_Q138,528_Q138,529_Q138,530_Q138,531_Q138,532_Q138,533_Q138,534_Q138,535_Q138,536_Q138,537_Q138,538_Q138,539_Q138,540_Q138,541_Q138,Q143,QComment,workerId,hitId,assignmentId
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,Q_RecaptchaScore,What is your Prolific ID?,"DESCRIPTION:  You're invited to participate in a survey about interest a book, given its summary. 
+
+TIME INVOLVEMENT:  Your participation will take approximately 10 minutes. 
+
+
+PARTICIPANT’S RIGHTS:  If you have read this form and have decided to participate in this project, please understand your participation is voluntary and you have the right to withdraw your consent or discontinue participation at any time without penalty or loss of benefits to which you are otherwise entitled.  The alternative is not to participate.  You have the right to refuse to answer particular questions.  The results of this research study may be presented at scientific or professional meetings or published in scientific journals.  
+
+ 
+
+CONTACT INFORMATION: 
+
+Questions:  If you have any questions, concerns or complaints about this research, its procedures, risks and benefits, please contact Nicole Meister nmeist@stanford.edu.
+
+  
+
+If you agree to participate, please click “Yes” below. By clicking ""Yes,"" you are giving your consent to participate. If you do not want to participate, you may exit the study now. YOU MUST BE 18 or OLDER TO PARTICIPATE. You recognize you are 18 or older by clicking “Yes.”
+
+ 
+
+I consent to participate in this study.",Please enter your age (in years) below:,My gender is:,What is your race/ethnicity? - Selected Choice,What is your race/ethnicity? - Other (please specify) - Text,"In general, do you consider yourself a Democrat or Republican? - Selected Choice","In general, do you consider yourself a Democrat or Republican? - Other (please specify) - Text","What is your current total annual household income (in US dollars, gross before taxes)?",Question Randomization,"Americanah By Chimamanda Ngozi Adichie - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Flamethrowers By Rachel Kushner - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Goldfinch By Donna Tartt - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Life After Life By Kate Atkinson - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Tenth Of December By George Saunders - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","After The Music Stopped By Alan S. Blinder - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Days Of Fire By Peter Baker - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Five Days At Memorial By Sheri Fink - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Sleepwalkers By Christopher Clark - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Wave By Sonali Deraniyagala - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Bring Up The Bodies By Hilary Mantel - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Building Stories By Chris Ware - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","A Hologram For The King By Dave Eggers - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Nw By Zadie Smith - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Yellow Birds By Kevin Powers - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Behind The Beautiful Forevers By Katherine Boo - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Far From The Tree By Andrew Solomon - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Passage Of Power By Robert A. Caro - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Patriarch By David Nasaw - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Why Does The World Exist By Jim Holt - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","11/22/63 By Stephen King - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Art Of Fielding By Chad Harbach - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Swamplandia! By Karen Russell - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Ten Thousand Saints By Eleanor Henderson - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Tiger'S Wife By Téa Obreht - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Arguably By Christopher Hitchens - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Boy In The Moon By Ian Brown - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Malcolm X By Manning Marable - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Thinking, Fast And Slow By Daniel Kahneman - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","A World On Fire By Amanda Foreman - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Freedom By Jonathan Franzen - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The New Yorker Stories By Ann Beattie - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Room By Emma Donoghue - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Selected Stories By William Trevor - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","A Visit From The Goon Squad By Jennifer Egan - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Apollo'S Angels By Jennifer Homans - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Cleopatra By Stacy Schiff - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Emperor Of All Maladies By Siddhartha Mukherjee - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Finishing The Hat By Stephen Sondheim - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Warmth Of Other Suns By Isabel Wilkerson - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Both Ways Is The Only Way I Want It By Maile Meloy - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Chronic City By Jonathan Lethem - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","A Gate At The Stairs By Lorrie Moore - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Half Broke Horses By Jeannette Walls - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","A Short History Of Women By Kate Walbert - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Age Of Wonder By Richard Holmes - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Good Soldiers By David Finkel - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Lit By Mary Karr - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Lords Of Finance By Liaquat Ahamed - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Raymond Carver By Carol Sklenicka - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","2666 By Roberto Bolaño - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Dangerous Laughter By Steven Millhauser - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","A Mercy By Toni Morrison - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Netherland By Joseph O’Neill - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Unaccustomed Earth By Jhumpa Lahiri - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Dark Side By Jane Mayer - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Forever War By Dexter Filkins - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Nothing To Be Frightened Of By Julian Barnes - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","This Republic Of Suffering By Drew Gilpin Faust - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The World Is What It Is By Patrick French - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Man Gone Down By Michael Thomas - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Out Stealing Horses By Per Petterson - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Savage Detectives By Roberto Bolaño - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Then We Came To The End By Joshua Ferris - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Tree Of Smoke By Denis Johnson - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Imperial Life In The Emerald City By Rajiv Chandrasekaran - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Little Heathens By Mildred Armstrong Kalish - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Nine By Jeffrey Toobin - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Ordeal Of Elizabeth Marsh By Linda Colley - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Rest Is Noise By Alex Ross - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Absurdistan By Gary Shteyngart - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Collected Stories Of Amy Hempel By Amy Hempel - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Emperor'S Children By Claire Messud - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Lay Of The Land By Richard Ford - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Special Topics In Calamity Physics By Marisha Pessl - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Falling Through The Earth By Danielle Trussoni - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Looming Tower By Lawrence Wright - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Mayflower By Nathaniel Philbrick - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Omnivore'S Dilemma By Michael Pollan - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Places In Between By Rory Stewart - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Kafka On The Shore By Haruki Murakami - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","On Beauty By Zadie Smith - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Prep By Curtis Sittenfeld - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Saturday By Ian Mcewan - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Veronica By Mary Gaitskill - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Assassins' Gate By George Packer - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","De Kooning By Mark Stevens And Annalyn Swan - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Lost Painting By Jonathan Harr - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Postwar By Tony Judt - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Year Of Magical Thinking By Joan Didion - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Gilead By Marilynne Robinson - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Master By Colm Toibin - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Plot Against America By Philip Roth - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Runaway By Alice Munro - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Snow By Orhan Pamuk - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","War Trash By Ha Jin - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Alexander Hamilton By Ron Chernow - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Chronicles By Bob Dylan - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Washington'S Crossing By David Hackett Fischer - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Will In The World By Stephen Greenblatt - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Bounty By Caroline Alexander - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Brick Lane By Monica Ali - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Drop City By T. Coraghessan Boyle - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Fortress Of Solitude By Jonathan Lethem - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Known World By Edward P. Jones - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Khrushchev By William Taubman - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Living To Tell The Tale By Gabriel García Márquez - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Random Family By Adrian Nicole Leblanc - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Samuel Pepys By Claire Tomalin - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Atonement By Ian Mcewan - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Middlesex By Jeffrey Eugenides - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Roscoe By William Kennedy - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Anthony Blunt By Miranda Carter - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Bad Blood By Lorna Sage - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Paris 1919 By Margaret Macmillan - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Seeing In The Dark By Timothy Ferris - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Austerlitz By W.G. Sebald - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Corrections By Jonathan Franzen - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Hateship, Friendship, Courtship, Loveship, Marriage By Alice Munro - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","John Henry Days By Colson Whitehead - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","True History Of The Kelly Gang By Peter Carey - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Borrowed Finery By Paula Fox - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","John Adams By David Mccullough - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","The Metaphysical Club By Louis Menand - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Uncle Tungsten By Oliver Sacks - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Being Dead By Jim Crace - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Beowulf: A New Verse Translation By Seamus Heaney - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Gertrude And Claudius By John Updike - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Human Stain By Philip Roth - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","White Teeth By Zadie Smith - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Genome By Matt Ridley - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","A Heartbreaking Work Of Staggering Genius By Dave Eggers - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","One Palestine, Complete By Tom Segev - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Rimbaud By Graham Robb - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Way Out There In The Blue: Reagan, Star Wars And The End Of The Cold War By Frances Fitzgerald - Given the summary of this book, how likely are you to read it?
+
+Book Title: [Field-1]
+Book Genre: [Field-3]
+Book Summary: [Field-2]
+[Field-2]","Please comment on the clarity and value of the book summary. (e.g., Was the book summary helpful in helping you assess the book quality or too vague?)","Your completion code is: CXJHOVKH
+
+Please paste this into Prolific.
+
+
+
+
+If you have any comments, please write them down in the box below. Thank you!",workerId,hitId,assignmentId
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""Q_RecaptchaScore""}","{""ImportId"":""QID335_TEXT""}","{""ImportId"":""QID4""}","{""ImportId"":""QID240""}","{""ImportId"":""QID241""}","{""ImportId"":""QID242""}","{""ImportId"":""QID242_6_TEXT""}","{""ImportId"":""QID379""}","{""ImportId"":""QID379_6_TEXT""}","{""ImportId"":""QID243""}","{""ImportId"":""QID392""}","{""ImportId"":""1_QID393""}","{""ImportId"":""408_QID393""}","{""ImportId"":""409_QID393""}","{""ImportId"":""410_QID393""}","{""ImportId"":""411_QID393""}","{""ImportId"":""412_QID393""}","{""ImportId"":""413_QID393""}","{""ImportId"":""414_QID393""}","{""ImportId"":""415_QID393""}","{""ImportId"":""416_QID393""}","{""ImportId"":""417_QID393""}","{""ImportId"":""418_QID393""}","{""ImportId"":""419_QID393""}","{""ImportId"":""420_QID393""}","{""ImportId"":""421_QID393""}","{""ImportId"":""422_QID393""}","{""ImportId"":""423_QID393""}","{""ImportId"":""424_QID393""}","{""ImportId"":""425_QID393""}","{""ImportId"":""426_QID393""}","{""ImportId"":""427_QID393""}","{""ImportId"":""428_QID393""}","{""ImportId"":""429_QID393""}","{""ImportId"":""430_QID393""}","{""ImportId"":""431_QID393""}","{""ImportId"":""432_QID393""}","{""ImportId"":""433_QID393""}","{""ImportId"":""434_QID393""}","{""ImportId"":""435_QID393""}","{""ImportId"":""436_QID393""}","{""ImportId"":""437_QID393""}","{""ImportId"":""438_QID393""}","{""ImportId"":""439_QID393""}","{""ImportId"":""440_QID393""}","{""ImportId"":""441_QID393""}","{""ImportId"":""442_QID393""}","{""ImportId"":""443_QID393""}","{""ImportId"":""444_QID393""}","{""ImportId"":""445_QID393""}","{""ImportId"":""446_QID393""}","{""ImportId"":""447_QID393""}","{""ImportId"":""448_QID393""}","{""ImportId"":""449_QID393""}","{""ImportId"":""450_QID393""}","{""ImportId"":""451_QID393""}","{""ImportId"":""452_QID393""}","{""ImportId"":""453_QID393""}","{""ImportId"":""454_QID393""}","{""ImportId"":""455_QID393""}","{""ImportId"":""456_QID393""}","{""ImportId"":""457_QID393""}","{""ImportId"":""458_QID393""}","{""ImportId"":""459_QID393""}","{""ImportId"":""460_QID393""}","{""ImportId"":""461_QID393""}","{""ImportId"":""462_QID393""}","{""ImportId"":""463_QID393""}","{""ImportId"":""464_QID393""}","{""ImportId"":""465_QID393""}","{""ImportId"":""466_QID393""}","{""ImportId"":""467_QID393""}","{""ImportId"":""468_QID393""}","{""ImportId"":""469_QID393""}","{""ImportId"":""470_QID393""}","{""ImportId"":""471_QID393""}","{""ImportId"":""472_QID393""}","{""ImportId"":""473_QID393""}","{""ImportId"":""474_QID393""}","{""ImportId"":""475_QID393""}","{""ImportId"":""476_QID393""}","{""ImportId"":""477_QID393""}","{""ImportId"":""478_QID393""}","{""ImportId"":""479_QID393""}","{""ImportId"":""480_QID393""}","{""ImportId"":""481_QID393""}","{""ImportId"":""482_QID393""}","{""ImportId"":""483_QID393""}","{""ImportId"":""484_QID393""}","{""ImportId"":""485_QID393""}","{""ImportId"":""486_QID393""}","{""ImportId"":""487_QID393""}","{""ImportId"":""488_QID393""}","{""ImportId"":""489_QID393""}","{""ImportId"":""490_QID393""}","{""ImportId"":""491_QID393""}","{""ImportId"":""492_QID393""}","{""ImportId"":""493_QID393""}","{""ImportId"":""494_QID393""}","{""ImportId"":""495_QID393""}","{""ImportId"":""496_QID393""}","{""ImportId"":""497_QID393""}","{""ImportId"":""498_QID393""}","{""ImportId"":""499_QID393""}","{""ImportId"":""500_QID393""}","{""ImportId"":""501_QID393""}","{""ImportId"":""502_QID393""}","{""ImportId"":""503_QID393""}","{""ImportId"":""504_QID393""}","{""ImportId"":""505_QID393""}","{""ImportId"":""506_QID393""}","{""ImportId"":""507_QID393""}","{""ImportId"":""508_QID393""}","{""ImportId"":""509_QID393""}","{""ImportId"":""510_QID393""}","{""ImportId"":""511_QID393""}","{""ImportId"":""512_QID393""}","{""ImportId"":""513_QID393""}","{""ImportId"":""514_QID393""}","{""ImportId"":""515_QID393""}","{""ImportId"":""516_QID393""}","{""ImportId"":""517_QID393""}","{""ImportId"":""518_QID393""}","{""ImportId"":""519_QID393""}","{""ImportId"":""520_QID393""}","{""ImportId"":""521_QID393""}","{""ImportId"":""522_QID393""}","{""ImportId"":""523_QID393""}","{""ImportId"":""524_QID393""}","{""ImportId"":""525_QID393""}","{""ImportId"":""526_QID393""}","{""ImportId"":""527_QID393""}","{""ImportId"":""528_QID393""}","{""ImportId"":""529_QID393""}","{""ImportId"":""530_QID393""}","{""ImportId"":""531_QID393""}","{""ImportId"":""532_QID393""}","{""ImportId"":""533_QID393""}","{""ImportId"":""534_QID393""}","{""ImportId"":""535_QID393""}","{""ImportId"":""536_QID393""}","{""ImportId"":""537_QID393""}","{""ImportId"":""538_QID393""}","{""ImportId"":""539_QID393""}","{""ImportId"":""540_QID393""}","{""ImportId"":""541_QID393""}","{""ImportId"":""QID394_TEXT""}","{""ImportId"":""QID25_TEXT""}","{""ImportId"":""workerId""}","{""ImportId"":""hitId""}","{""ImportId"":""assignmentId""}"
+2024-05-27 18:46:06,2024-05-27 18:56:20,IP Address,99.77.86.109,100,614,True,2024-05-27 18:56:21,R_1pY9RUeoMEUBOCt,,,,,31.9405,-102.3919,anonymous,EN,0.8999999761581421,62ba066a4093b931382ec48f,Yes,60,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,1: Very unlikely,,,,,2: Somewhat unlikely,,,,,,,,3: Somewhat likely,3: Somewhat likely,,2: Somewhat unlikely,,,,,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,,4: Very likely,1: Very unlikely,,,,,,,,,,,,,,3: Somewhat likely,,,1: Very unlikely,,,1: Very unlikely,,,,,,,,,,,,2: Somewhat unlikely,1: Very unlikely,1: Very unlikely,,,1: Very unlikely,,,,,,3: Somewhat likely,,,,,1: Very unlikely,,4: Very likely,,,,,1: Very unlikely,,,,,,,,,,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,1: Very unlikely,,,,,,,,3: Somewhat likely,1: Very unlikely,,,,,,3: Somewhat likely,,,,,,,,3: Somewhat likely,,"I liked it, but I felt that the shorter ones were able to get to the point and gave me a more immediate response.",,,,
+2024-05-27 18:37:26,2024-05-27 19:04:26,IP Address,174.214.17.154,100,1619,True,2024-05-27 19:04:27,R_1a8eplfxuppEyDu,,,,,47.6034,-122.3414,anonymous,EN,1,6547da1a85536ca4306038a8,Yes,45,Male,White or Caucasian American,,Republican,,"$100,000 or more",,,,3: Somewhat likely,,3: Somewhat likely,,,4: Very likely,,,,,3: Somewhat likely,,,,,,,3: Somewhat likely,,,,,3: Somewhat likely,,,,,,,,,,,,,,,3: Somewhat likely,,,3: Somewhat likely,3: Somewhat likely,,,,,,,,,3: Somewhat likely,,,,2: Somewhat unlikely,,2: Somewhat unlikely,,3: Somewhat likely,,,3: Somewhat likely,3: Somewhat likely,,,,3: Somewhat likely,,,,,,,,,,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,,,,,4: Very likely,,,4: Very likely,,,,,,,,,4: Very likely,,,3: Somewhat likely,,,,,,,4: Very likely,,,,,,,3: Somewhat likely,,,3: Somewhat likely,Summary is extremely helpful.,,,,
+2024-05-27 18:59:12,2024-05-27 19:12:12,IP Address,174.210.228.17,100,780,True,2024-05-27 19:12:13,R_6utmtLsimyoIurv,,,,,42.4327,-83.0396,anonymous,EN,1,65efc3af58ab9965da4a8a82,Yes,50,Female,White or Caucasian American,,Republican,,"$100,000 or more",,1: Very unlikely,,,,,1: Very unlikely,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,,,,4: Very likely,,,,,,,,1: Very unlikely,,,,,,,,,1: Very unlikely,1: Very unlikely,,,,,,,2: Somewhat unlikely,4: Very likely,,4: Very likely,,,1: Very unlikely,,,,,,1: Very unlikely,,,,3: Somewhat likely,,,,,,,,,,,,1: Very unlikely,3: Somewhat likely,,,3: Somewhat likely,,,,,1: Very unlikely,,,,,,,,,,,,1: Very unlikely,,,,,,3: Somewhat likely,,,,,,1: Very unlikely,,3: Somewhat likely,,,,3: Somewhat likely,,,,,,,,1: Very unlikely,,,1: Very unlikely,,,,4: Very likely,,,,,2: Somewhat unlikely,,,Some were good and some were too vague,,,,
+2024-05-27 18:58:27,2024-05-27 19:12:39,IP Address,174.109.102.30,100,851,True,2024-05-27 19:12:39,R_5RajSi7PNvPftz4,,,,,36.0229,-78.9464,anonymous,EN,0.8999999761581421,6605e1b08f442bfb7cfa5c2d,Yes,31,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,1: Very unlikely,,,,,,,,1: Very unlikely,,,,,3: Somewhat likely,,,,,3: Somewhat likely,,,,,,1: Very unlikely,,3: Somewhat likely,1: Very unlikely,,,,3: Somewhat likely,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,3: Somewhat likely,,,,,,1: Very unlikely,,,,,,3: Somewhat likely,,,1: Very unlikely,,,,,2: Somewhat unlikely,1: Very unlikely,,,,3: Somewhat likely,,1: Very unlikely,,3: Somewhat likely,,,,,,,,4: Very likely,,3: Somewhat likely,,,,,1: Very unlikely,,,,,3: Somewhat likely,1: Very unlikely,,,,1: Very unlikely,,4: Very likely,,1: Very unlikely,,,,,Helpful in order to decide whether my interest would be kept based on the topic.,,,,
+2024-05-27 19:03:33,2024-05-27 19:15:17,IP Address,74.192.223.190,100,704,True,2024-05-27 19:15:18,R_6D1DDnjhhmZ4arf,,,,,28.8684,-96.996,anonymous,EN,0.8999999761581421,663cf60187b6be3c9f1d1956,Yes,33,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,,,,3: Somewhat likely,3: Somewhat likely,,,,,,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,,,,3: Somewhat likely,3: Somewhat likely,,,,,3: Somewhat likely,,,3: Somewhat likely,,,,,3: Somewhat likely,,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,2: Somewhat unlikely,,,,,,,3: Somewhat likely,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,3: Somewhat likely,,3: Somewhat likely,,,,,,,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,3: Somewhat likely,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,Too vague,,,,
+2024-05-27 19:08:43,2024-05-27 19:17:20,IP Address,68.224.98.185,100,517,True,2024-05-27 19:17:21,R_10PeTr4PQ45lgyZ,,,,,35.9854,-115.1193,anonymous,EN,0.800000011920929,5f2902a9329da32a97e41066,Yes,32,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,1: Very unlikely,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,3: Somewhat likely,,,1: Very unlikely,,,,1: Very unlikely,,,,,,,,,,,,1: Very unlikely,,,,,,,,1: Very unlikely,,,,1: Very unlikely,,1: Very unlikely,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,1: Very unlikely,,1: Very unlikely,,,,,,4: Very likely,,,,,,,,3: Somewhat likely,,1: Very unlikely,,,,,,,,1: Very unlikely,,,,,,3: Somewhat likely,,,,,,,,,,,,1: Very unlikely,1: Very unlikely,1: Very unlikely,,,,,,3: Somewhat likely,2: Somewhat unlikely,,1: Very unlikely,2: Somewhat unlikely,,,,,,,4: Very likely,,,,2: Somewhat unlikely,,,,,Some of the summaries were far more in-depth than others. The in-depth summaries were easier to write because I had a better idea of what the novel is about. I do prefer the more in-depth summaries.,,,,
+2024-05-27 19:09:19,2024-05-27 19:20:23,IP Address,68.231.74.131,100,664,True,2024-05-27 19:20:24,R_6r56Ctgo9wXq5KF,,,,,33.5988,-111.8795,anonymous,EN,0.8999999761581421,63804d105c37525d499b9c6c,Yes,60,Female,Asian or Asian American,,Republican,,"$100,000 or more",,,,,,,1: Very unlikely,,,,2: Somewhat unlikely,,,1: Very unlikely,,,,,,,,,1: Very unlikely,,1: Very unlikely,1: Very unlikely,,,,3: Somewhat likely,,,,4: Very likely,2: Somewhat unlikely,,,4: Very likely,,,3: Somewhat likely,,,,,1: Very unlikely,,,,,,,,,1: Very unlikely,1: Very unlikely,1: Very unlikely,1: Very unlikely,,,,,,1: Very unlikely,,,,,4: Very likely,,,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,2: Somewhat unlikely,1: Very unlikely,,,,,3: Somewhat likely,,2: Somewhat unlikely,1: Very unlikely,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,3: Somewhat likely,,,,,,,,,,2: Somewhat unlikely,,,The longer book summaries were very helpful on whether I would read the book. Some of the brief summaries were enough for me to decide whether the subject matter would be interesting enough for me to want to read the book.,This is a very interesting study and helped me to remember certain books I have been wanting to read!,,,
+2024-05-27 19:09:18,2024-05-27 19:21:36,IP Address,98.116.88.190,100,738,True,2024-05-27 19:21:37,R_3fdbUppRplbuvNu,,,,,40.76,-73.5318,anonymous,EN,1,660860c3e27e544cdd34ecd2,Yes,21,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,,,,,,,,,,,,,,1: Very unlikely,,2: Somewhat unlikely,,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,1: Very unlikely,,,,,,,,,1: Very unlikely,,,,,,,,,2: Somewhat unlikely,,1: Very unlikely,1: Very unlikely,,,,,,,,,,,,,1: Very unlikely,1: Very unlikely,,,,1: Very unlikely,1: Very unlikely,,3: Somewhat likely,3: Somewhat likely,1: Very unlikely,,,,,,,,,,,,,,,,,,,,,,1: Very unlikely,,1: Very unlikely,,,,,,,,1: Very unlikely,1: Very unlikely,,1: Very unlikely,,,,,1: Very unlikely,1: Very unlikely,,,1: Very unlikely,4: Very likely,1: Very unlikely,,,,,,3: Somewhat likely,,,,,,,,,,"The book summaries were helpful in assessing the book quality, especially the longer, more detailed ones",,,,
+2024-05-27 19:13:58,2024-05-27 19:22:07,IP Address,174.199.226.134,100,489,True,2024-05-27 19:22:08,R_6GOM29PAJpSXnxR,,,,,32.4227,-85.0778,anonymous,EN,1,662938f7c211f2ac0c67a317,Yes,55,Male,White or Caucasian American,,Republican,,"$100,000 or more",,,4: Very likely,,,,,,3: Somewhat likely,,,,,,1: Very unlikely,3: Somewhat likely,,,,,4: Very likely,4: Very likely,,,2: Somewhat unlikely,,,,,,,,,,1: Very unlikely,4: Very likely,1: Very unlikely,,3: Somewhat likely,,,,,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,,,2: Somewhat unlikely,3: Somewhat likely,,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,,4: Very likely,,,,,,,,,,,,,,,,1: Very unlikely,3: Somewhat likely,,,,,,1: Very unlikely,,,,,1: Very unlikely,,,,,,,,,It was ok,,,,
+2024-05-27 19:06:20,2024-05-27 19:22:21,IP Address,172.59.66.192,100,961,True,2024-05-27 19:22:22,R_3ItuYMqVrbQ0GAa,,,,,30.1918,-81.6028,anonymous,EN,1,5df5174fb1f22238259d486b,Yes,35,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,,,,,,3: Somewhat likely,,,2: Somewhat unlikely,,,3: Somewhat likely,,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,3: Somewhat likely,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,,,,1: Very unlikely,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,3: Somewhat likely,The lengthy summaries seemed far too vague and never got to the point.,"It may be helpful in future rounds to also poll people's interest in different types of books. For some, no matter how well a memoir is described, they still may not be interested in reading it.",,,
+2024-05-27 19:12:09,2024-05-27 19:25:12,IP Address,172.56.190.173,100,782,True,2024-05-27 19:25:13,R_6N7VgRATzfmfV9M,,,,,33.8358,-117.9063,anonymous,EN,0.800000011920929,664e7e50cc2f56fd62fe1f9e,Yes,28,Female,White or Caucasian American,,Republican,,"Less than $30,000",,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,,,,,,,,2: Somewhat unlikely,,,,,,,,1: Very unlikely,,,,,,2: Somewhat unlikely,,,,,,,,3: Somewhat likely,,,,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,,,,,,,3: Somewhat likely,,,,,,,,3: Somewhat likely,,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,2: Somewhat unlikely,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,,3: Somewhat likely,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,2: Somewhat unlikely,,Yes the book summaries were clear on determining the quality of the books.,No comments.,,,
+2024-05-27 19:14:32,2024-05-27 19:25:32,IP Address,75.111.211.42,100,660,True,2024-05-27 19:25:33,R_7NxILw9fXOVEIHf,,,,,33.5119,-101.9316,anonymous,EN,0.8999999761581421,66526ff89d419e456e380c07,Yes,31,Male,Hispanic or Latino,,Republican,,"$100,000 or more",,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,3: Somewhat likely,,,3: Somewhat likely,,,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,,4: Very likely,,,,,,,,1: Very unlikely,,,1: Very unlikely,,,,,1: Very unlikely,3: Somewhat likely,,3: Somewhat likely,,2: Somewhat unlikely,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,,,3: Somewhat likely,,,3: Somewhat likely,1: Very unlikely,,,,,,,,3: Somewhat likely,,,,,,,,,,1: Very unlikely,,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,4: Very likely,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,"Yes it was helpful. ",,,,
+2024-05-27 19:18:07,2024-05-27 19:25:42,IP Address,74.83.102.97,100,454,True,2024-05-27 19:25:43,R_7fHYDF9UcNLg8Xa,,,,,39.4272,-84.1664,anonymous,EN,1,63d698429453269de520bbb8,Yes,30,Female,White or Caucasian American,,Republican,,"Less than $30,000",,,,,,,,,,3: Somewhat likely,,,,3: Somewhat likely,,,,1: Very unlikely,,1: Very unlikely,4: Very likely,,2: Somewhat unlikely,,,,,,1: Very unlikely,,,,2: Somewhat unlikely,,,1: Very unlikely,,,,1: Very unlikely,1: Very unlikely,3: Somewhat likely,,,,,,,,,1: Very unlikely,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,1: Very unlikely,,,,,,,2: Somewhat unlikely,,,,,,,,,3: Somewhat likely,,2: Somewhat unlikely,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,,,,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,Helpful,,,,
+2024-05-27 19:19:35,2024-05-27 19:30:08,IP Address,73.199.97.95,100,633,True,2024-05-27 19:30:09,R_6f13Jybqag6JsLn,,,,,39.7513,-74.9999,anonymous,EN,0.8999999761581421,6654f6eda3b54a98aa1dd784,Yes,38,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,,,,,,,3: Somewhat likely,,,,,,,,3: Somewhat likely,,,,3: Somewhat likely,,,3: Somewhat likely,,1: Very unlikely,1: Very unlikely,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,1: Very unlikely,,,,3: Somewhat likely,3: Somewhat likely,,4: Very likely,,,3: Somewhat likely,,1: Very unlikely,,,1: Very unlikely,,,,,,3: Somewhat likely,,,,,,,,1: Very unlikely,,,,,,,4: Very likely,4: Very likely,,,4: Very likely,,,3: Somewhat likely,1: Very unlikely,1: Very unlikely,,,,,,,1: Very unlikely,3: Somewhat likely,,,,,,,1: Very unlikely,,,,,,,,,,The longer summaries helped assess the quality. The shorter summaries did not give enough information so it was easier to deny or accept them.,Thank you!,,,
+2024-05-27 19:21:41,2024-05-27 19:31:02,IP Address,172.56.240.208,100,560,True,2024-05-27 19:31:02,R_6lxUSAA432LHdOX,,,,,34.11,-117.2955,anonymous,EN,0.8999999761581421,6641329a532fbc1394f8da0f,Yes,40,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,,,,2: Somewhat unlikely,,,,,,,3: Somewhat likely,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,2: Somewhat unlikely,2: Somewhat unlikely,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,3: Somewhat likely,,,,4: Very likely,3: Somewhat likely,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,2: Somewhat unlikely,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,,,,,,1: Very unlikely,,,3: Somewhat likely,4: Very likely,,,,3: Somewhat likely,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,,,,,,,the book summary was in depth and descriptive.  the questions with longer summaries grabbed my attention and made me interested.  the summaries that were short without details gave me no interest in reading them.,,,,
+2024-05-27 19:09:09,2024-05-27 19:32:25,IP Address,73.233.2.67,100,1396,True,2024-05-27 19:32:26,R_5havCMtdl70R6jI,,,,,39.8667,-75.3862,anonymous,EN,1,63d79d3661a80dfb21b905d5,Yes,40,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,3: Somewhat likely,2: Somewhat unlikely,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,3: Somewhat likely,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,3: Somewhat likely,2: Somewhat unlikely,,2: Somewhat unlikely,,2: Somewhat unlikely,,,3: Somewhat likely,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,3: Somewhat likely,3: Somewhat likely,,,,"Yes very helpful ",,,,
+2024-05-27 19:11:10,2024-05-27 19:32:26,IP Address,99.178.123.9,100,1276,True,2024-05-27 19:32:26,R_3LojCshcvOFG3fR,,,,,29.9762,-95.6401,anonymous,EN,1,6653904d974360d0c90b6bf8,Yes,19,Female,Hispanic or Latino,,Republican,,"$100,000 or more",,,,,,,,,,,1: Very unlikely,,1: Very unlikely,,,,,,1: Very unlikely,,,,3: Somewhat likely,,,,2: Somewhat unlikely,2: Somewhat unlikely,1: Very unlikely,,,2: Somewhat unlikely,,,,,,,,,,3: Somewhat likely,,,,,,,,1: Very unlikely,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,,,,3: Somewhat likely,,,4: Very likely,,,,,3: Somewhat likely,,,,,,1: Very unlikely,,,,,1: Very unlikely,,,1: Very unlikely,,,,,2: Somewhat unlikely,,,,,,,,,1: Very unlikely,1: Very unlikely,,,,,,1: Very unlikely,1: Very unlikely,1: Very unlikely,,3: Somewhat likely,,,,,,,1: Very unlikely,It was too long to comprehend for me,,,,
+2024-05-27 19:18:47,2024-05-27 19:33:34,IP Address,172.56.181.78,100,886,True,2024-05-27 19:33:34,R_3ALnANzbdF90enR,,,,,34.0528,-117.6648,anonymous,EN,0.8999999761581421,6647e35a6fd9fa329d3dd13d,Yes,27,Male,Hispanic or Latino,,Republican,,"$30,000 - $99,999",,,,,4: Very likely,3: Somewhat likely,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,3: Somewhat likely,,,,,,,,3: Somewhat likely,,2: Somewhat unlikely,2: Somewhat unlikely,,,3: Somewhat likely,2: Somewhat unlikely,,,3: Somewhat likely,,,3: Somewhat likely,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,,,,,,,,,3: Somewhat likely,,,2: Somewhat unlikely,,,,3: Somewhat likely,,,,,,,,,,,2: Somewhat unlikely,3: Somewhat likely,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,,,2: Somewhat unlikely,"Most summeries were great, others were too long and can be shorten to better understanding.",,,,
+2024-05-27 19:19:47,2024-05-27 19:35:32,IP Address,174.203.69.186,100,944,True,2024-05-27 19:35:33,R_31ngrw4Fw8ul30V,,,,,30.4509,-91.1563,anonymous,EN,0.8999999761581421,6650ba88f2e4099801ab8357,Yes,54,Female,Asian or Asian American,,Republican,,"$30,000 - $99,999",,,,,,,1: Very unlikely,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,1: Very unlikely,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,1: Very unlikely,,,,,,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,2: Somewhat unlikely,,,,,,,1: Very unlikely,2: Somewhat unlikely,,,,,,,3: Somewhat likely,,,3: Somewhat likely,,2: Somewhat unlikely,,1: Very unlikely,,,,,,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,1: Very unlikely,,,,,,,,,,,,,,,,3: Somewhat likely,,,,,,,,3: Somewhat likely,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,3: Somewhat likely,,2: Somewhat unlikely,,"Some are too vague ",,,,
+2024-05-27 19:29:32,2024-05-27 19:40:39,IP Address,73.157.167.94,100,666,True,2024-05-27 19:40:39,R_7EfNYFSNqnOfrNc,,,,,46.1478,-122.9711,anonymous,EN,1,664d68084aff042dd5ad8ef5,Yes,58,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,3: Somewhat likely,,,,2: Somewhat unlikely,3: Somewhat likely,,,4: Very likely,,,,,2: Somewhat unlikely,,,4: Very likely,,,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,4: Very likely,,,,4: Very likely,,,1: Very unlikely,,,,,,,,3: Somewhat likely,,3: Somewhat likely,,,,2: Somewhat unlikely,1: Very unlikely,,,,,,,,,4: Very likely,,,3: Somewhat likely,3: Somewhat likely,,,4: Very likely,,,3: Somewhat likely,,,,,4: Very likely,,,,,,,2: Somewhat unlikely,,3: Somewhat likely,,,,,4: Very likely,,,,,,,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,3: Somewhat likely,,,,,,,4: Very likely,,,,I thought the summaries were very helpful in deciding if I would like to read said book or not.,,,,
+2024-05-27 19:37:19,2024-05-27 19:44:23,IP Address,174.235.48.185,100,423,True,2024-05-27 19:44:23,R_61yeLQJIxFd0U9N,,,,,35.2296,-80.843,anonymous,EN,0.8999999761581421,63da967fb1bbdcf1bfdf1009,Yes,27,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,1: Very unlikely,,,,,1: Very unlikely,,,1: Very unlikely,,,1: Very unlikely,,1: Very unlikely,1: Very unlikely,,,,4: Very likely,,,,,,1: Very unlikely,,3: Somewhat likely,,,,,,,,,,,1: Very unlikely,,,1: Very unlikely,,2: Somewhat unlikely,,,,,,,,1: Very unlikely,,1: Very unlikely,,,,,3: Somewhat likely,,3: Somewhat likely,,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3: Somewhat likely,,,,,4: Very likely,,,,,2: Somewhat unlikely,1: Very unlikely,,,,,,,1: Very unlikely,,3: Somewhat likely,1: Very unlikely,1: Very unlikely,4: Very likely,,,2: Somewhat unlikely,,"The books summaries were most very good, a few were a bit vague but I’d say they were enough to make a decision.",,,,
+2024-05-27 19:32:04,2024-05-27 19:47:25,IP Address,207.172.180.135,100,921,True,2024-05-27 19:47:26,R_7rjMohpDiwXDmnU,,,,,40.5271,-75.5617,anonymous,EN,0.8999999761581421,66451e8c29ca8745033fb5c8,Yes,33,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,1: Very unlikely,,,,,,,,,,,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,,,,,,,,,,,3: Somewhat likely,,,,,,,1: Very unlikely,,,,1: Very unlikely,2: Somewhat unlikely,,,,,3: Somewhat likely,,,1: Very unlikely,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,1: Very unlikely,,,1: Very unlikely,,,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,,3: Somewhat likely,3: Somewhat likely,,,1: Very unlikely,,1: Very unlikely,2: Somewhat unlikely,1: Very unlikely,,,,,,,,,1: Very unlikely,,,,2: Somewhat unlikely,1: Very unlikely,,,,,,,,,,1: Very unlikely,,1: Very unlikely,,,,,,,,,,,1: Very unlikely,,1: Very unlikely,"It was good keeping things short and to the point. ",,,,
+2024-05-27 19:36:46,2024-05-27 19:53:15,IP Address,68.131.48.191,100,988,True,2024-05-27 19:53:15,R_1rH2SUtWkRIy18i,,,,,36.8375,-76.0976,anonymous,EN,1,663a93fe3e8d9c38e278fe5a,Yes,65,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,1: Very unlikely,,,,,,,,,,,,3: Somewhat likely,,4: Very likely,,,,,,,1: Very unlikely,1: Very unlikely,,3: Somewhat likely,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,1: Very unlikely,4: Very likely,,,,,1: Very unlikely,,,1: Very unlikely,,1: Very unlikely,4: Very likely,,1: Very unlikely,4: Very likely,,4: Very likely,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,,4: Very likely,,2: Somewhat unlikely,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,1: Very unlikely,,,,,,,,4: Very likely,,,,,,,,,,,,,,The book summary was very helpful in helping me assess the book quality.,,,,
+2024-05-27 19:47:53,2024-05-27 19:56:02,IP Address,184.56.230.70,100,488,True,2024-05-27 19:56:02,R_7E1DWhxKHo21qpP,,,,,37.1531,-84.0986,anonymous,EN,0.8999999761581421,651ef8c151256d559cd2fa78,Yes,33,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,1: Very unlikely,,1: Very unlikely,,,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,,,4: Very likely,,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,1: Very unlikely,,1: Very unlikely,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,3: Somewhat likely,2: Somewhat unlikely,,,,,,1: Very unlikely,,,1: Very unlikely,,,3: Somewhat likely,,,,,1: Very unlikely,,,,,,,,,,2: Somewhat unlikely,,3: Somewhat likely,,,,1: Very unlikely,,,,,,,,,,1: Very unlikely,,,3: Somewhat likely,2: Somewhat unlikely,,2: Somewhat unlikely,,,1: Very unlikely,1: Very unlikely,,1: Very unlikely,,,,1: Very unlikely,,,,,The book summary described well what the book was actually about,,,,
+2024-05-27 19:51:21,2024-05-27 20:00:13,IP Address,174.209.196.202,100,532,True,2024-05-27 20:00:14,R_7L7PYmD8JwhzH8x,,,,,33.7838,-84.4455,anonymous,EN,1,5d68c88914867f000139f627,Yes,48,Female,White or Caucasian American,,Republican,,"Less than $30,000",,2: Somewhat unlikely,2: Somewhat unlikely,,,,1: Very unlikely,,,,,2: Somewhat unlikely,3: Somewhat likely,,,,1: Very unlikely,,,,,,1: Very unlikely,2: Somewhat unlikely,,,,,,,,,,3: Somewhat likely,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,4: Very likely,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,,,,,1: Very unlikely,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,1: Very unlikely,,,,,3: Somewhat likely,,,,,4: Very likely,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,,,,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,2: Somewhat unlikely,,"Some were overly detailed. Some very vague but I think I could get the gist of the book summaries. Unless you meant this last one specifically, it had lot of words but little content.",,,,
+2024-05-27 19:42:33,2024-05-27 20:00:25,IP Address,75.173.31.153,100,1072,True,2024-05-27 20:00:25,R_10qQqYXFZXN3Nc2,,,,,30.8998,-92.2964,anonymous,EN,0.8999999761581421,6651f040bd648ae9521b3341,Yes,35,Female,White or Caucasian American,,Republican,,"Less than $30,000",,,,,,,,,,,,,,,,,,,,3: Somewhat likely,4: Very likely,,,,,,2: Somewhat unlikely,,4: Very likely,,,,,,,,,4: Very likely,2: Somewhat unlikely,,,,3: Somewhat likely,3: Somewhat likely,3: Somewhat likely,,4: Very likely,,3: Somewhat likely,,2: Somewhat unlikely,,,3: Somewhat likely,,4: Very likely,2: Somewhat unlikely,,3: Somewhat likely,,,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,3: Somewhat likely,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,4: Very likely,,3: Somewhat likely,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,,,,,3: Somewhat likely,It was helpful to let mek know the contents of the book.,,,,
+2024-05-27 19:55:18,2024-05-27 20:06:47,IP Address,174.245.116.94,100,689,True,2024-05-27 20:06:48,R_1dmzKdGDGkYwHnk,,,,,35.1341,-80.9221,anonymous,EN,0.8999999761581421,613bef31a02d0a411cc403a0,Yes,53,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,3: Somewhat likely,,,,3: Somewhat likely,,,,,,1: Very unlikely,,,,,3: Somewhat likely,,4: Very likely,,4: Very likely,,,,,3: Somewhat likely,,,,,4: Very likely,,,,,4: Very likely,,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,3: Somewhat likely,,,2: Somewhat unlikely,,,4: Very likely,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,,,,,4: Very likely,,,,,,,,,3: Somewhat likely,,,,,,,,,,4: Very likely,,,,,,,2: Somewhat unlikely,3: Somewhat likely,,,2: Somewhat unlikely,4: Very likely,,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,,1: Very unlikely,,3: Somewhat likely,,,,,,,,,,,,,,,,,,,,,,,Was helpful,Na,,,
+2024-05-27 20:06:04,2024-05-27 20:09:47,IP Address,216.115.131.79,100,222,True,2024-05-27 20:09:47,R_7T75kFvIQ55otS9,,,,,30.2459,-90.9158,anonymous,EN,1,663e13d7e7d637aa3a4d8128,Yes,34,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,,,3: Somewhat likely,,,,,,,,1: Very unlikely,,1: Very unlikely,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,1: Very unlikely,,1: Very unlikely,,,1: Very unlikely,,,1: Very unlikely,1: Very unlikely,1: Very unlikely,,1: Very unlikely,,,,,1: Very unlikely,1: Very unlikely,,,1: Very unlikely,1: Very unlikely,,,,,,,,1: Very unlikely,1: Very unlikely,,,,,,,,,,,,,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,,,1: Very unlikely,,1: Very unlikely,,,,,2: Somewhat unlikely,,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,3: Somewhat likely,Yes it was successful,,,,
+2024-05-27 19:52:31,2024-05-27 20:12:07,IP Address,172.56.106.215,100,1176,True,2024-05-27 20:12:08,R_55SGPdNx2w6EXDJ,,,,,47.3798,-122.2893,anonymous,EN,1,5ed953ff9a8d504d5c451db0,Yes,32,Male,White or Caucasian American,,Republican,,"$100,000 or more",,,,,3: Somewhat likely,,,,4: Very likely,3: Somewhat likely,,,,3: Somewhat likely,,,,,3: Somewhat likely,,,,,,,,,,,,3: Somewhat likely,1: Very unlikely,3: Somewhat likely,,1: Very unlikely,,,,,,1: Very unlikely,,,,,,,,,,,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,1: Very unlikely,,,,1: Very unlikely,,,,,4: Very likely,,,,,,3: Somewhat likely,,,,3: Somewhat likely,,,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,,1: Very unlikely,,,,,,,,,,,,,,,,,4: Very likely,,,,,,,4: Very likely,,,1: Very unlikely,,,,,4: Very likely,,1: Very unlikely,,3: Somewhat likely,,,,Book summary helped but lost alot of value by having bare minimum information in them,,,,
+2024-05-27 19:57:26,2024-05-27 20:13:43,IP Address,76.226.173.119,100,977,True,2024-05-27 20:13:43,R_3rYeNkDokr2zcFe,,,,,30.1012,-92.0112,anonymous,EN,1,6063c0f31b718b3623f66303,Yes,54,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,1: Very unlikely,,2: Somewhat unlikely,,1: Very unlikely,,,,2: Somewhat unlikely,4: Very likely,3: Somewhat likely,,,,,,,,,2: Somewhat unlikely,,,1: Very unlikely,1: Very unlikely,1: Very unlikely,,,,,3: Somewhat likely,,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,1: Very unlikely,,,,,,,,,,,,,,,,,1: Very unlikely,,,1: Very unlikely,,,2: Somewhat unlikely,1: Very unlikely,3: Somewhat likely,,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,,Many seemed to vague to make a good judgement.,,,,
+2024-05-27 20:05:20,2024-05-27 20:15:12,IP Address,71.14.104.139,100,591,True,2024-05-27 20:15:13,R_7kSqWAgfJNJNanG,,,,,34.8308,-82.3507,anonymous,EN,1,6630da61208b8b678a1ec63c,Yes,40,Male,White or Caucasian American,,Democrat,,"$100,000 or more",,,,,3: Somewhat likely,,,,,,,,,4: Very likely,,2: Somewhat unlikely,,,,,,,,,,,,4: Very likely,,4: Very likely,,,3: Somewhat likely,,,,,,,,,,1: Very unlikely,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,,,,,,2: Somewhat unlikely,,,,1: Very unlikely,,,2: Somewhat unlikely,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,,,,3: Somewhat likely,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,3: Somewhat likely,,,,,1: Very unlikely,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,,,1: Very unlikely,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,4: Very likely,,,2: Somewhat unlikely,,It was kind of vague nothing from the plot really grabbed my attention as something interesting or even thought provoking,,,,
+2024-05-27 20:02:40,2024-05-27 20:17:13,IP Address,76.215.42.86,100,872,True,2024-05-27 20:17:13,R_7etlwvb8VmoJGoM,,,,,32.8046,-97.1937,anonymous,EN,0.8999999761581421,5ffd530863b06e2247f69652,Yes,35,Male,Hispanic or Latino,,Republican,,"$30,000 - $99,999",,,,,,,,3: Somewhat likely,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,3: Somewhat likely,,,4: Very likely,2: Somewhat unlikely,3: Somewhat likely,,,3: Somewhat likely,,,,,2: Somewhat unlikely,,,4: Very likely,,,,,,,,,,,,,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,3: Somewhat likely,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,3: Somewhat likely,3: Somewhat likely,3: Somewhat likely,,,,,,,,,,,,,,3: Somewhat likely,3: Somewhat likely,,,2: Somewhat unlikely,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,1: Very unlikely,2: Somewhat unlikely,,,Some were too much but most seemed intriguing. You don't want to give away too much in the descriptions. The one or two liners were the best to me.,,,,
+2024-05-27 20:16:15,2024-05-27 20:19:20,IP Address,24.143.40.77,100,185,True,2024-05-27 20:19:21,R_17GVRYpq8UkwVP3,,,,,38.9683,-95.2695,anonymous,EN,1,66481a6d648519a547aebd68,Yes,22,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,1: Very unlikely,,,,,,,,,,2: Somewhat unlikely,,,,,,1: Very unlikely,,,,,,,,,,,,1: Very unlikely,1: Very unlikely,,,,,,,,,,,,,,,,1: Very unlikely,,1: Very unlikely,,,,,,,1: Very unlikely,,2: Somewhat unlikely,,,,1: Very unlikely,,,2: Somewhat unlikely,3: Somewhat likely,,1: Very unlikely,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,3: Somewhat likely,,,1: Very unlikely,,,,,2: Somewhat unlikely,,1: Very unlikely,2: Somewhat unlikely,,,,,,,,,,,,,3: Somewhat likely,,,,,,1: Very unlikely,,1: Very unlikely,,,,3: Somewhat likely,,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,,,,,,,,,,,,1: Very unlikely,It was pretty vague on some descriptions (like one sentence).,No thanks,,,
+2024-05-27 20:11:38,2024-05-27 20:22:30,IP Address,73.180.219.146,100,651,True,2024-05-27 20:22:31,R_50HnG56wqdicTNv,,,,,39.4889,-77.8889,anonymous,EN,1,660d6af55f2fd25599db6ebc,Yes,46,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,1: Very unlikely,,1: Very unlikely,,,,,3: Somewhat likely,1: Very unlikely,,,2: Somewhat unlikely,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,1: Very unlikely,,,3: Somewhat likely,1: Very unlikely,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,1: Very unlikely,,,3: Somewhat likely,,1: Very unlikely,,,,1: Very unlikely,1: Very unlikely,,,,1: Very unlikely,,,,2: Somewhat unlikely,1: Very unlikely,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,1: Very unlikely,,,,,"Usually helpful, but some were way too long. ","All were.cultural, biographical, or societal fiction. Not any sciemce fiction, action, mystery. Not any my cup of tea. ",,,
+2024-05-27 20:17:25,2024-05-27 20:24:26,IP Address,24.13.215.118,100,421,True,2024-05-27 20:24:26,R_1NKgGUOXNKip9C3,,,,,42.1097,-87.9399,anonymous,EN,0.8999999761581421,65dffffe75d0f696a3f29448,Yes,41,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,,,2: Somewhat unlikely,,,1: Very unlikely,3: Somewhat likely,,3: Somewhat likely,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,,,,,1: Very unlikely,,1: Very unlikely,,,,,,,,,,,,1: Very unlikely,,,,,,,,,1: Very unlikely,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,1: Very unlikely,,,2: Somewhat unlikely,,2: Somewhat unlikely,,1: Very unlikely,,,,,,,,,,1: Very unlikely,,1: Very unlikely,1: Very unlikely,,,,1: Very unlikely,,,,2: Somewhat unlikely,,,,,,,,,3: Somewhat likely,1: Very unlikely,,1: Very unlikely,,,,,The book summary was helpful in assessing the book quality and contain enough details for the reader to identify their interest level.,,,,
+2024-05-27 20:16:54,2024-05-27 20:24:34,IP Address,166.181.84.4,100,460,True,2024-05-27 20:24:34,R_5wu2c5JrFBtcIWR,,,,,43.0382,-87.91,anonymous,EN,1,63d7e87ee7333b219a553295,Yes,46,Male,White or Caucasian American,,Republican,,"$100,000 or more",,,1: Very unlikely,1: Very unlikely,,2: Somewhat unlikely,,,,,,,,2: Somewhat unlikely,,,1: Very unlikely,,,,,,,,1: Very unlikely,,,2: Somewhat unlikely,,,,1: Very unlikely,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,,,,,2: Somewhat unlikely,,,1: Very unlikely,,,,,,,1: Very unlikely,,,,,,,,,,,,,,1: Very unlikely,,,,,2: Somewhat unlikely,,,1: Very unlikely,,,1: Very unlikely,,,,,1: Very unlikely,,,1: Very unlikely,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,1: Very unlikely,,1: Very unlikely,,,,,,,,1: Very unlikely,,1: Very unlikely,,,,,,1: Very unlikely,,,,,,,,,,,,3: Somewhat likely,,,,Some were spot on and some were very vague.,,,,
+2024-05-27 20:17:17,2024-05-27 20:24:37,IP Address,24.220.226.65,100,440,True,2024-05-27 20:24:38,R_6qmm0NmG9BemWpT,,,,,45.4636,-98.4829,anonymous,EN,1,65d7f3dc596f8281d8dab646,Yes,47,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,1: Very unlikely,,,,,,,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,,,,,,4: Very likely,,,,2: Somewhat unlikely,3: Somewhat likely,,,3: Somewhat likely,1: Very unlikely,3: Somewhat likely,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,,,,1: Very unlikely,,,,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,,3: Somewhat likely,,,,,,,,,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,1: Very unlikely,,,,,,,,,,,,,,,,3: Somewhat likely,,1: Very unlikely,,,3: Somewhat likely,,,3: Somewhat likely,,,1: Very unlikely,,,I like book summaries that give more details of the book. These were mostly too vague. There were very few that I would definitely want to read due to the summary.,,,,
+2024-05-27 20:12:51,2024-05-27 20:25:10,IP Address,24.112.153.234,100,738,True,2024-05-27 20:25:10,R_7eq9yCclz7scUY7,,,,,39.7704,-76.5979,anonymous,EN,0.8999999761581421,5f13ea64399eaf40ff6c1b90,Yes,23,Male,White or Caucasian American,,Republican,,"$100,000 or more",,,,2: Somewhat unlikely,,2: Somewhat unlikely,,,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,,,,,,,3: Somewhat likely,,,3: Somewhat likely,,,,,,,,,,,1: Very unlikely,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,,,1: Very unlikely,1: Very unlikely,4: Very likely,,,,,,,,2: Somewhat unlikely,,,1: Very unlikely,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,,,,,1: Very unlikely,,,4: Very likely,,,,,,,,,,,,3: Somewhat likely,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,1: Very unlikely,,,3: Somewhat likely,,,,3: Somewhat likely,,,,,,,,3: Somewhat likely,,,,,,,,,"Most of the summaries gave enough info for me to tell if I would like the book or not, but many of the longer summaries went on massive tangents and made me lose interest in the book being discussed",,,,
+2024-05-27 20:11:18,2024-05-27 20:26:16,IP Address,172.59.75.131,100,898,True,2024-05-27 20:26:16,R_7n3miTOmStUV9QB,,,,,38.9687,-94.5696,anonymous,EN,0.8999999761581421,64915b35f545c521fe30eb7e,Yes,62,Female,White or Caucasian American,,Republican,,"Less than $30,000",,1: Very unlikely,1: Very unlikely,,,,,,,,3: Somewhat likely,,,,,,,,,,3: Somewhat likely,,,,,,,,,,3: Somewhat likely,,,,,,,1: Very unlikely,,,,,1: Very unlikely,1: Very unlikely,1: Very unlikely,,,,,,,1: Very unlikely,,1: Very unlikely,,,,,1: Very unlikely,1: Very unlikely,,,,,1: Very unlikely,1: Very unlikely,,,,1: Very unlikely,,,,,,,,,3: Somewhat likely,,,,1: Very unlikely,,1: Very unlikely,,,1: Very unlikely,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,1: Very unlikely,,,1: Very unlikely,,,,,,,4: Very likely,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,1: Very unlikely,,,,"The summaries were helpful. Most of them were clear to me. ","Some of the fiction book summaries were interesting, but I just don't read fiction. I don't have enough time to read all the non-fiction books I'm interested in, much less works of fiction. I keep myself to a certain genre most of the time.
+
+
+",,,
+2024-05-27 20:13:39,2024-05-27 20:26:28,IP Address,75.174.30.250,100,768,True,2024-05-27 20:26:28,R_1CqA2vtOref23oF,,,,,43.6342,-116.341,anonymous,EN,0.8999999761581421,6601fc84b94a04ea5da12e10,Yes,51,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,,,,3: Somewhat likely,,,,,1: Very unlikely,,,,,,,,4: Very likely,1: Very unlikely,,,1: Very unlikely,,1: Very unlikely,,,,3: Somewhat likely,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,3: Somewhat likely,,4: Very likely,,,,1: Very unlikely,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,1: Very unlikely,,,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,,,,,,4: Very likely,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,4: Very likely,,1: Very unlikely,3: Somewhat likely,,,,,,,,1: Very unlikely,,"Yes very helpful thank you ",,,,
+2024-05-27 20:11:34,2024-05-27 20:26:33,IP Address,71.200.70.31,100,899,True,2024-05-27 20:26:33,R_54wz4sm5XJWD7Xj,,,,,38.6397,-75.6047,anonymous,EN,0.8999999761581421,66047ae43a0f755c19ae9147,Yes,57,Male,White or Caucasian American,,Republican,,"$100,000 or more",,,,,1: Very unlikely,,,,,,,2: Somewhat unlikely,,,,3: Somewhat likely,,,,,,3: Somewhat likely,,,1: Very unlikely,,1: Very unlikely,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,,1: Very unlikely,,,2: Somewhat unlikely,,,,,,,,4: Very likely,,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,3: Somewhat likely,,,,,,,1: Very unlikely,,,,,,,,1: Very unlikely,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,4: Very likely,1: Very unlikely,,,,,,3: Somewhat likely,,,,,,,,,1: Very unlikely,,,,1: Very unlikely,,,,,,,4: Very likely,,4: Very likely,"The book summaries need to keep short and not get in to being book reviews. ","None ",,,
+2024-05-27 20:24:31,2024-05-27 20:32:26,IP Address,24.191.98.33,100,474,True,2024-05-27 20:32:26,R_32MjhDQabWUfJer,,,,,40.1243,-74.3022,anonymous,EN,0.8999999761581421,6547cd2ceba4e6b1fffffe56,Yes,24,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,3: Somewhat likely,,,,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,,,,1: Very unlikely,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,1: Very unlikely,3: Somewhat likely,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,3: Somewhat likely,,,3: Somewhat likely,3: Somewhat likely,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,3: Somewhat likely,,,,,2: Somewhat unlikely,,,,,,,,,"It was helpful. ",,,,
+2024-05-27 20:24:16,2024-05-27 20:35:02,IP Address,174.210.164.2,100,645,True,2024-05-27 20:35:03,R_7qwK8zkklTwzPEV,,,,,39.1134,-94.674,anonymous,EN,1,65be4dd4b95531f8c61ac5ca,Yes,39,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,3: Somewhat likely,,,,,2: Somewhat unlikely,3: Somewhat likely,3: Somewhat likely,,2: Somewhat unlikely,,,,3: Somewhat likely,,,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,,,,3: Somewhat likely,1: Very unlikely,,,,,,,,4: Very likely,,,3: Somewhat likely,,3: Somewhat likely,2: Somewhat unlikely,,,3: Somewhat likely,,1: Very unlikely,,,,,,,,1: Very unlikely,,,,,,1: Very unlikely,,1: Very unlikely,,2: Somewhat unlikely,,,,1: Very unlikely,,,,,,,,,1: Very unlikely,,,,,,,,,4: Very likely,,,1: Very unlikely,,,,,,Some of them were but a lot of them were hard to follow/understand,,,,
+2024-05-27 20:25:21,2024-05-27 20:35:14,IP Address,166.182.252.79,100,592,True,2024-05-27 20:35:14,R_1awtlE1G60opXUg,,,,,35.2296,-80.843,anonymous,EN,1,651038b22247949d608de27c,Yes,47,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,2: Somewhat unlikely,,3: Somewhat likely,,,1: Very unlikely,,,,,,,,,,,,,,,,2: Somewhat unlikely,,1: Very unlikely,3: Somewhat likely,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,,1: Very unlikely,,,3: Somewhat likely,,,,,,,,,,,,,2: Somewhat unlikely,3: Somewhat likely,2: Somewhat unlikely,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,,,,1: Very unlikely,,,,,,,,3: Somewhat likely,1: Very unlikely,,Book summaries seem to clearly depict the books,,,,
+2024-05-27 20:27:57,2024-05-27 20:38:11,IP Address,76.35.198.30,100,614,True,2024-05-27 20:38:12,R_6fIZFfCY9svBpNP,,,,,40.7244,-84.0856,anonymous,EN,1,5e39d872793a082024d9cf18,Yes,43,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,,,,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,,,3: Somewhat likely,,,,,,1: Very unlikely,,,,,,3: Somewhat likely,4: Very likely,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,3: Somewhat likely,,1: Very unlikely,,3: Somewhat likely,,,,4: Very likely,,,,,,4: Very likely,,,3: Somewhat likely,3: Somewhat likely,,,,,,4: Very likely,3: Somewhat likely,,,,,,4: Very likely,4: Very likely,,,,,,,,,3: Somewhat likely,,2: Somewhat unlikely,4: Very likely,,4: Very likely,,,,,,,4: Very likely,,4: Very likely,,,,,,,,,,,,,i think it was helpful because it gave a lot of details,,,,
+2024-05-27 20:25:46,2024-05-27 20:38:15,IP Address,174.207.43.114,100,748,True,2024-05-27 20:38:16,R_62XlD1qvsmY1XUy,,,,,40.0326,-82.8799,anonymous,EN,1,66293a97afaf09c613477f83,Yes,55,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,,,,3: Somewhat likely,,,4: Very likely,,,,,,,,,,2: Somewhat unlikely,3: Somewhat likely,,3: Somewhat likely,,3: Somewhat likely,,,2: Somewhat unlikely,,1: Very unlikely,3: Somewhat likely,,2: Somewhat unlikely,,3: Somewhat likely,,1: Very unlikely,,,,,,,,,,,,,,1: Very unlikely,1: Very unlikely,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,2: Somewhat unlikely,,,,,,,,,,1: Very unlikely,,,,,,3: Somewhat likely,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,4: Very likely,,,,,4: Very likely,1: Very unlikely,,,2: Somewhat unlikely,The value of the book summary was extremely helpful in its descriptions and allowed me to really ponder whether or not each book would be something I would be interested in reading.,"I enjoyed this survey very much! ",,,
+2024-05-27 20:29:37,2024-05-27 20:39:26,IP Address,75.129.229.21,100,588,True,2024-05-27 20:39:27,R_5jSW8JQLZqR2uY4,,,,,39.1692,-91.8893,anonymous,EN,1,663d35bf11aa8e5d914a0602,Yes,37,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,1: Very unlikely,,2: Somewhat unlikely,2: Somewhat unlikely,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,,1: Very unlikely,,,,3: Somewhat likely,3: Somewhat likely,,,,,,,,,,,,,1: Very unlikely,,,,,1: Very unlikely,,1: Very unlikely,,1: Very unlikely,,,,1: Very unlikely,,,1: Very unlikely,,,,,,,,,2: Somewhat unlikely,,,1: Very unlikely,,,1: Very unlikely,2: Somewhat unlikely,,,,,1: Very unlikely,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,,1: Very unlikely,,,,,,,,,,1: Very unlikely,,,,,1: Very unlikely,,,,,,,,,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,"It's hard to answer this question -- how do I know if I accurately assessed the book quality unless I read the book itself? That said, there were several key words that probably helped me make a quick decision. ",,,,
+2024-05-27 20:25:39,2024-05-27 20:40:48,IP Address,174.204.69.192,100,909,True,2024-05-27 20:40:48,R_3lSUvQv14EMwzZj,,,,,47.4467,-122.2684,anonymous,EN,1,664bdc6276bb805703222538,Yes,34,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,2: Somewhat unlikely,,,,,,,,,,,,,3: Somewhat likely,3: Somewhat likely,,,,3: Somewhat likely,,,,3: Somewhat likely,,,1: Very unlikely,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,1: Very unlikely,,,,,,,3: Somewhat likely,1: Very unlikely,,,,,,,,,,,,,3: Somewhat likely,,,,,,3: Somewhat likely,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,,,,,1: Very unlikely,1: Very unlikely,,,,,,,,,,,,,,1: Very unlikely,,,3: Somewhat likely,3: Somewhat likely,3: Somewhat likely,,,,1: Very unlikely,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,,,,,,2: Somewhat unlikely,,"The book summarys were too long ",,,,
+2024-05-27 20:24:58,2024-05-27 20:42:37,IP Address,45.18.53.162,100,1058,True,2024-05-27 20:42:37,R_7OIumpOVg2hUji8,,,,,29.3582,-98.429,anonymous,EN,1,6625fee215c93ce2c380c92f,Yes,36,Female,Hispanic or Latino,,Republican,,"$30,000 - $99,999",,,,,,,,,,,,,4: Very likely,,,,,,,,,,,,,,,,,,,,,,,,,4: Very likely,1: Very unlikely,,4: Very likely,4: Very likely,,,,3: Somewhat likely,1: Very unlikely,4: Very likely,,,,1: Very unlikely,,,,,,,1: Very unlikely,,,,,1: Very unlikely,,,4: Very likely,,,,1: Very unlikely,4: Very likely,,,,,,4: Very likely,,,,,,1: Very unlikely,,,1: Very unlikely,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,4: Very likely,,,,4: Very likely,,2: Somewhat unlikely,,,4: Very likely,,,,4: Very likely,,4: Very likely,3: Somewhat likely,,,,4: Very likely,3: Somewhat likely,,,,,,,"some were very vague some book summarys were way too long and confusing . ",,,,
+2024-05-27 20:30:40,2024-05-27 20:42:58,IP Address,67.10.220.107,100,737,True,2024-05-27 20:42:58,R_7dixcc8Letz2qVe,,,,,31.81,-106.4569,anonymous,EN,1,660154e5f99cf082f77a591f,Yes,38,Female,Hispanic or Latino,,Republican,,"$30,000 - $99,999",,,,,,,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,3: Somewhat likely,,,,,2: Somewhat unlikely,,3: Somewhat likely,,,,,3: Somewhat likely,,2: Somewhat unlikely,,,,3: Somewhat likely,,2: Somewhat unlikely,,,,,,,,4: Very likely,,,3: Somewhat likely,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,3: Somewhat likely,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,,,,3: Somewhat likely,,3: Somewhat likely,4: Very likely,,,,,,,,2: Somewhat unlikely,,,There was one summary that was unfinished. Kind of ended mid-sentence.,,,,
+2024-05-27 20:36:53,2024-05-27 20:42:59,IP Address,45.25.93.61,100,366,True,2024-05-27 20:43:00,R_5CfXRANk308Vco9,,,,,30.9459,-83.2496,anonymous,EN,0.8999999761581421,6460181fc3a15babdad7bf3e,Yes,54,Female,White or Caucasian American,,Republican,,"Less than $30,000",,,3: Somewhat likely,,,,,,,1: Very unlikely,,2: Somewhat unlikely,,,,,,1: Very unlikely,1: Very unlikely,1: Very unlikely,,,2: Somewhat unlikely,,1: Very unlikely,,1: Very unlikely,1: Very unlikely,1: Very unlikely,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,1: Very unlikely,,,1: Very unlikely,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,,,,,,,1: Very unlikely,,1: Very unlikely,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,1: Very unlikely,,,,,1: Very unlikely,,1: Very unlikely,,,,,,,,,1: Very unlikely,,,,,,1: Very unlikely,1: Very unlikely,,,"Many were too vague, a few were unreadable and confusing",,,,
+2024-05-27 20:30:47,2024-05-27 20:43:00,IP Address,174.207.165.158,100,732,True,2024-05-27 20:43:00,R_1HVoA7r6GZfeC6l,,,,,39.2351,-84.4582,anonymous,EN,1,564d1fedb48dec0005b5191d,Yes,48,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,1: Very unlikely,,,,,1: Very unlikely,,1: Very unlikely,2: Somewhat unlikely,,,,1: Very unlikely,,,,,,,,,1: Very unlikely,,,1: Very unlikely,,1: Very unlikely,,,,1: Very unlikely,,,,,2: Somewhat unlikely,,,,,,,,1: Very unlikely,,,,1: Very unlikely,3: Somewhat likely,,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,1: Very unlikely,3: Somewhat likely,,,,,,,,,,,,,1: Very unlikely,,,,1: Very unlikely,,,,,,2: Somewhat unlikely,,,,1: Very unlikely,1: Very unlikely,,,,,,,,,,,,,1: Very unlikely,,,,,1: Very unlikely,,1: Very unlikely,,,,,,,,,,,1: Very unlikely,1: Very unlikely,,,,,,,"Some were not clear at all, and some praised the author more than summarizing the book itself.",,,,
+2024-05-27 20:36:13,2024-05-27 20:43:38,IP Address,96.231.156.94,100,444,True,2024-05-27 20:43:38,R_3is1TfWhUUWpWX0,,,,,38.7609,-77.1553,anonymous,EN,1,5ff2240a2f567121402762e6,Yes,34,Male,White or Caucasian American,,Republican,,"$100,000 or more",,,,3: Somewhat likely,2: Somewhat unlikely,,,3: Somewhat likely,2: Somewhat unlikely,,2: Somewhat unlikely,,3: Somewhat likely,,,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,,,,,,3: Somewhat likely,,,2: Somewhat unlikely,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,3: Somewhat likely,2: Somewhat unlikely,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,,,,,,,"It’s helpful when it gives a short synopsis but when it’s too long I feel like it’s more of a review ",,,,
+2024-05-27 20:30:32,2024-05-27 20:46:06,IP Address,66.171.43.34,100,933,True,2024-05-27 20:46:06,R_3Yxog1E4sqTV78d,,,,,47.2317,-93.5138,anonymous,EN,1,615255b4eaef0828fb106792,Yes,48,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,1: Very unlikely,3: Somewhat likely,,,,,,,,3: Somewhat likely,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,,,1: Very unlikely,,,1: Very unlikely,1: Very unlikely,,,,,,1: Very unlikely,,1: Very unlikely,,,,,,,1: Very unlikely,,,2: Somewhat unlikely,,,,3: Somewhat likely,3: Somewhat likely,1: Very unlikely,,,,,,,,,,,1: Very unlikely,,,,,,,,3: Somewhat likely,,1: Very unlikely,,,,1: Very unlikely,,,,,3: Somewhat likely,,,,,,,3: Somewhat likely,,,2: Somewhat unlikely,,3: Somewhat likely,,,,,,,,,2: Somewhat unlikely,4: Very likely,,,,3: Somewhat likely,The book summaries were clear. It would have been nice to have a little more information on some of them.,,,,
+2024-05-27 20:39:24,2024-05-27 20:47:49,IP Address,73.101.35.29,100,504,True,2024-05-27 20:47:49,R_1opaqj4arBmn9k0,,,,,39.8545,-76.8813,anonymous,EN,1,63c499bfa61a4ff762d68d3f,Yes,59,Female,White or Caucasian American,,Democrat,,"$30,000 - $99,999",,,2: Somewhat unlikely,,,3: Somewhat likely,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,,3: Somewhat likely,,,,2: Somewhat unlikely,3: Somewhat likely,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,1: Very unlikely,,3: Somewhat likely,,,,3: Somewhat likely,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,,,,,,,,2: Somewhat unlikely,,,,1: Very unlikely,,,,2: Somewhat unlikely,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,3: Somewhat likely,,2: Somewhat unlikely,,,,,,,,,,3: Somewhat likely,3: Somewhat likely,2: Somewhat unlikely,,,,,,,,,too vague,,,,
+2024-05-27 20:41:04,2024-05-27 20:48:18,IP Address,76.37.100.113,100,433,True,2024-05-27 20:48:18,R_3mepiw70o0oMt0e,,,,,43.0908,-77.4348,anonymous,EN,1,5bf336d965825d00017cf3c2,Yes,37,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,1: Very unlikely,,,,,,,,3: Somewhat likely,,,,2: Somewhat unlikely,1: Very unlikely,,3: Somewhat likely,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,2: Somewhat unlikely,1: Very unlikely,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,,,,,3: Somewhat likely,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,,,,,,,,,,4: Very likely,,1: Very unlikely,,,,,,,3: Somewhat likely,,3: Somewhat likely,,,,,,,,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,3: Somewhat likely,,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,2: Somewhat unlikely,"Generally, shorter is better for me. Also, it just had to be about a topic I was interest in from there.",None,,,
+2024-05-27 20:37:58,2024-05-27 20:49:35,IP Address,76.205.7.193,100,696,True,2024-05-27 20:49:35,R_6NEKYMtQSfC8fPY,,,,,38.5682,-89.8965,anonymous,EN,1,60fe076cdaf85311b32cb6a0,Yes,62,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,,,,3: Somewhat likely,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,3: Somewhat likely,,,3: Somewhat likely,2: Somewhat unlikely,,,,3: Somewhat likely,3: Somewhat likely,,,,,,,,,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,2: Somewhat unlikely,,1: Very unlikely,,,3: Somewhat likely,,,,,3: Somewhat likely,,,,,1: Very unlikely,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,3: Somewhat likely,,2: Somewhat unlikely,3: Somewhat likely,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,,,,"I appreciate the book summaries. However, I don’t need a lengthy summary - it tends to make me lose interest. ",,,,
+2024-05-27 20:37:40,2024-05-27 20:49:52,IP Address,72.95.128.11,100,732,True,2024-05-27 20:49:53,R_16lIJHf8MhK9Uhk,,,,,40.5379,-79.9642,anonymous,EN,1,62a779f845a7840040d41bf8,Yes,31,Male,Hispanic or Latino,,Republican,,"$100,000 or more",,,,,1: Very unlikely,4: Very likely,,,3: Somewhat likely,,,,,,,,,3: Somewhat likely,,,,,,,,,,1: Very unlikely,,4: Very likely,,1: Very unlikely,,,,1: Very unlikely,,3: Somewhat likely,,,,,,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,,1: Very unlikely,3: Somewhat likely,,,,,,,,,,,,,1: Very unlikely,,,,,4: Very likely,3: Somewhat likely,1: Very unlikely,1: Very unlikely,,,,1: Very unlikely,,,,,,,,,2: Somewhat unlikely,4: Very likely,,1: Very unlikely,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,3: Somewhat likely,,,,,1: Very unlikely,,,,,,,,,,,,,,,,1: Very unlikely,4: Very likely,"Yes, the book summary was helpful.  It didn't matter if it was long- or short-form, but if it gave me an idea of the topic and what was covered, it was helpful in making my decision.",,,,
+2024-05-27 20:37:57,2024-05-27 20:49:55,IP Address,67.82.152.156,100,718,True,2024-05-27 20:49:56,R_7LvTp9ONTVqE97z,,,,,40.6704,-73.6981,anonymous,EN,1,6652193ce4b5df0b6b366158,Yes,23,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,,,,,3: Somewhat likely,,,,2: Somewhat unlikely,,,,1: Very unlikely,,,4: Very likely,,2: Somewhat unlikely,,,,,,,,,,4: Very likely,,,1: Very unlikely,,1: Very unlikely,,,,,,,,,,,1: Very unlikely,,,2: Somewhat unlikely,,,1: Very unlikely,1: Very unlikely,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,3: Somewhat likely,,3: Somewhat likely,,,,1: Very unlikely,,,1: Very unlikely,,,,,,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,,,,,,,,"Yes, the book summary was helpful, however, many of the books just did not interest me at all.",,,,
+2024-05-27 20:44:28,2024-05-27 20:50:41,IP Address,99.155.238.241,100,372,True,2024-05-27 20:50:41,R_1PZErN6dNUI98K5,,,,,25.8696,-80.3073,anonymous,EN,1,64985ebefc1327a91c6c6046,Yes,20,Female,Hispanic or Latino,,Republican,,"$100,000 or more",,,,,,,,,3: Somewhat likely,,,3: Somewhat likely,,2: Somewhat unlikely,,,2: Somewhat unlikely,,2: Somewhat unlikely,1: Very unlikely,1: Very unlikely,,,,,,1: Very unlikely,,,3: Somewhat likely,,,,,1: Very unlikely,2: Somewhat unlikely,1: Very unlikely,,,,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,,,,,,,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,1: Very unlikely,,,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,1: Very unlikely,,,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,,,1: Very unlikely,3: Somewhat likely,,2: Somewhat unlikely,,,,,,The book summaries were very helpful and allowed me to see exactly what the book was about,,,,
+2024-05-27 20:36:48,2024-05-27 20:50:48,IP Address,99.71.118.12,100,840,True,2024-05-27 20:50:49,R_7p1KdF9tci5FMuR,,,,,32.691,-97.1918,anonymous,EN,1,60abe580aa82f25a7acc9800,Yes,37,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,2: Somewhat unlikely,,,1: Very unlikely,,,,1: Very unlikely,1: Very unlikely,,,4: Very likely,,,,,,,1: Very unlikely,,,,1: Very unlikely,,,,3: Somewhat likely,,,,,,,3: Somewhat likely,,,,1: Very unlikely,,,1: Very unlikely,1: Very unlikely,,,,,,1: Very unlikely,,1: Very unlikely,,,,,,2: Somewhat unlikely,,1: Very unlikely,,1: Very unlikely,,,,1: Very unlikely,,2: Somewhat unlikely,,,,,,,,,,,,,,1: Very unlikely,,,,1: Very unlikely,2: Somewhat unlikely,,,4: Very likely,,,,,,,1: Very unlikely,,,,,,,,,,1: Very unlikely,,,1: Very unlikely,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,A lot were to the point. Few were vague. 3 were super long and too detailed.,None.,,,
+2024-05-27 20:36:28,2024-05-27 20:52:09,IP Address,99.53.235.160,100,941,True,2024-05-27 20:52:10,R_10w5LxVB1lHClwg,,,,,30.424,-97.7932,anonymous,EN,1,65a930544c2b2327dbc4996f,Yes,59,Female,White or Caucasian American,,Republican,,"$100,000 or more",,1: Very unlikely,,,,,1: Very unlikely,,,,,,,,,,,,,,4: Very likely,,,,,1: Very unlikely,,,,,,,4: Very likely,,1: Very unlikely,,,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,4: Very likely,,,,,,,,2: Somewhat unlikely,,,,,,,,3: Somewhat likely,,2: Somewhat unlikely,,3: Somewhat likely,,,,,,,,,,,,1: Very unlikely,1: Very unlikely,3: Somewhat likely,,,2: Somewhat unlikely,1: Very unlikely,,,,3: Somewhat likely,,3: Somewhat likely,,,,,,,,,,,,,,,,1: Very unlikely,,1: Very unlikely,1: Very unlikely,,,1: Very unlikely,,1: Very unlikely,4: Very likely,3: Somewhat likely,1: Very unlikely,,,"Yes, gave just enough info to decide if it was interesting","I’d like to know if there were real books? ",,,
+2024-05-27 20:39:26,2024-05-27 20:52:43,IP Address,73.187.3.71,100,796,True,2024-05-27 20:52:43,R_7ageRKv11WaH0vT,,,,,40.5056,-78.0086,anonymous,EN,0.8999999761581421,65b3de7f36c55119ba5b8427,Yes,74,Female,Native American or Alaskan Native,,Republican,,"$100,000 or more",,,,,,,,,,,,,,,,4: Very likely,,,,4: Very likely,,,1: Very unlikely,,,,,,4: Very likely,,,3: Somewhat likely,1: Very unlikely,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,4: Very likely,,3: Somewhat likely,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,1: Very unlikely,,,,,,3: Somewhat likely,,,,,,,,,3: Somewhat likely,3: Somewhat likely,,,,,,,,,,4: Very likely,,,,,,4: Very likely,,4: Very likely,4: Very likely,4: Very likely,,4: Very likely,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,,,,,,3: Somewhat likely,,,,,,,,4: Very likely,,Yes,,,,
+2024-05-27 20:45:05,2024-05-27 20:53:44,IP Address,174.225.87.175,100,519,True,2024-05-27 20:53:45,R_7KpDZd4uVXl5XsV,,,,,28.6221,-81.3655,anonymous,EN,1,662973cb1dd7240a760b4e4f,Yes,38,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,3: Somewhat likely,,,4: Very likely,,3: Somewhat likely,,,2: Somewhat unlikely,,,,,,,,,,,,,2: Somewhat unlikely,,,,,1: Very unlikely,2: Somewhat unlikely,3: Somewhat likely,,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,,,,,,1: Very unlikely,,1: Very unlikely,,,,,3: Somewhat likely,,,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,4: Very likely,,,,,,2: Somewhat unlikely,,,,1: Very unlikely,,1: Very unlikely,,1: Very unlikely,,2: Somewhat unlikely,1: Very unlikely,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,1: Very unlikely,,"Very clear. ",,,,
+2024-05-27 20:44:52,2024-05-27 20:55:56,IP Address,24.13.207.161,100,664,True,2024-05-27 20:55:57,R_15R6tR7pXLkw9uU,,,,,42.3275,-88.2918,anonymous,EN,1,6109728bf4643f9d0fcfb033,Yes,23,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,1: Very unlikely,,,,,1: Very unlikely,1: Very unlikely,,,,,2: Somewhat unlikely,,,1: Very unlikely,,2: Somewhat unlikely,,,,,,1: Very unlikely,3: Somewhat likely,,,3: Somewhat likely,,,,,,,,,,,,,,3: Somewhat likely,,,,1: Very unlikely,3: Somewhat likely,,,,,1: Very unlikely,,,,,,,,,,,,,,1: Very unlikely,,,1: Very unlikely,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,1: Very unlikely,,,2: Somewhat unlikely,,,3: Somewhat likely,,,2: Somewhat unlikely,,,,,,1: Very unlikely,3: Somewhat likely,3: Somewhat likely,,,,,,,,1: Very unlikely,,,,,1: Very unlikely,2: Somewhat unlikely,,,,,,,,,,,2: Somewhat unlikely,,They were all very clear and helpful in assessing the value,,,,
+2024-05-27 20:46:07,2024-05-27 20:56:20,IP Address,73.173.110.131,100,612,True,2024-05-27 20:56:21,R_75htaaCAGQG9NXr,,,,,39.6128,-77.3991,anonymous,EN,1,60e88e0b7d305b5fbae3ebef,Yes,41,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,2: Somewhat unlikely,,1: Very unlikely,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,,1: Very unlikely,,2: Somewhat unlikely,,,,,,,,2: Somewhat unlikely,,,,,,,,1: Very unlikely,,,1: Very unlikely,,,1: Very unlikely,1: Very unlikely,,,,,,,,,,,2: Somewhat unlikely,,,,1: Very unlikely,,1: Very unlikely,1: Very unlikely,,,,1: Very unlikely,,,,,,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,,,,,,,,,1: Very unlikely,,,,4: Very likely,1: Very unlikely,,,,,,,,1: Very unlikely,,,,,,,,2: Somewhat unlikely,1: Very unlikely,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,1: Very unlikely,,,,the book summary was extensive and very detailed. i'm just interested in colombian civil war history.,,,,
+2024-05-27 20:47:03,2024-05-27 20:56:38,IP Address,24.10.17.168,100,574,True,2024-05-27 20:56:39,R_1YqfoxBpvQwe8NP,,,,,36.8613,-119.7669,anonymous,EN,0.8999999761581421,65c0f2c132bccb95dd86f017,Yes,31,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,,,,,,,,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,3: Somewhat likely,3: Somewhat likely,,,,,1: Very unlikely,,,,,,,,,,,,1: Very unlikely,,,,,,3: Somewhat likely,1: Very unlikely,4: Very likely,,,,2: Somewhat unlikely,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,3: Somewhat likely,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,3: Somewhat likely,1: Very unlikely,,,,,,,,,,2: Somewhat unlikely,,1: Very unlikely,1: Very unlikely,,,,,,3: Somewhat likely,,,,,,,1: Very unlikely,,2: Somewhat unlikely,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,2: Somewhat unlikely,,,,,,1: Very unlikely,"Most of the summaries were pretty helpful, some of them were either too brief to understand what the book was about or too long to be interesting. ",,,,
+2024-05-27 20:50:46,2024-05-27 20:57:21,IP Address,172.58.242.237,100,394,True,2024-05-27 20:57:21,R_3rMQ3gFBl04uvtW,,,,,38.9522,-77.0253,anonymous,EN,1,65cb586a1166caf7eb546dda,Yes,51,Female,Asian or Asian American,,Republican,,"$30,000 - $99,999",,,,,1: Very unlikely,2: Somewhat unlikely,,,,,4: Very likely,,,4: Very likely,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,,,4: Very likely,4: Very likely,,,,,,,1: Very unlikely,,,,,,,,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,,4: Very likely,1: Very unlikely,,4: Very likely,,2: Somewhat unlikely,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,3: Somewhat likely,,1: Very unlikely,2: Somewhat unlikely,,,,,,1: Very unlikely,4: Very likely,,,4: Very likely,4: Very likely,,,,,,,,,,,,,,,,,,,,,,4: Very likely,,,,,,,,,,,1: Very unlikely,3: Somewhat likely,,,,,,,,,,,,,,"I thought the book summary was helpful in my assessments of the book. However, there were a few that were too long. ",,,,
+2024-05-27 20:43:20,2024-05-27 20:59:13,IP Address,172.113.138.25,100,953,True,2024-05-27 20:59:14,R_6DMFYNBURL0GuVH,,,,,34.0765,-117.628,anonymous,EN,1,5f04d50380100c1525c622d1,Yes,37,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,3: Somewhat likely,,,,,,1: Very unlikely,2: Somewhat unlikely,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,3: Somewhat likely,4: Very likely,,,,3: Somewhat likely,3: Somewhat likely,,1: Very unlikely,,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,4: Very likely,3: Somewhat likely,2: Somewhat unlikely,1: Very unlikely,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,,,,4: Very likely,1: Very unlikely,,,,,4: Very likely,,3: Somewhat likely,,,,,,,1: Very unlikely,,,,1: Very unlikely,2: Somewhat unlikely,,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,1: Very unlikely,,,4: Very likely,,,,"sometimes it was engaging and ""sold"" me on the book, other times it clarified it was not my type of read. sometimes the length was complicated and lost my interest. ",n/a,,,
+2024-05-27 20:54:24,2024-05-27 21:00:19,IP Address,174.238.170.19,100,354,True,2024-05-27 21:00:19,R_1lsgX7ZawJ1aatH,,,,,36.1579,-86.8608,anonymous,EN,1,6369dde997d20e154ecb11a9,Yes,25,Male,White or Caucasian American,,Republican,,"$100,000 or more",,,,3: Somewhat likely,,4: Very likely,,,,,4: Very likely,3: Somewhat likely,,3: Somewhat likely,,4: Very likely,,,,,,4: Very likely,,,,3: Somewhat likely,,,,,,,,,,,3: Somewhat likely,,,,,,,,3: Somewhat likely,,,,,,,,,,,4: Very likely,3: Somewhat likely,,,3: Somewhat likely,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,,3: Somewhat likely,,,1: Very unlikely,,,,,,,,,,,,,,,,,4: Very likely,4: Very likely,,3: Somewhat likely,,,1: Very unlikely,1: Very unlikely,3: Somewhat likely,,,,,,,,,,,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,,,,,It was helpful except for the situations where the book summary was too lengthy,"Thank you for the study ",,,
+2024-05-27 20:46:21,2024-05-27 21:00:34,IP Address,75.70.221.203,100,853,True,2024-05-27 21:00:35,R_7db1Ga0NPrQWqDm,,,,,39.7291,-105.1897,anonymous,EN,0.8999999761581421,660c4e9b94e93c5840f479b0,Yes,31,Male,White or Caucasian American,,Republican,,"$100,000 or more",,,2: Somewhat unlikely,,,,,,,,,1: Very unlikely,,,,,,,2: Somewhat unlikely,3: Somewhat likely,1: Very unlikely,,,3: Somewhat likely,,,,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,1: Very unlikely,,,1: Very unlikely,,,,,,,,,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,2: Somewhat unlikely,,,,,,,,,,3: Somewhat likely,,,1: Very unlikely,1: Very unlikely,,3: Somewhat likely,3: Somewhat likely,,,,2: Somewhat unlikely,,2: Somewhat unlikely,1: Very unlikely,,3: Somewhat likely,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,3: Somewhat likely,,,,,,,,,,Some of the summaries were too long and had no substance.,,,,
+2024-05-27 20:53:21,2024-05-27 21:02:01,IP Address,72.107.142.25,100,520,True,2024-05-27 21:02:02,R_6q7fqRB2b4HiFdd,,,,,42.4257,-83.1522,anonymous,EN,1,6152204d4ed6a7af13e48efe,Yes,30,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,1: Very unlikely,,,,,,,4: Very likely,3: Somewhat likely,,,4: Very likely,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,,,,,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,,,3: Somewhat likely,,,3: Somewhat likely,,2: Somewhat unlikely,,,,1: Very unlikely,,2: Somewhat unlikely,,,,,,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,1: Very unlikely,,,,,,,,1: Very unlikely,4: Very likely,,,,,,,,,,1: Very unlikely,,,,,4: Very likely,4: Very likely,4: Very likely,2: Somewhat unlikely,,,,3: Somewhat likely,,,,,1: Very unlikely,,,,3: Somewhat likely,,,,"I believe it was well written and I was able to make a decision on if I’d read it or k. ",,,,
+2024-05-27 20:49:31,2024-05-27 21:02:25,IP Address,204.242.1.39,100,774,True,2024-05-27 21:02:26,R_36Szt4gFcCh3lPr,,,,,39.0469,-77.4903,anonymous,EN,1,6635e5706d71d74c24d06a45,Yes,42,Female,Black or African American,,Republican,,"$100,000 or more",,,,,,,,,4: Very likely,4: Very likely,,,4: Very likely,,4: Very likely,,,,,,,,,4: Very likely,,,,,,,,,,,4: Very likely,4: Very likely,,,,,,,,4: Very likely,,,,,,4: Very likely,,,,4: Very likely,4: Very likely,4: Very likely,,,4: Very likely,,,,,,,4: Very likely,4: Very likely,,,,,4: Very likely,4: Very likely,3: Somewhat likely,,,,,,,,,,,,,,,,,,,,,,4: Very likely,,4: Very likely,,4: Very likely,,,,,,,,3: Somewhat likely,,,,2: Somewhat unlikely,,4: Very likely,,,,,,,,,,,,,,,,,4: Very likely,,1: Very unlikely,,3: Somewhat likely,,it was helpful a lot.,,,,
+2024-05-27 20:51:19,2024-05-27 21:02:30,IP Address,192.183.212.230,100,671,True,2024-05-27 21:02:31,R_1DUVFFdy6T1mE3D,,,,,45.3332,-118.0854,anonymous,EN,1,661eb831881dbc159a911e81,Yes,37,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,,2: Somewhat unlikely,,,,,,,1: Very unlikely,,,3: Somewhat likely,,,,,,,,,,,,,1: Very unlikely,1: Very unlikely,,,,,,,,,,1: Very unlikely,,,,,,,,,1: Very unlikely,,,4: Very likely,,,,,,1: Very unlikely,,,,1: Very unlikely,,,,,1: Very unlikely,2: Somewhat unlikely,,2: Somewhat unlikely,,,3: Somewhat likely,,,1: Very unlikely,,,,,1: Very unlikely,,,1: Very unlikely,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,1: Very unlikely,1: Very unlikely,,,,,,,,,,3: Somewhat likely,,1: Very unlikely,3: Somewhat likely,,1: Very unlikely,,3: Somewhat likely,,,,,"A couple were pretty vague, and a few unnecessarily long. Though I would rather read a longer summary than a short non descript one.",,,,
+2024-05-27 20:54:10,2024-05-27 21:03:08,IP Address,70.139.139.63,100,538,True,2024-05-27 21:03:09,R_3kBzLt7xw8jdNJs,,,,,29.572,-95.54,anonymous,EN,1,65dbdab205fde4fe1981e5ae,Yes,33,Male,Asian or Asian American,,Republican,,"$30,000 - $99,999",,1: Very unlikely,,3: Somewhat likely,,,,2: Somewhat unlikely,3: Somewhat likely,1: Very unlikely,3: Somewhat likely,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,3: Somewhat likely,,,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,1: Very unlikely,2: Somewhat unlikely,1: Very unlikely,,3: Somewhat likely,,,,,,3: Somewhat likely,,,,,,,,1: Very unlikely,,,,4: Very likely,4: Very likely,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,,2: Somewhat unlikely,1: Very unlikely,,,,,,,,3: Somewhat likely,,4: Very likely,,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,3: Somewhat likely,,,1: Very unlikely,"Some of the book summaries were pretty helpful for me to decide if I would like to read it or not, while other summaries were a bit vague. I think the book genre also helped a lot as I have some interest in a certain genre more than others.",,,,
+2024-05-27 20:48:01,2024-05-27 21:04:13,IP Address,98.240.156.104,100,971,True,2024-05-27 21:04:13,R_5kudIMktmjwG57G,,,,,44.9006,-92.9275,anonymous,EN,0.8999999761581421,664dd1afefbfe4a469605a00,Yes,56,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,,,,,,,,,,,1: Very unlikely,,3: Somewhat likely,,3: Somewhat likely,,,,,,,,,,,,,,,,,,,,,,3: Somewhat likely,,,,,2: Somewhat unlikely,3: Somewhat likely,,,,3: Somewhat likely,3: Somewhat likely,,,,,,,,,,3: Somewhat likely,,3: Somewhat likely,,,3: Somewhat likely,,,,,,,,,,,,,,,,,,,,,3: Somewhat likely,,,,,3: Somewhat likely,,,,,,3: Somewhat likely,2: Somewhat unlikely,,4: Very likely,,,4: Very likely,,,,,,,1: Very unlikely,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,1: Very unlikely,3: Somewhat likely,,,3: Somewhat likely,,1: Very unlikely,,,3: Somewhat likely,,3: Somewhat likely,,3: Somewhat likely,,,,"The lengthy summaries were too much, much preferred the shorter summaries",,,,
+2024-05-27 20:41:23,2024-05-27 21:04:58,IP Address,67.44.160.31,100,1414,True,2024-05-27 21:04:59,R_6kNV3hxkiSn0p1H,,,,,43.0382,-87.91,anonymous,EN,1,5f032c613963d04d69c9327b@email.prolific.com,Yes,71,Male,White or Caucasian American,,Republican,,"Less than $30,000",,,,2: Somewhat unlikely,,,,,,,,1: Very unlikely,3: Somewhat likely,,,,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,,1: Very unlikely,,,,,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,1: Very unlikely,2: Somewhat unlikely,,2: Somewhat unlikely,1: Very unlikely,,3: Somewhat likely,3: Somewhat likely,3: Somewhat likely,,,,1: Very unlikely,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,2: Somewhat unlikely,,,,,,,,,,,,2: Somewhat unlikely,,,,3: Somewhat likely,,,,1: Very unlikely,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,"It was very helpful, not vague at all.I hope my answers help your study.Thank you. ",Thank you.  *(see previous comments),,,
+2024-05-27 20:52:39,2024-05-27 21:07:12,IP Address,68.14.163.237,100,873,True,2024-05-27 21:07:12,R_5gH02JC29rr1rAo,,,,,36.0496,-95.8858,anonymous,EN,1,65ef9e8ae3dc14f0a343022a,Yes,52,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,1: Very unlikely,2: Somewhat unlikely,,1: Very unlikely,,,,,,,,1: Very unlikely,,3: Somewhat likely,,,1: Very unlikely,,,,1: Very unlikely,,,3: Somewhat likely,3: Somewhat likely,,,,,,,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,,,,,1: Very unlikely,1: Very unlikely,1: Very unlikely,,,,,,,,,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,2: Somewhat unlikely,,2: Somewhat unlikely,3: Somewhat likely,,,2: Somewhat unlikely,,,,,3: Somewhat likely,3: Somewhat likely,2: Somewhat unlikely,,,4: Very likely,,,1: Very unlikely,,,,,,,,,,,,,,,,,,,,,,3: Somewhat likely,,,"Summaries were good - some a little vague, but I assume that was the intent","For the book ""Runaway"" by Munro, the 2nd sentence is incomplete, therefor the summary is incomplete.  ",,,
+2024-05-27 20:53:55,2024-05-27 21:07:32,IP Address,174.225.198.141,100,817,True,2024-05-27 21:07:36,R_6f8vwJLOWEqHeVD,,,,,35.3193,-80.7456,anonymous,EN,0.8999999761581421,6630dac9fd40f4bab44cc564,Yes,40,Female,Black or African American,,Republican,,"$30,000 - $99,999",,,,,,,,,,,,,,3: Somewhat likely,3: Somewhat likely,,,,3: Somewhat likely,,,,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,,,,3: Somewhat likely,,3: Somewhat likely,,2: Somewhat unlikely,,,,,,,,,,,,,3: Somewhat likely,,,2: Somewhat unlikely,3: Somewhat likely,,,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,3: Somewhat likely,,,3: Somewhat likely,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,,,,,,2: Somewhat unlikely,,,,,,3: Somewhat likely,3: Somewhat likely,,2: Somewhat unlikely,,,,1: Very unlikely,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,"It was helpful, but sometimes too long and got lost in all the words",,,,
+2024-05-27 20:53:37,2024-05-27 21:07:42,IP Address,68.59.229.41,100,845,True,2024-05-27 21:07:42,R_3VHEyYwhJ6ZXzGR,,,,,34.6902,-85.2567,anonymous,EN,1,56bfcce79f7a1e0005fdca9e,Yes,77,Female,White or Caucasian American,,Republican,,"Less than $30,000",,,,,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,1: Very unlikely,,,2: Somewhat unlikely,1: Very unlikely,,,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,3: Somewhat likely,,1: Very unlikely,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,3: Somewhat likely,1: Very unlikely,,,2: Somewhat unlikely,,,,,,,,,,2: Somewhat unlikely,,3: Somewhat likely,,2: Somewhat unlikely,,1: Very unlikely,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,,,,,3: Somewhat likely,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,,,,,
+2024-05-27 20:53:41,2024-05-27 21:07:56,IP Address,174.192.132.132,100,854,True,2024-05-27 21:07:56,R_5uHPTbcBVxILnRS,,,,,42.1177,-88.2628,anonymous,EN,1,5ea3b1b9fc11ed33dde53561,Yes,38,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,3: Somewhat likely,,1: Very unlikely,,1: Very unlikely,1: Very unlikely,,,,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,,3: Somewhat likely,,,,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,,,,,,,,,,,,,,,1: Very unlikely,,,,3: Somewhat likely,1: Very unlikely,,,,3: Somewhat likely,,,,,,1: Very unlikely,,,,,1: Very unlikely,,,,,,1: Very unlikely,,,,,,,,,,1: Very unlikely,,,,1: Very unlikely,,,2: Somewhat unlikely,1: Very unlikely,3: Somewhat likely,,,,,,,,,,1: Very unlikely,,,,,,1: Very unlikely,1: Very unlikely,,,,1: Very unlikely,Most were very helpful!,,,,
+2024-05-27 20:57:32,2024-05-27 21:08:23,IP Address,174.87.27.27,100,650,True,2024-05-27 21:08:23,R_37fWgRbDwNipnHk,,,,,34.8679,-118.3412,anonymous,EN,0.8999999761581421,656b72a5777a9eddffb28aba,Yes,60,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,3: Somewhat likely,,1: Very unlikely,,1: Very unlikely,4: Very likely,,,,,3: Somewhat likely,,,,,,,1: Very unlikely,2: Somewhat unlikely,,3: Somewhat likely,,,,,,,2: Somewhat unlikely,,,1: Very unlikely,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1: Very unlikely,,3: Somewhat likely,,,,,3: Somewhat likely,1: Very unlikely,,,,,,,,,,,1: Very unlikely,,,,,,1: Very unlikely,1: Very unlikely,,,3: Somewhat likely,2: Somewhat unlikely,,3: Somewhat likely,,,,,1: Very unlikely,,,,,1: Very unlikely,3: Somewhat likely,,,,,,,,,,,,,2: Somewhat unlikely,,,,1: Very unlikely,,,,,,,,,,1: Very unlikely,,3: Somewhat likely,,,"All were pretty vague, except the style: history, non-fiction, etc.",,,,
+2024-05-27 20:57:48,2024-05-27 21:09:03,IP Address,70.129.251.86,100,675,True,2024-05-27 21:09:04,R_3dtMfCADBi4cuUO,,,,,33.5119,-101.9316,anonymous,EN,0.8999999761581421,66355854d9289d700ee6efb8,Yes,39,Female,White or Caucasian American,,Republican,,"$100,000 or more",,,,,,,,,,,,3: Somewhat likely,,,,3: Somewhat likely,,,,,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,4: Very likely,,,,3: Somewhat likely,1: Very unlikely,1: Very unlikely,,,4: Very likely,,,,3: Somewhat likely,,,,,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,,,,,,,,,,,,,,,,,,,,,,3: Somewhat likely,3: Somewhat likely,3: Somewhat likely,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,3: Somewhat likely,,,,,,,,,,3: Somewhat likely,,3: Somewhat likely,,,,3: Somewhat likely,,,3: Somewhat likely,,,,3: Somewhat likely,3: Somewhat likely,,,3: Somewhat likely,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,,"The book summaries were helpful in allowing me to determine if it was a book I would likely enjoy reading.  ",,,,
+2024-05-27 20:35:40,2024-05-27 21:09:38,IP Address,108.195.78.179,100,2037,True,2024-05-27 21:09:39,R_7GwXKxRS2YalS4k,,,,,32.5898,-96.775,anonymous,EN,0.8999999761581421,656801109c446679ee5aab58,Yes,52,Female,Black or African American,,Republican,,"$30,000 - $99,999",,,,,,,,,,,,,,,1: Very unlikely,,,,,,,4: Very likely,,,,,,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,1: Very unlikely,,,,,,3: Somewhat likely,3: Somewhat likely,3: Somewhat likely,,,,,,1: Very unlikely,,,,,,,,,,,,1: Very unlikely,,,,2: Somewhat unlikely,,,,,,,,,,,,,,3: Somewhat likely,,,1: Very unlikely,,,2: Somewhat unlikely,,,3: Somewhat likely,2: Somewhat unlikely,,,,,1: Very unlikely,3: Somewhat likely,,,,,,1: Very unlikely,1: Very unlikely,2: Somewhat unlikely,,,,,,,,3: Somewhat likely,,,1: Very unlikely,,,,,,,,,2: Somewhat unlikely,,1: Very unlikely,,,1: Very unlikely,,,,1: Very unlikely,,"Yes, it was.  It gave me an idea of if I would read them or not.  Really helpful.",,,,
+2024-05-27 20:54:27,2024-05-27 21:09:49,IP Address,172.1.65.34,100,922,True,2024-05-27 21:09:49,R_6qR9P7jW9C1jqQL,,,,,37.4912,-120.8559,anonymous,EN,1,5ec1c41a1f98090e8c119332,Yes,36,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,,,,,,,,,,,,,,3: Somewhat likely,,,1: Very unlikely,,,,,,3: Somewhat likely,,,3: Somewhat likely,2: Somewhat unlikely,,,,,2: Somewhat unlikely,,,,,,1: Very unlikely,,2: Somewhat unlikely,,4: Very likely,1: Very unlikely,,1: Very unlikely,,,,,,,3: Somewhat likely,,,,,,1: Very unlikely,,,,1: Very unlikely,1: Very unlikely,,,1: Very unlikely,,,,,,,,,,2: Somewhat unlikely,,1: Very unlikely,,1: Very unlikely,,1: Very unlikely,,,,,,,,,,,1: Very unlikely,,,,,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,,,,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,,,,,3: Somewhat likely,,,It was pretty helpful. This one did a good job at summarizing and letting me know if it's something I'd be interested in.,,,,
+2024-05-27 20:46:00,2024-05-27 21:11:18,IP Address,72.9.3.178,100,1518,True,2024-05-27 21:11:19,R_3e4okHK2uiYSgB4,,,,,38.2573,-76.4498,anonymous,EN,0.8999999761581421,64010a38650fe3a1a2de05a9,Yes,36,Male,White or Caucasian American,,Republican,,"Less than $30,000",,,,,4: Very likely,,,,,,,,1: Very unlikely,,,,,,,,,1: Very unlikely,,,1: Very unlikely,1: Very unlikely,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,1: Very unlikely,,,,1: Very unlikely,,,,,,1: Very unlikely,1: Very unlikely,,1: Very unlikely,,1: Very unlikely,,,,,,,1: Very unlikely,,,1: Very unlikely,,3: Somewhat likely,,,,4: Very likely,,1: Very unlikely,,,,,,,,,3: Somewhat likely,,,,,,,,,,,1: Very unlikely,,,,4: Very likely,,,,,,,,,,1: Very unlikely,,,1: Very unlikely,,1: Very unlikely,3: Somewhat likely,,,,,,1: Very unlikely,,1: Very unlikely,,,1: Very unlikely,,,"The book summary's for the most part were great but there were a few that ran on to long ",,,,
+2024-05-27 20:49:32,2024-05-27 21:11:35,IP Address,204.242.1.118,100,1322,True,2024-05-27 21:11:35,R_5pMJ5t29b5pOdV1,,,,,39.0469,-77.4903,anonymous,EN,1,661aace671245944746c7b6c,Yes,52,Male,Black or African American,,Republican,,"$100,000 or more",,,,,,4: Very likely,,,,,4: Very likely,,,,,,4: Very likely,4: Very likely,4: Very likely,,,,,4: Very likely,,,4: Very likely,4: Very likely,,,,4: Very likely,,,,,4: Very likely,,,,,,,,4: Very likely,,,4: Very likely,1: Very unlikely,,4: Very likely,,4: Very likely,,,,,,,,,,,,,,,4: Very likely,,,,,,,,,,4: Very likely,,,,,,,,,,,4: Very likely,,,,,,,4: Very likely,,,,,,,,,,4: Very likely,,,,4: Very likely,,,,,4: Very likely,,,,,,,,4: Very likely,,3: Somewhat likely,4: Very likely,4: Very likely,,,,,,,,4: Very likely,,it helped me assess the book very well.,,,,
+2024-05-27 20:55:31,2024-05-27 21:12:00,IP Address,24.161.108.42,100,988,True,2024-05-27 21:12:00,R_6qPD6wp19QH3Ef4,,,,,41.3932,-73.9773,anonymous,EN,1,660b6de2a4cafb3cd4451943,Yes,52,Male,White or Caucasian American,,Republican,,"$100,000 or more",,,2: Somewhat unlikely,,,,1: Very unlikely,,,,,1: Very unlikely,,,,3: Somewhat likely,1: Very unlikely,,,,2: Somewhat unlikely,3: Somewhat likely,,,,,1: Very unlikely,1: Very unlikely,,,,,,,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,3: Somewhat likely,,,,,,,,,,1: Very unlikely,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,1: Very unlikely,1: Very unlikely,2: Somewhat unlikely,,,,2: Somewhat unlikely,,1: Very unlikely,,,,,3: Somewhat likely,,,,,,,,,,,,,,,,,,,,,,,,,,1: Very unlikely,2: Somewhat unlikely,,,1: Very unlikely,,,,,,,,,,,,2: Somewhat unlikely,,,2: Somewhat unlikely,,,1: Very unlikely,,,,,,,,,,,"It provided enough information to make an initial determination on if I wanted to read the book.  ",,,,
+2024-05-27 20:54:05,2024-05-27 21:13:16,IP Address,134.56.44.236,100,1151,True,2024-05-27 21:13:17,R_6hshNNCcRITYtSB,,,,,25.6639,-80.4372,anonymous,EN,0.8999999761581421,662fa84856dca05e89b59446,Yes,33,Female,Hispanic or Latino,,Republican,,"$100,000 or more",,,,,4: Very likely,1: Very unlikely,,,,,,,,,,,,4: Very likely,,,,,,,1: Very unlikely,1: Very unlikely,,,,,1: Very unlikely,,,,,1: Very unlikely,,,1: Very unlikely,3: Somewhat likely,,,,,,,,,,,,,,,,,,,,,,,1: Very unlikely,,,,,,,,,,,,,,4: Very likely,,3: Somewhat likely,,4: Very likely,,,,4: Very likely,,1: Very unlikely,,,,1: Very unlikely,3: Somewhat likely,,,1: Very unlikely,,,,,3: Somewhat likely,1: Very unlikely,1: Very unlikely,2: Somewhat unlikely,,,,,,,1: Very unlikely,1: Very unlikely,,1: Very unlikely,,,,,,1: Very unlikely,,,,,,,,,,,,,1: Very unlikely,,,,,"Some book summaries were too vague, and some gave way too much detail. My biggest issue with the summaries is that some of them were hard to comprehend. I felt like some sentences were not written correctly, or used too many words to explain something so simple. There were summaries that diverted me from wanting to read the book because they were just too difficult to read.",,,,
+2024-05-27 20:49:21,2024-05-27 21:13:27,IP Address,108.87.154.200,100,1446,True,2024-05-27 21:13:28,R_7IPY4WwJgJz3Y4C,,,,,36.2756,-87.0425,anonymous,EN,1,65f33d75cbe47fd884c9b9f2,Yes,69,Female,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,3: Somewhat likely,,,,,,3: Somewhat likely,,,,,,,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,3: Somewhat likely,,3: Somewhat likely,2: Somewhat unlikely,,,,,3: Somewhat likely,,,3: Somewhat likely,,,,3: Somewhat likely,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,,,,,,,,,,,,,2: Somewhat unlikely,,,3: Somewhat likely,,,,,,2: Somewhat unlikely,,,,,,,,1: Very unlikely,3: Somewhat likely,,,,,,,,,,,2: Somewhat unlikely,,3: Somewhat likely,,,,,,,1: Very unlikely,,,,,,3: Somewhat likely,3: Somewhat likely,,,,,,,,2: Somewhat unlikely,3: Somewhat likely,3: Somewhat likely,,,,,,,,,,,,,,,,,3: Somewhat likely,3: Somewhat likely,Some were too detailed. Some were too vague. Some bright the big to life and made it sound interesting. Some made the book seem boring.,,,,
+2024-05-27 20:42:30,2024-05-27 21:18:37,IP Address,71.206.197.61,100,2166,True,2024-05-27 21:18:37,R_21bK1knQwpTa2O3,,,,,40.3052,-79.5418,anonymous,EN,0.800000011920929,5b9845dfae52a00001482c02,Yes,39,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,4: Very likely,,4: Very likely,,,,,,,4: Very likely,3: Somewhat likely,4: Very likely,,,,,,,,,,,1: Very unlikely,,,,,,,1: Very unlikely,,3: Somewhat likely,,1: Very unlikely,,,,,1: Very unlikely,,,,,4: Very likely,,,,,,3: Somewhat likely,,,,,,,,,4: Very likely,,,,,,,,,,,,4: Very likely,4: Very likely,,4: Very likely,,4: Very likely,,4: Very likely,2: Somewhat unlikely,,,,,,,2: Somewhat unlikely,,,1: Very unlikely,3: Somewhat likely,,,,,,,,,,,,,1: Very unlikely,,,,,1: Very unlikely,,,,,,,,,,,,,4: Very likely,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,I think the shorter the better because it can be summed up in a few sentences.,,,,
+2024-05-27 20:52:44,2024-05-27 21:19:14,IP Address,173.81.160.38,100,1590,True,2024-05-27 21:19:14,R_7nx6vXc4pMJqiD3,,,,,39.3888,-80.2834,anonymous,EN,1,5d99f1a45a1126001c5c0a84,Yes,41,Male,White or Caucasian American,,Republican,,"$30,000 - $99,999",,,,,,,,,,,,,,,1: Very unlikely,,,,3: Somewhat likely,,,,,,,,3: Somewhat likely,2: Somewhat unlikely,,2: Somewhat unlikely,,,,,2: Somewhat unlikely,3: Somewhat likely,,,,1: Very unlikely,,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,,,,,,,,,2: Somewhat unlikely,2: Somewhat unlikely,,3: Somewhat likely,,,,,,,,,,,2: Somewhat unlikely,,3: Somewhat likely,,,3: Somewhat likely,,2: Somewhat unlikely,,,,2: Somewhat unlikely,,,,2: Somewhat unlikely,3: Somewhat likely,,2: Somewhat unlikely,3: Somewhat likely,,,,,,,,,,,,2: Somewhat unlikely,1: Very unlikely,,,2: Somewhat unlikely,,,,,,,,,,,,,,,2: Somewhat unlikely,,,,,,,,,2: Somewhat unlikely,,Most were succinct but gave a good idea of what it was about,,,,
+2024-05-27 21:01:05,2024-05-27 21:22:53,IP Address,204.242.1.75,100,1307,True,2024-05-27 21:22:54,R_7KPGUch9s7oxgXy,,,,,39.0469,-77.4903,anonymous,EN,1,6553e12c3b83480e8318225b,Yes,39,Male,Black or African American,,Republican,,"$100,000 or more",,4: Very likely,,,,,,4: Very likely,,,,,,,,,,,,4: Very likely,,,,4: Very likely,,,,,,4: Very likely,,,,,4: Very likely,,,,,,,4: Very likely,,,,,4: Very likely,,,,4: Very likely,,,,,,,4: Very likely,,2: Somewhat unlikely,,,,4: Very likely,,,,4: Very likely,,,,4: Very likely,4: Very likely,,,,,,4: Very likely,,4: Very likely,,,,,4: Very likely,,,,,,,,,,,4: Very likely,,,,,,4: Very likely,4: Very likely,,4: Very likely,,4: Very likely,,,,4: Very likely,4: Very likely,,,,,,,,,4: Very likely,,,,,,,,,,4: Very likely,,,,,the summary was really helpful,,,,

@@ -30,9 +30,11 @@ You can start by cloning our repository and following these steps.
 
 ## Code overview
 
-Here is a brief description of the individual components
+Here is a brief description of other individual components
 
 #### Biased coin flip experiment 
 ```biased_categories.py```: Calculates bias and identifies the K=20 most biased categories
 
+
+```temp_scale.ipynb```: Performs temperature scaling on model log probabilities. 
 

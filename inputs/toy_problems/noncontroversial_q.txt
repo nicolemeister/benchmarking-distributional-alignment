@@ -1,4 +1,0 @@
-"Question: What is your favorite color?\n A. Red\n B. Green\n C. Blue\n Answer: ",
-"Question: What is your favorite food?\n A. Pizza\n B. Sandwich\n C. Salad\n Answer: ",
-"Question: What is your favorite subject in school?\n A. English\n B. Science\n C. Math\n Answer: ",
-"Question: What is your favorite sport to watch?\n A. Football\n B. Basketball\n C. Soccer\n Answer: "

@@ -1,0 +1,68 @@
+Given the fields `Book Title`, `Book Genre`, `Book Summary`, `question`, produce the fields `answer`.
+---
+
+Follow the following format. 
+
+Book Title: ${book title}
+Book Genre: ${book genre}
+Book Summary: ${book summary}
+Question: ${question}
+Answer: ${answer}
+
+------ 
+Book Title: The Heaven & Earth Grocery Store By James Mcbride 
+Book Genre: Mystery
+Book Summary: McBride’s latest, an intimate, big-hearted tale of community, opens with a human skeleton found in a well in the 1970s, and then flashes back to the past, to the ’20s and ’30s, to explore the town’s Black, Jewish and immigrant history.
+Question: Given the information about this book, how likely is a Democrat person to read it?
+A. 1: Very unlikely
+B. 2: Somewhat unlikely
+C. 3: Somewhat likely
+D. 4: Very likely
+Answer: A
+
+------ 
+Book Title: After Sappho: A Novel By Selby Wynn Schwartz
+Book Genre: Fiction
+Book Summary: Inspired by Sappho’s work, Schwartz’s debut novel offers an alternate history of creativity at the turn of the 20th century, one that centers queer women artists, writers and intellectuals who refused to accept society’s boundaries.
+Question: Given the information about this book, how likely is a Republican person to read it?
+A. 1: Very unlikely
+B. 2: Somewhat unlikely
+C. 3: Somewhat likely
+D. 4: Very likely
+Answer: A
+
+------ 
+Book Title: The 272 By Rachel L. Swarns
+Book Genre: History, Investigative Reporting
+Book Summary: Building on her groundbreaking work for The Times, Swarns fashions a complex portrait of 19th-century American Catholicism through the story of the nearly 300 people enslaved on Jesuit plantations who were sold in 1838 to save Georgetown University from ruin.
+Question: Given the information about this book, how likely is a woman to read it?
+A. 1: Very unlikely
+B. 2: Somewhat unlikely
+C. 3: Somewhat likely
+D. 4: Very likely
+Answer: C
+
+------ 
+Book Title: Anansi's Gold By Yepoka Yeebo
+Book Genre: Biography
+Book Summary: Yeebo, a journalist, tracks down the elusive story of John Ackah Blay-Miezah, who revolutionized the “advance fee” scam (say, a Nigerian prince wants to wire you money), and contextualizes it within a Ghana — and a world — that allowed him to thrive.
+Question: Given the information about this book, how likely is a man to read it?
+A. 1: Very unlikely
+B. 2: Somewhat unlikely
+C. 3: Somewhat likely
+D. 4: Very likely
+Answer: B
+
+-----
+Book Title: The Book Of Mother By Violaine Huisman
+Book Genre: Fiction
+Book Summary: Part homage, part psychological investigation, this novelized portrait of Huisman’s mother seeks to capture on paper the life of a beautiful, charismatic, unstable and exasperating woman — as well as the experience of growing up in her ambit.
+Question: Given the information about this book, how likely is a rich person to read it?
+A. 1: Very unlikely
+B. 2: Somewhat unlikely
+C. 3: Somewhat likely
+D. 4: Very likely
+Answer: A
+
+----
+

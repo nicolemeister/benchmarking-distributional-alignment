@@ -18,7 +18,7 @@ You can start by cloning our repository and following these steps.
     2. **NYT Books**: `./nytimes` contains our preprocessed NYT Books dataset, ```data.json```, that maps "Book Title" to ["Multiple Choice Options", "Genre", "Summary", and the distributional results of Democrats, Republicans, Men, and Women and  ```question_similarity_top10.json``` maps each book title to the 10 most similar books. 
   
 2. Compute LM opinion distributions using  ```lm_steering.py```. Please see the example use cases in the job script ```job.sh```, which contains the file execution order with example commands. This requires setting two environment variables, `OPENAI_API_KEY` and `ANTHROPIC_API_KEY`.
-    1. This produces the results in `./results/opinions_qa` and `./results/nytimes`
+    1. This produces `./results/opinions_qa` and `./results/nytimes`
     2. Process the humans annotations on opinion distribution estimation in `./results/human_annotations` using this [OQA](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/data_analysis/human_annotations_analysis_OQA.ipynb) and [NYT](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/data_analysis/human_annotations_analysis_NYT.ipynb) notebook. This produces the results for [OQA](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/results/human_annotations/OQA_human_tv_data.json) and [NYT](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/results/human_annotations/NYT_human_tv_data.json).
 
 3. Evaluate LM opinion distributions: compute the total variation between the LM opinion distributions and ground truth human distributions ([OQA](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/lm_steering_eval_opinionqa.py) and [NYT](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/lm_steering_eval_nytimes.py)) and create the final leaderboards with this [notebook](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/data_analysis/eval_steering_disagreement.ipynb).
@@ -32,9 +32,10 @@ You can start by cloning our repository and following these steps.
 
 Here is a brief description of other individual components
 
-#### Biased coin flip experiment 
-```biased_categories.py```: Calculates bias and identifies the K=20 most biased categories
+#### LM Prompts
+```./inputs/```: Contains exact prompts for each dataset (OQA, NYT), distribution expression method (express distribution, model log probs, sequence), along with the biased coin flip experiments. 
 
+#### Temperature Scaling
 
-```temp_scale.ipynb```: Performs temperature scaling on model log probabilities. 
+```temp_scale.ipynb```: Performs temperature scaling on input model log probabilities. 
 

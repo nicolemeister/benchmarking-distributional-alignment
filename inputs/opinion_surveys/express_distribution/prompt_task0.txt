@@ -1,62 +1,56 @@
-Given the fields `context` and `question`, produce the fields `answer`.
+Given the fields `question`, produce the fields `answer`.
 ---
 
 Follow the following format. 
 
-Context: ${context}
 Question: ${question}
 Answer: ${answer}
 
 ------ 
-Context: Let the probability that a Democrat responds to the following question with 'A' be 46%, 'B' be 38%, 'C' be 11%, 'D' be 3%, 'E' be 0%.
 Question: Please tell us whether you are satisfied or dissatisfied with your family life.?
 'A'. Very satisfied
 'B'. Somewhat satisfied
 'C'. Somewhat dissatisfied
 'D'. Very dissatisfied
 'E'. Refused
-Answer: A B A A C A A A A B A B A A C B B A B A A B A A A B C C A A
+Answer: {'A': '45%', 'B': '3%', 'C': '40%', D: '11%', E: '1%'}
 
 ------ 
 
-Context: Let the probability that a Republican responds to the following question with 'A' be 28%, 'B' be 47%, 'C' be 19%, 'D' be 4%, 'E' be 0%.
 Question: Please tell us whether you are satisfied or dissatisfied with your social life.?
 'A'. Very satisfied
 'B'. Somewhat satisfied
 'C'. Somewhat dissatisfied
 'D'. Very dissatisfied
 'E'. Refused
-Answer: A A A B B B A C A B B B B A A B A A C B C C D A B B B C A B
+Answer: {'A': '27%', 'B': '47%', 'C': '20%', D: '5%', E: '1%'}
 
 ------ 
 
-Context: Let the probability that a Independent responds to the following question with 'A' be 21%, 'B' be 40%, 'C' be 23%, 'D' be 13%, 'E' be 0%.
 Question: Please tell us whether you are satisfied or dissatisfied with your personal financial situation.?
 'A'. Very satisfied
 'B'. Somewhat satisfied
 'C'. Somewhat dissatisfied
 'D'. Very dissatisfied
 'E'. Refused
-Answer: C A A B B A C B B B C C A A C B A B C A B B A A A D B B A B
+Answer: {'A': '22%', 'B': '44%', 'C': '20%', D: '5%', E: '1%'}
 
 ------ 
 
-Context: Let the probability that Democrat respond to the following question with 'A' be 81%, 'B' be 18%, 'C' be 0%.
 Question: Do you think science has had a mostly positive or mostly negative effect on the quality of the environment in the U.S.??
 'A'. Mostly positive
 'B'. Mostly negative
 'C'. Refused
-Answer: B A A B A A B A A A A A A A A B B A A A A B A B A A B B A B
+Answer: {'A': '81%', 'B': '18%', 'C': '1%'}
 
 -----
 
-Context: Let the probability that Democrat respond to the following question with 'A' be 53%, 'B' be 25%, 'C' be 20%, 'D' be 0%.
 Question: In general, would you say life in America today is better, worse, or about the same as it was 50 years ago for people like you??
 'A'. Better
 'B'. Worse
 'C'. About the same
 'D'. Refused
-Answer: A A B A B A A B A B A A B C B A A A B A C C B B C A A C A B
+Answer: {'A': '54%', 'B': '25%', 'C': '20%', 'D': '1%'}
 
 ----
 

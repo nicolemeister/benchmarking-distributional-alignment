@@ -1,0 +1,56 @@
+Given the fields `question`, produce the fields `answer`.
+---
+
+Follow the following format. 
+
+Question: ${question}
+Answer: ${answer}
+
+------ 
+Question: Please tell us whether you are satisfied or dissatisfied with your family life.?
+'A'. Very satisfied
+'B'. Somewhat satisfied
+'C'. Somewhat dissatisfied
+'D'. Very dissatisfied
+'E'. Refused
+Answer: A B A A C A A A A B A B A A C B B A B A A B A A A B C C A A
+
+------ 
+
+Question: Please tell us whether you are satisfied or dissatisfied with your social life.?
+'A'. Very satisfied
+'B'. Somewhat satisfied
+'C'. Somewhat dissatisfied
+'D'. Very dissatisfied
+'E'. Refused
+Answer: A A A B B B A C A B B B B A A B A A C B C C D A B B B C A B
+
+------ 
+
+Question: Please tell us whether you are satisfied or dissatisfied with your personal financial situation.?
+'A'. Very satisfied
+'B'. Somewhat satisfied
+'C'. Somewhat dissatisfied
+'D'. Very dissatisfied
+'E'. Refused
+Answer: C A A B B A C B B B C C A A C B A B C A B B A A A D B B A B
+
+------ 
+
+Question: Do you think science has had a mostly positive or mostly negative effect on the quality of the environment in the U.S.??
+'A'. Mostly positive
+'B'. Mostly negative
+'C'. Refused
+Answer: B A A B A A B A A A A A A A A B B A A A A B A B A A B B A B
+
+-----
+
+Question: In general, would you say life in America today is better, worse, or about the same as it was 50 years ago for people like you??
+'A'. Better
+'B'. Worse
+'C'. About the same
+'D'. Refused
+Answer: A A B A B A A B A B A A B C B A A A B A C C B B C A A C A B
+
+----
+

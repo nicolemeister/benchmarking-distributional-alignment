@@ -21,7 +21,7 @@ You can start by cloning our repository and following these steps.
     1. This produces the results in `./results/opinions_qa` and `./results/nytimes`
     2. Process the humans annotations on opinion distribution estimation in `./results/human_annotations` using this [OQA](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/data_analysis/human_annotations_analysis_OQA.ipynb) and [NYT](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/data_analysis/human_annotations_analysis_NYT.ipynb) notebook. This produces the results for [OQA](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/results/human_annotations/OQA_human_tv_data.json) and [NYT](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/results/human_annotations/NYT_human_tv_data.json).
 
-3. Evaluate LM opinion distributions: compute the total variation between the LM opinion distributions and ground truth human distributions ([OQA](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/lm_steering_eval_opinionqa.py) and [NYT](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/lm_steering_eval_nytimes.py)) and create the final leaderboard with this [notebook](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/data_analysis/eval_steering_disagreement.ipynb).
+3. Evaluate LM opinion distributions: compute the total variation between the LM opinion distributions and ground truth human distributions ([OQA](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/lm_steering_eval_opinionqa.py) and [NYT](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/lm_steering_eval_nytimes.py)) and create the final leaderboards with this [notebook](https://github.com/nicolemeister/benchmarking-distributional-alignment/blob/main/data_analysis/eval_steering_disagreement.ipynb).
 
 # Maintainers
 
@@ -34,3 +34,5 @@ Here is a brief description of the individual components
 
 #### Biased coin flip experiment 
 ```biased_categories.py```: Calculates bias and identifies the K=20 most biased categories
+
+

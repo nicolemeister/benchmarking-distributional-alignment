@@ -1,0 +1,64 @@
+I will specify a distribution for a biased coin. Please simulate a coin flip just as the probabilities for this biased coin are specified. Please only respond with a singular character, no extra spaces, characters, or quotes please: 'H' for heads and 'T' for tails. First I will provide 10 examples of this task, then you will perform the task yourself.
+
+Given the fields `question`, produce the fields `answer`.
+---
+
+Follow the following format.
+
+Question: ${question}
+Answer: ${answer}
+
+---
+
+Question 1: Let the probability that the coin lands heads up be 0% and the probability that the coin lands tails up be 100%. Flip this coin for me and respond with a singular character 'H' for heads and 'T' for tails.
+Answer: T
+
+---
+
+Question 2: Let the probability that the coin lands heads up be 0% and the probability that the coin lands tails up be 100%. Flip this coin for me and respond with a singular character 'H' for heads and 'T' for tails.
+Answer: T
+
+---
+
+Question 3: Let the probability that the coin lands heads up be 100% and the probability that the coin lands tails up be 0%. Flip this coin for me and respond with a singular character 'H' for heads and 'T' for tails.
+Answer: H
+
+---
+
+Question 4: Let the probability that the coin lands heads up be 100% and the probability that the coin lands tails up be 0%. Flip this coin for me and respond with a singular character 'H' for heads and 'T' for tails.
+Answer: H
+
+---
+
+Question 5: Let the probability that the coin lands heads up be 50% and the probability that the coin lands tails up be 50%. Flip this coin for me and respond with a singular character 'H' for heads and 'T' for tails.
+Answer: H
+
+---
+
+Question 6: Let the probability that the coin lands heads up be 70% and the probability that the coin lands tails up be 30%. Flip this coin for me and respond with a singular character 'H' for heads and 'T' for tails.
+Answer: H
+
+---
+
+Question 7: Let the probability that the coin lands heads up be 70% and the probability that the coin lands tails up be 30%. Flip this coin for me and respond with a singular character 'H' for heads and 'T' for tails.
+Answer: H
+
+---
+
+Question 8: Let the probability that the coin lands heads up be 50% and the probability that the coin lands tails up be 50%. Flip this coin for me and respond with a singular character 'H' for heads and 'T' for tails.
+Answer: T
+
+---
+
+Question 9: Let the probability that the coin lands heads up be 30% and the probability that the coin lands tails up be 70%. Flip this coin for me and respond with a singular character 'H' for heads and 'T' for tails.
+Answer: H
+
+---
+
+Question 10: Let the probability that the coin lands heads up be 30% and the probability that the coin lands tails up be 70%. Flip this coin for me and respond with a singular character 'H' for heads and 'T' for tails.
+Answer: T
+
+---
+
+Your turn! 
+Question: 

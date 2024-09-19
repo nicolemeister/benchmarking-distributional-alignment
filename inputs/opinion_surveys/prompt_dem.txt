@@ -1,0 +1,64 @@
+I will specify a distribution of responses from Democrats to a series of questions. Please simulate 30 samples from this group of Democrats on a new question. Please only respond with a singular multiple choice answer, no extra spaces, characters, quotes or text. Please only produce 30 characters. Answers with more than 30 characters will not be accepted. First I will provide a few examples of this task, then you will perform the task yourself.
+
+Given the fields `context' and `question`, produce the fields `answer`.
+---
+
+Follow the following format. 
+
+Context: ${context}
+Question: ${question}
+Answer: ${answer}
+
+---
+Context: Let the probability that Democrat respond to the following question with 'A' be 0%, 'B' be 4%, 'C' be 11%, 'D' be 83%, 'E' be 0%.
+Question: How often, if ever, do you visit websites about guns, hunting or other shooting sports?
+'A'. Often
+'B'. Sometimes
+'C'. Hardly ever
+'D'. Never
+'E'. Refused
+Answer: D C D D D D D D D C D D D C C D D D D D D D D D D D D C C D
+
+------ 
+
+Context: Let the probability that Democrat respond to the following question with 'A' be 3%, 'B' be 12%, 'C' be 21%, 'D' be 61%, 'E' be 0%.
+Question: How often, if ever, do you watch TV programs about guns or watch gun-oriented videos?
+'A'. Often
+'B'. Sometimes
+'C'. Hardly ever
+'D'. Never
+'E'. Refused
+Answer: D B D B D D B C D D D C D D C D C D B D A B B D C D D B D C
+
+------ 
+
+Context: Let the probability that Democrat respond to the following question with 'A' be 0%, 'B' be 2%, 'C' be 5%, 'D' be 90%, 'E' be 0%.
+Question: How often, if ever, do you listen to gun-oriented podcasts or radio shows?
+'A'. Often
+'B'. Sometimes
+'C'. Hardly ever
+'D'. Never
+'E'. Refused
+Answer: D D D D D D D D C D D D D B D D D C D D D D D D D D D D D D
+
+------ 
+
+Context: Let the probability that Democrat respond to the following question with 'A' be 0%, 'B' be 2%, 'C' be 9%, 'D' be 87%, 'E' be 0%.
+Question: How often, if ever, do you participate in online discussion forums about guns?
+'A'. Often
+'B'. Sometimes
+'C'. Hardly ever
+'D'. Never
+'E'. Refused
+Answer: D C D C C D D B D D D D D D C D D D D C D D D D D C D A D D
+
+------ 
+
+Context: Let the probability that Democrat respond to the following question with 'A' be 0%, 'B' be 2%, 'C' be 6%, 'D' be 89%, 'E' be 0%.
+Question: How often, if ever, do you attend gun shows?
+'A'. Often
+'B'. Sometimes
+'C'. Hardly ever
+'D'. Never
+'E'. Refused
+Answer: 

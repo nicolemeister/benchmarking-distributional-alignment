@@ -1,0 +1,4 @@
+[
+    {"prompt": "Let the probability that the coin lands tails up be 100% and the probability that the coin lands heads up be 0%. Flip this coin 30 times and provide the sequence of outputs this biased coin produces. Respond with 30 characters 'H' for heads and 'T' for tails.", "expected_results": {"h": 0.0, "t": 1.0}}
+    {"prompt": "Let the probability that the coin lands tails up be 50% and the probability that the coin lands heads up be 50%. Flip this coin 30 times and provide the sequence of outputs this biased coin produces. Respond with 30 characters 'H' for heads and 'T' for tails.", "expected_results": {"h": 0.5, "t": 0.5}}
+]

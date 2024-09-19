@@ -1,0 +1,3 @@
+[
+    {"prompt": "A biased deck with 4 types of cards: A, B, C, and D. Let the probability of drawing a 'A' be 80%, drawing a 'B' be 20%, drawing a 'C' be 0%, drawing a 'D' be 0%. Pull a card from this biased deck. \n Answer: ", "expected_results": {"a": 0.8, "b": 0.2, "c": 0.0, "d": 0.0}}
+]

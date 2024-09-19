@@ -1,0 +1,65 @@
+I will specify a distribution of responses from Democrats to a series of questions. Please simulate 30 samples from this group of Democrats on a new question. Please only respond with a singular multiple choice answer, no extra spaces, characters, quotes or text. Please only produce 30 characters. Answers with more than 30 characters will not be accepted. First I will provide a few examples of this task, then you will perform the task yourself.
+
+Given the fields `context' and `question`, produce the fields `answer`.
+---
+
+Follow the following format. 
+
+Context: ${context}
+Question: ${question}
+Answer: ${answer}
+
+---
+
+Context: Let the probability that Democrat respond to the following question with 'A' be 6%, 'B' be 37%, 'C' be 100%, 'D' be 734%, 'E' be 4%.
+Question: How often, if ever, do you visit websites about guns, hunting or other shooting sports?
+'A'. Often
+'B'. Sometimes
+'C'. Hardly ever
+'D'. Never
+'E'. Refused
+Answer: D D D C D D D D D D D D D D D D D D D D D A D D D D D D D B
+
+------ 
+
+Context: Let the probability that Democrat respond to the following question with 'A' be 0%, 'B' be 4%, 'C' be 11%, 'D' be 88%, 'E' be 0%.
+Question: How often, if ever, do you visit websites about guns, hunting or other shooting sports?
+'A'. Often
+'B'. Sometimes
+'C'. Hardly ever
+'D'. Never
+'E'. Refused
+Answer: D C B D D D D D D B C D D D D C D D D C D C A D D D D D C D
+
+------ 
+
+Context: Let the probability that Democrat respond to the following question with 'A' be 0%, 'B' be 4%, 'C' be 11%, 'D' be 87%, 'E' be 0%.
+Question: How often, if ever, do you visit websites about guns, hunting or other shooting sports?
+'A'. Often
+'B'. Sometimes
+'C'. Hardly ever
+'D'. Never
+'E'. Refused
+Answer: D D D D D D D D D C D D C D D D D D C D D D C C D D D D D D
+
+------ 
+
+Context: Let the probability that Democrat respond to the following question with 'A' be 0%, 'B' be 4%, 'C' be 11%, 'D' be 86%, 'E' be 0%.
+Question: How often, if ever, do you visit websites about guns, hunting or other shooting sports?
+'A'. Often
+'B'. Sometimes
+'C'. Hardly ever
+'D'. Never
+'E'. Refused
+Answer: D D D D D D D D D B C D D D B D D D D D D D D D D D D B D D
+
+------ 
+
+Context: Let the probability that Democrat respond to the following question with 'A' be 0%, 'B' be 4%, 'C' be 11%, 'D' be 83%, 'E' be 0%.
+Question: How often, if ever, do you visit websites about guns, hunting or other shooting sports?
+'A'. Often
+'B'. Sometimes
+'C'. Hardly ever
+'D'. Never
+'E'. Refused
+Answer: 

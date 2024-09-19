@@ -1,0 +1,4 @@
+[
+    {"prompt": "Let the probability that the biased coin lands heads up be 100% and the probability that the coin lands tails up be 0%. Flip this biased coin.\n Answer:", "expected_results": {"h": 1.0, "t": 0.0}},
+    {"prompt": "Let the probability that the biased coin lands heads up be 0% and the probability that the coin lands tails up be 100%. Flip this biased coin.\n Answer:", "expected_results": {"h": 0.0, "t": 1.0}}
+]

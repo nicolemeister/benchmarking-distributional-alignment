@@ -49,9 +49,7 @@ def main():
     outputtype_to_model = {'express_distribution': ['gpt-3.5-turbo-0125', 'anthropic_haiku', 'anthropic_opus', 'gpt-4', 'llama3-70b'], 'sequence': ['gpt-3.5-turbo-0125', 'anthropic_haiku', 'anthropic_opus', 'gpt-4', 'llama3-70b'], 'model_logprobs': ['gpt-3.5-turbo-0125', 'gpt-4', 'llama3-70b'],'rescaled_model_logprobs': ['gpt-3.5-turbo-0125', 'gpt-4', 'llama3-70b']}
 
     # Create an empty DataFrame with specified columns
-    # eval_result_df_path = '/nlp/scr/nmeist/opinion_distributions/results/eval_disagreement.csv'
-    # eval_result_df_path = '/nlp/scr/nmeist/opinion_distributions/results/eval_disagreement_bootstrapping_final.csv'
-    eval_result_df_path = '/nlp/scr/nmeist/opinion_distributions/results/eval_disagreement_bootstrapping_final_v3.csv'
+    eval_result_df_path = '/nlp/scr/nmeist/opinion_distributions/results/distributional_alignment_task_all_groups.csv'
     
     if not os.path.exists(eval_result_df_path): 
         df = pd.DataFrame(columns=columns)
@@ -66,13 +64,9 @@ def main():
 
     dataset = 'opinionqa'
     results_path = '/nlp/scr/nmeist/opinion_distributions/results/{}/'.format(dataset)
-    # for output_type in ['express_distribution', 'sequence', 'model_logprobs']: # could change this later to read the path 
-    # for output_type in ['express_distribution', 'sequence', 'model_logprobs']: # could change this later to read the path 
-    # for output_type in ['express_distribution', 'sequence', 'model_logprobs', 'rescaled_model_logprobs']: 
-    for output_type in ['rescaled_model_logprobs']: 
+    
+    for output_type in ['express_distribution', 'sequence', 'model_logprobs', 'rescaled_model_logprobs']: 
         for model in outputtype_to_model[output_type]:
-        # for model in ['llama3-70b', 'gpt-4', 'gpt-3.5-turbo-0125','anthropic_haiku', 'anthropic_opus',]:
-        # for model in os.listdir('/nlp/scr/nmeist/opinion_distributions/results/opinionqa/{}'.format(output_type)):
             if model=='.DS_Store': continue
             for task_type in os.listdir('/nlp/scr/nmeist/opinion_distributions/results/opinionqa/{}/{}'.format(output_type, model)):
                 if task_type in ['task0', 'task1', 'task3_easy_hard', 'task5']:

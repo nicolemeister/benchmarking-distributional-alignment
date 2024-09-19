@@ -13,8 +13,8 @@
 You can start by cloning our repository and following these steps. Each step is also documented in an example job script ```job.sh``` that contains the file execution order with example commands.
 
 1. Datasets:
-    1. \textbf{OpinionQA}: In `./opinions_qa`, you will find our 100 question subset of the 500 contentious OpinionQA questions [(source)](https://worksheets.codalab.org/worksheets/0x6fb693719477478aac73fc07db333f69).
-    2. \textbf{NYT Books}: 
+    1. **OpinionQA**: In `./opinions_qa`, you will find our 100 question subset of the 500 contentious OpinionQA questions [(source)](https://worksheets.codalab.org/worksheets/0x6fb693719477478aac73fc07db333f69).
+    2. **NYT Books**: In `./opinions_qa`, you will find our preprocessed NYT Books dataset where ```data.json``` maps 
 
 3. Compute human and LM opinion distributions using this [notebook](https://github.com/tatsu-lab/opinions_qa/blob/master/process_results.ipynb). 
 

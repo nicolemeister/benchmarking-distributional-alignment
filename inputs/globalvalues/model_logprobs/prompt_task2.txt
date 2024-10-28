@@ -1,0 +1,62 @@
+Given the fields `context` and `question`, produce the fields `answer`.
+---
+
+Follow the following format. 
+
+Context: ${context}
+Question: ${question}
+Answer: ${answer}
+
+------ 
+Context: Let the probability that a Democrat responds to the following question with 'Very satisfied' be 46%, 'Somewhat satisfied' be 38%, 'Somewhat dissatisfied' be 11%, 'Very dissatisfied' be 3%, 'Refused' be 0%.
+Question: Please tell us whether you are satisfied or dissatisfied with your family life.?
+'A'. Very satisfied
+'B'. Somewhat satisfied
+'C'. Somewhat dissatisfied
+'D'. Very dissatisfied
+'E'. Refused
+Answer: A
+
+------ 
+
+Context: Let the probability that a Republican responds to the following question with 'Very satisfied' be 28%, 'Somewhat satisfied' be 47%, 'Somewhat dissatisfied' be 19%, 'Very dissatisfied' be 4%, 'Refused' be 0%.
+Question: Please tell us whether you are satisfied or dissatisfied with your social life.?
+'A'. Very satisfied
+'B'. Somewhat satisfied
+'C'. Somewhat dissatisfied
+'D'. Very dissatisfied
+'E'. Refused
+Answer: B
+
+------ 
+
+Context: Let the probability that a Independent responds to the following question with 'Very satisfied' be 21%, 'Somewhat satisfied' be 40%, 'Somewhat dissatisfied' be 23%, 'Very dissatisfied' be 13%, 'Refused' be 0%.
+Question: Please tell us whether you are satisfied or dissatisfied with your personal financial situation.?
+'A'. Very satisfied
+'B'. Somewhat satisfied
+'C'. Somewhat dissatisfied
+'D'. Very dissatisfied
+'E'. Refused
+Answer: C
+
+------ 
+
+Context: Let the probability that Democrat respond to the following question with 'Mostly positive' be 81%, 'Mostly negative' be 18%, 'Refused' be 0%.
+Question: Do you think science has had a mostly positive or mostly negative effect on the quality of the environment in the U.S.??
+'A'. Mostly positive
+'B'. Mostly negative
+'C'. Refused
+Answer: B
+
+-----
+
+Context: Let the probability that Democrat respond to the following question with 'Better' be 53%, 'Worse' be 25%, 'About the same' be 20%, 'Refused' be 0%.
+Question: In general, would you say life in America today is better, worse, or about the same as it was 50 years ago for people like you??
+'A'. Better
+'B'. Worse
+'C'. About the same
+'D'. Refused
+Answer: C
+
+----
+

@@ -1,0 +1,2952 @@
+{
+    "Thinking about our relations with China, in your view, which is more important - being tough with China on territorial disputes between China and our country OR having a strong economic relationship with China?": {
+        "Indonesia": [
+            0.5135135135135135,
+            0.4864864864864865,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Philippines": [
+            0.0,
+            0.0,
+            0.28,
+            0.67,
+            0.05
+        ],
+        "Japan": [
+            0.45,
+            0.47,
+            0.0,
+            0.0,
+            0.08
+        ],
+        "MC_options": "['Being tough with China', 'Having a strong relationship with China', 'Being tough with China on territorial disputes', 'Having a strong economic relationship with China', 'DK/Refused']",
+        "countries": [
+            "Indonesia",
+            "Philippines",
+            "Japan"
+        ]
+    },
+    "And overall do you think that China's growing military power is a good thing or a bad thing for our country?": {
+        "United States": [
+            0.0,
+            0.0,
+            0.11,
+            0.81,
+            0.08
+        ],
+        "Ukraine": [
+            0.17391304347826086,
+            0.8260869565217391,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Tunisia": [
+            0.0,
+            0.0,
+            0.32,
+            0.4,
+            0.28
+        ],
+        "Germany": [
+            0.13186813186813187,
+            0.8681318681318682,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['Good', 'Bad', 'Good thing', 'Bad thing', 'DK/Refused']",
+        "countries": [
+            "United States",
+            "Ukraine",
+            "Tunisia",
+            "Germany"
+        ]
+    },
+    "If an innocent people were being killed by the army, the police or another tribe, in another country, who would you trust most to do something to stop the killings?": {
+        "Pakistan": [
+            0.012048192771084338,
+            0.012048192771084338,
+            0.5060240963855421,
+            0.024096385542168676,
+            0.04819277108433735,
+            0.060240963855421686,
+            0.012048192771084338,
+            0.3253012048192771
+        ],
+        "United States": [
+            0.031914893617021274,
+            0.02127659574468085,
+            0.010638297872340425,
+            0.06382978723404255,
+            0.010638297872340425,
+            0.776595744680851,
+            0.02127659574468085,
+            0.06382978723404255
+        ],
+        "France": [
+            0.6565656565656566,
+            0.08080808080808081,
+            0.020202020202020204,
+            0.04040404040404041,
+            0.020202020202020204,
+            0.12121212121212122,
+            0.030303030303030304,
+            0.030303030303030304
+        ],
+        "MC_options": "['France', 'Germany', 'China', 'Britain', 'Japan', 'United States', 'Russia', 'None of these (VOL)']",
+        "countries": [
+            "Pakistan",
+            "United States",
+            "France"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable or very unfavorable opinion of...Israel": {
+        "United States": [
+            0.25,
+            0.42857142857142855,
+            0.21428571428571427,
+            0.10714285714285714
+        ],
+        "Jordan": [
+            0.010309278350515464,
+            0.010309278350515464,
+            0.020618556701030927,
+            0.9587628865979382
+        ],
+        "Germany": [
+            0.02247191011235955,
+            0.2808988764044944,
+            0.5842696629213483,
+            0.11235955056179775
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable']",
+        "countries": [
+            "United States",
+            "Jordan",
+            "Germany"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of...Jews": {
+        "United States": [
+            0.5172413793103449,
+            0.42528735632183906,
+            0.04597701149425287,
+            0.011494252873563218
+        ],
+        "Egypt": [
+            0.01020408163265306,
+            0.02040816326530612,
+            0.01020408163265306,
+            0.9591836734693877
+        ],
+        "Lebanon": [
+            0.010101010101010102,
+            0.010101010101010102,
+            0.020202020202020204,
+            0.9595959595959596
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable']",
+        "countries": [
+            "United States",
+            "Egypt",
+            "Lebanon"
+        ]
+    },
+    "Now I'd like to ask your views about some additional political leaders. Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of Syrian President Bashar al-Assad?": {
+        "Egypt": [
+            0.010752688172043012,
+            0.010752688172043012,
+            0.26881720430107525,
+            0.7096774193548387,
+            0.0
+        ],
+        "Jordan": [
+            0.0,
+            0.009900990099009901,
+            0.10891089108910891,
+            0.8316831683168316,
+            0.04950495049504951
+        ],
+        "Russia": [
+            0.16666666666666666,
+            0.36904761904761907,
+            0.0,
+            0.05952380952380952,
+            0.40476190476190477
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable', 'DK/Refused']",
+        "countries": [
+            "Egypt",
+            "Jordan",
+            "Russia"
+        ]
+    },
+    "Now I'm going to read a list of political leaders.  For each, tell me how much confidence you have in each leader to do the right thing regarding world affairs - a lot of confidence, some confidence, not too much confidence, or no confidence at all?... Indian Prime Minister Manmohan Singh": {
+        "Pakistan": [
+            0.013157894736842105,
+            0.07894736842105263,
+            0.18421052631578946,
+            0.7236842105263158
+        ],
+        "Japan": [
+            0.03278688524590164,
+            0.5737704918032787,
+            0.3442622950819672,
+            0.04918032786885246
+        ],
+        "Indonesia": [
+            0.047619047619047616,
+            0.47619047619047616,
+            0.36507936507936506,
+            0.1111111111111111
+        ],
+        "MC_options": "['A lot of confidence', 'Some confidence', 'Not too much confidence', 'No confidence at all']",
+        "countries": [
+            "Pakistan",
+            "Japan",
+            "Indonesia"
+        ]
+    },
+    "Please tell us if you strongly agree, agree, disagree, or strongly disagree with the following statements:\n\nWhenever science and religion conflict, religion is always right": {
+        "Japan": [
+            0.006999999999999999,
+            0.021,
+            0.41200000000000003,
+            0.251,
+            0.305,
+            0.006,
+            0.0
+        ],
+        "Egypt": [
+            0.816,
+            0.172,
+            0.008,
+            0.0,
+            0.004,
+            0.001,
+            0.0
+        ],
+        "Jordan": [
+            0.8840000000000001,
+            0.081,
+            0.016,
+            0.008,
+            0.011000000000000001,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['Strongly agree', 'Agree', 'Disagree', 'Strongly disagree', \"Don't know\", 'No answer', 'Missing; Not available']",
+        "countries": [
+            "Japan",
+            "Egypt",
+            "Jordan"
+        ]
+    },
+    "Which one of the following countries would you trust most to do the right thing in dealing with the problem of global warming?": {
+        "Pakistan": [
+            0.04918032786885246,
+            0.04918032786885246,
+            0.7377049180327869,
+            0.0,
+            0.04918032786885246,
+            0.06557377049180328,
+            0.0,
+            0.01639344262295082,
+            0.03278688524590164
+        ],
+        "Japan": [
+            0.011764705882352941,
+            0.3764705882352941,
+            0.023529411764705882,
+            0.03529411764705882,
+            0.4470588235294118,
+            0.09411764705882353,
+            0.0,
+            0.0,
+            0.011764705882352941
+        ],
+        "Germany": [
+            0.010752688172043012,
+            0.8279569892473119,
+            0.021505376344086023,
+            0.010752688172043012,
+            0.021505376344086023,
+            0.08602150537634409,
+            0.010752688172043012,
+            0.0,
+            0.010752688172043012
+        ],
+        "MC_options": "['India', 'Germany', 'China', 'Brazil', 'Japan', 'United States', 'Russia', 'None of these (VOL)', 'Other (VOL)']",
+        "countries": [
+            "Pakistan",
+            "Japan",
+            "Germany"
+        ]
+    },
+    "Now thinking about the dispute between Israel and the Palestinians, which side do you sympathize with more, Israel or the Palestinians?": {
+        "Japan": [
+            0.17567567567567569,
+            0.0945945945945946,
+            0.10810810810810811,
+            0.6216216216216216
+        ],
+        "Egypt": [
+            0.0,
+            0.9484536082474226,
+            0.010309278350515464,
+            0.041237113402061855
+        ],
+        "Tunisia": [
+            0.01,
+            0.98,
+            0.0,
+            0.01
+        ],
+        "MC_options": "['Israel', 'Palestinians', 'Both (VOL)', 'Neither (VOL)']",
+        "countries": [
+            "Japan",
+            "Egypt",
+            "Tunisia"
+        ]
+    },
+    "Which one of the religions that I name do you think of as most violent--Christianity, Islam, Judaism or Hinduism?": {
+        "Jordan": [
+            0.020202020202020204,
+            0.010101010101010102,
+            0.9696969696969697,
+            0.0,
+            0.0
+        ],
+        "Britain": [
+            0.056818181818181816,
+            0.8522727272727273,
+            0.022727272727272728,
+            0.03409090909090909,
+            0.03409090909090909
+        ],
+        "Germany": [
+            0.07526881720430108,
+            0.8494623655913979,
+            0.021505376344086023,
+            0.03225806451612903,
+            0.021505376344086023
+        ],
+        "MC_options": "['Christianity', 'Islam', 'Judaism', 'Hinduism', 'None (VOL)']",
+        "countries": [
+            "Jordan",
+            "Britain",
+            "Germany"
+        ]
+    },
+    "Do you favor or oppose making the following the law in your country...death penalty for people who leave the Muslim religion?": {
+        "Jordan": [
+            0.8775510204081632,
+            0.12244897959183673
+        ],
+        "Turkey": [
+            0.052083333333333336,
+            0.9479166666666666
+        ],
+        "Lebanon": [
+            0.06060606060606061,
+            0.9393939393939394
+        ],
+        "MC_options": "['Favor', 'Oppose']",
+        "countries": [
+            "Jordan",
+            "Turkey",
+            "Lebanon"
+        ]
+    },
+    "Do you personally believe that sex between unmarried adults is morally acceptable, morally unacceptable, or is it not a moral issue? ": {
+        "Indonesia": [
+            0.01,
+            0.97,
+            0.01,
+            0.01
+        ],
+        "France": [
+            0.47,
+            0.06,
+            0.47,
+            0.0
+        ],
+        "Pakistan": [
+            0.0,
+            0.9791666666666666,
+            0.020833333333333332,
+            0.0
+        ],
+        "MC_options": "['Morally acceptable', 'Morally unacceptable', 'Not a moral issue', 'Depends on the situation (VOL)']",
+        "countries": [
+            "Indonesia",
+            "France",
+            "Pakistan"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of...Egypt": {
+        "Indonesia": [
+            0.20689655172413793,
+            0.6896551724137931,
+            0.08045977011494253,
+            0.022988505747126436
+        ],
+        "Egypt": [
+            0.8673469387755102,
+            0.1326530612244898,
+            0.0,
+            0.0
+        ],
+        "Turkey": [
+            0.0945945945945946,
+            0.40540540540540543,
+            0.14864864864864866,
+            0.35135135135135137
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable']",
+        "countries": [
+            "Indonesia",
+            "Egypt",
+            "Turkey"
+        ]
+    },
+    "For each, tell me how much confidence you have in each leader to do the right thing regarding world affairs \u2013 a lot of confidence, some confidence, not too much confidence, or no confidence at all. i. North Korean leader Kim Jong-un": {
+        "Indonesia": [
+            0.08,
+            0.25,
+            0.19,
+            0.11,
+            0.37
+        ],
+        "Japan": [
+            0.0,
+            0.010101010101010102,
+            0.16161616161616163,
+            0.8080808080808081,
+            0.020202020202020204
+        ],
+        "Philippines": [
+            0.15151515151515152,
+            0.41414141414141414,
+            0.13131313131313133,
+            0.1717171717171717,
+            0.13131313131313133
+        ],
+        "MC_options": "['A lot of confidence', 'Some confidence', 'Not too much confidence', 'No confidence at all', 'DK/Refused']",
+        "countries": [
+            "Indonesia",
+            "Japan",
+            "Philippines"
+        ]
+    },
+    "Do have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of Japanese Prime Minister Shinzo Abe?": {
+        "Philippines": [
+            0.1625,
+            0.0,
+            0.525,
+            0.0,
+            0.225,
+            0.0,
+            0.0875,
+            0.0
+        ],
+        "United States": [
+            0.07142857142857142,
+            0.0,
+            0.5119047619047619,
+            0.0,
+            0.19047619047619047,
+            0.0,
+            0.2261904761904762,
+            0.0
+        ],
+        "Australia": [
+            0.0,
+            0.043478260869565216,
+            0.0,
+            0.6086956521739131,
+            0.0,
+            0.2391304347826087,
+            0.0,
+            0.10869565217391304
+        ],
+        "MC_options": "['A lot of confidence', 'Very favorable', 'Some confidence', 'Somewhat favorable', 'Not too much confidence', 'Somewhat unfavorable', 'No confidence at all', 'Very unfavorable']",
+        "countries": [
+            "Philippines",
+            "United States",
+            "Australia"
+        ]
+    },
+    "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?\n\nCooperation Council for the Arab states of Gulf (GCC)": {
+        "Egypt": [
+            0.002,
+            0.012,
+            0.085,
+            0.255,
+            0.642,
+            0.004
+        ],
+        "Jordan": [
+            0.08800000000000001,
+            0.107,
+            0.189,
+            0.43100000000000005,
+            0.168,
+            0.018000000000000002
+        ],
+        "Tunisia": [
+            0.035,
+            0.195,
+            0.552,
+            0.218,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['A great deal', 'Quite a lot', 'Not very much', 'None at all', \"Don't know\", 'No answer']",
+        "countries": [
+            "Egypt",
+            "Jordan",
+            "Tunisia"
+        ]
+    },
+    "Do you think the world would be a safer place or more dangerous place if there was another country that was equal in power to the United States?": {
+        "Japan": [
+            0.06382978723404255,
+            0.0,
+            0.9361702127659575
+        ],
+        "Russia": [
+            0.4567901234567901,
+            0.5432098765432098,
+            0.0
+        ],
+        "Germany": [
+            0.4470588235294118,
+            0.5529411764705883,
+            0.0
+        ],
+        "MC_options": "['Safer place', 'More dangerous', 'More dangerous place']",
+        "countries": [
+            "Japan",
+            "Russia",
+            "Germany"
+        ]
+    },
+    "For each of the following aspects, indicate how important it is in your life. Would you say it is very important, rather important, not very important or not important at all\n\nReligion": {
+        "Indonesia": [
+            0.981,
+            0.018000000000000002,
+            0.001,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Japan": [
+            0.046,
+            0.099,
+            0.336,
+            0.42100000000000004,
+            0.084,
+            0.013999999999999999,
+            0.0
+        ],
+        "Egypt": [
+            0.973,
+            0.027000000000000003,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['Very important', 'Rather important', 'Not very important', 'Not at all important', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "Indonesia",
+            "Japan",
+            "Egypt"
+        ]
+    },
+    "Please tell us if you strongly agree, agree, disagree, or strongly disagree with the following statements:\n\nThe only acceptable religion is my religion": {
+        "Japan": [
+            0.027000000000000003,
+            0.081,
+            0.276,
+            0.22899999999999998,
+            0.381,
+            0.006,
+            0.0
+        ],
+        "Jordan": [
+            0.853,
+            0.084,
+            0.04,
+            0.019,
+            0.004,
+            0.0,
+            0.0
+        ],
+        "Germany": [
+            0.038,
+            0.064,
+            0.284,
+            0.5650000000000001,
+            0.026000000000000002,
+            0.022000000000000002,
+            0.0
+        ],
+        "MC_options": "['Strongly agree', 'Agree', 'Disagree', 'Strongly disagree', \"Don't know\", 'No answer', 'Missing; Not available; Not applicable']",
+        "countries": [
+            "Japan",
+            "Jordan",
+            "Germany"
+        ]
+    },
+    "What about suicide bombing carried out by Palestinians against Israeli citizens? Do you personally believe that this is justifiable or not justifiable?": {
+        "Pakistan": [
+            0.5662650602409639,
+            0.43373493975903615
+        ],
+        "Jordan": [
+            0.8865979381443299,
+            0.1134020618556701
+        ],
+        "Turkey": [
+            0.26373626373626374,
+            0.7362637362637363
+        ],
+        "MC_options": "['Justifiable', 'Not justifiable']",
+        "countries": [
+            "Pakistan",
+            "Jordan",
+            "Turkey"
+        ]
+    },
+    "Were you happy that the Iraqi military put up so little resistance to the US and its allies, or were you disappointed about that?": {
+        "Jordan": [
+            0.08080808080808081,
+            0.9191919191919192
+        ],
+        "Canada": [
+            0.8876404494382022,
+            0.11235955056179775
+        ],
+        "Italy": [
+            0.8829787234042553,
+            0.11702127659574468
+        ],
+        "MC_options": "['Happy', 'Disappointed']",
+        "countries": [
+            "Jordan",
+            "Canada",
+            "Italy"
+        ]
+    },
+    "Do you agree, disagree or neither agree nor disagree with the following statements?:\n\nHomosexual couples are as good parents as other couples": {
+        "Nigeria": [
+            0.04,
+            0.049,
+            0.035,
+            0.30100000000000005,
+            0.563,
+            0.013000000000000001,
+            0.0,
+            0.0
+        ],
+        "Argentina": [
+            0.004,
+            0.017,
+            0.042,
+            0.151,
+            0.61,
+            0.151,
+            0.025,
+            0.0
+        ],
+        "Canada": [
+            0.42200000000000004,
+            0.30100000000000005,
+            0.19100000000000003,
+            0.047,
+            0.039,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['Agree strongly', 'Agree', 'Neither agree nor disagree', 'Disagree', 'Disagree strongly', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "Nigeria",
+            "Argentina",
+            "Canada"
+        ]
+    },
+    "Do you personally believe that homosexuality is morally acceptable, morally unacceptable, or is it not a moral issue? ": {
+        "Spain": [
+            0.5555555555555556,
+            0.06060606060606061,
+            0.3838383838383838,
+            0.0
+        ],
+        "Egypt": [
+            0.010101010101010102,
+            0.9595959595959596,
+            0.010101010101010102,
+            0.020202020202020204
+        ],
+        "Jordan": [
+            0.020202020202020204,
+            0.9595959595959596,
+            0.020202020202020204,
+            0.0
+        ],
+        "MC_options": "['Morally acceptable', 'Morally unacceptable', 'Not a moral issue', 'Depends on the situation (VOL)']",
+        "countries": [
+            "Spain",
+            "Egypt",
+            "Jordan"
+        ]
+    },
+    "Is your overall opinion of Pope Francis very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable?": {
+        "Pakistan": [
+            0.031746031746031744,
+            0.12698412698412698,
+            0.047619047619047616,
+            0.031746031746031744,
+            0.7301587301587301,
+            0.031746031746031744
+        ],
+        "Tunisia": [
+            0.05263157894736842,
+            0.10526315789473684,
+            0.06578947368421052,
+            0.14473684210526316,
+            0.4342105263157895,
+            0.19736842105263158
+        ],
+        "Poland": [
+            0.5816326530612245,
+            0.35714285714285715,
+            0.030612244897959183,
+            0.0,
+            0.0,
+            0.030612244897959183
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable', 'Never heard of (VOL)', \"Can't rate (VOL)\"]",
+        "countries": [
+            "Pakistan",
+            "Tunisia",
+            "Poland"
+        ]
+    },
+    "Who do you think is mostly to blame for this (that relations between Muslims and people in Western countries are generally bad), Muslims or people in Western countries?": {
+        "Spain": [
+            0.5157894736842106,
+            0.15789473684210525,
+            0.0,
+            0.30526315789473685,
+            0.021052631578947368
+        ],
+        "Jordan": [
+            0.030303030303030304,
+            0.6565656565656566,
+            0.2828282828282828,
+            0.030303030303030304,
+            0.0
+        ],
+        "Germany": [
+            0.5161290322580645,
+            0.16129032258064516,
+            0.0,
+            0.25806451612903225,
+            0.06451612903225806
+        ],
+        "MC_options": "['Muslims', 'People in Western countries/Christians', 'Jews (VOL)', 'Both (VOL)', 'Neither (VOL)']",
+        "countries": [
+            "Spain",
+            "Jordan",
+            "Germany"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable or very unfavorable opinion of ____? e. Saudi King Salman": {
+        "Jordan": [
+            0.5,
+            0.36,
+            0.08,
+            0.04,
+            0.02
+        ],
+        "Turkey": [
+            0.04,
+            0.19,
+            0.18,
+            0.25,
+            0.34
+        ],
+        "Lebanon": [
+            0.13,
+            0.18,
+            0.21,
+            0.43,
+            0.05
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable', 'DK/Refused']",
+        "countries": [
+            "Jordan",
+            "Turkey",
+            "Lebanon"
+        ]
+    },
+    "Which country do you think will win the 2010 World Cup?": {
+        "Pakistan": [
+            0.06666666666666667,
+            0.2,
+            0.26666666666666666,
+            0.06666666666666667,
+            0.0,
+            0.06666666666666667,
+            0.06666666666666667,
+            0.0,
+            0.26666666666666666
+        ],
+        "Spain": [
+            0.025974025974025976,
+            0.0,
+            0.12987012987012986,
+            0.012987012987012988,
+            0.012987012987012988,
+            0.025974025974025976,
+            0.025974025974025976,
+            0.7532467532467533,
+            0.012987012987012988
+        ],
+        "Brazil": [
+            0.034482758620689655,
+            0.0,
+            0.8620689655172413,
+            0.011494252873563218,
+            0.022988505747126436,
+            0.011494252873563218,
+            0.011494252873563218,
+            0.022988505747126436,
+            0.022988505747126436
+        ],
+        "MC_options": "['Argentina', 'Australia', 'Brazil', 'England', 'France', 'Germany', 'Italy', 'Spain', 'Other (VOL)']",
+        "countries": [
+            "Pakistan",
+            "Spain",
+            "Brazil"
+        ]
+    },
+    "What is more to blame for this controversy (about the publication of cartoons with the image of the prophet Muhammad), Western nations' disrespect for the Islamic religion, or Muslims' intolerance to different points of view?": {
+        "Spain": [
+            0.21428571428571427,
+            0.5408163265306123,
+            0.22448979591836735,
+            0.02040816326530612
+        ],
+        "Jordan": [
+            0.9183673469387755,
+            0.04081632653061224,
+            0.02040816326530612,
+            0.02040816326530612
+        ],
+        "Britain": [
+            0.20212765957446807,
+            0.6276595744680851,
+            0.13829787234042554,
+            0.031914893617021274
+        ],
+        "MC_options": "[\"Western nations' disrespect for the Islamic religion\", \"Muslims' intolerance to different points of view\", 'Both (VOL)', 'Neither (VOL)']",
+        "countries": [
+            "Spain",
+            "Jordan",
+            "Britain"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of...Osama bin Laden": {
+        "Pakistan": [
+            0.5405405405405406,
+            0.33783783783783783,
+            0.05405405405405406,
+            0.06756756756756757
+        ],
+        "Britain": [
+            0.010526315789473684,
+            0.021052631578947368,
+            0.07368421052631578,
+            0.8947368421052632
+        ],
+        "Germany": [
+            0.0,
+            0.02040816326530612,
+            0.12244897959183673,
+            0.8571428571428571
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable']",
+        "countries": [
+            "Pakistan",
+            "Britain",
+            "Germany"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of...British Prime Minister Tony Blair": {
+        "Pakistan": [
+            0.015625,
+            0.09375,
+            0.109375,
+            0.78125,
+            0.0
+        ],
+        "United States": [
+            0.4111111111111111,
+            0.4222222222222222,
+            0.07777777777777778,
+            0.044444444444444446,
+            0.044444444444444446
+        ],
+        "Jordan": [
+            0.03260869565217391,
+            0.06521739130434782,
+            0.3695652173913043,
+            0.532608695652174,
+            0.0
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable', 'Never heard of']",
+        "countries": [
+            "Pakistan",
+            "United States",
+            "Jordan"
+        ]
+    },
+    "Which one of these comes closest to your opinion, number 1 or number 2?...#1 - Homosexuality should be accepted by society or #2 - Homosexuality should not be accepted by society": {
+        "Nigeria": [
+            0.010101010101010102,
+            0.98989898989899,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Spain": [
+            0.8888888888888888,
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Germany": [
+            0.8877551020408163,
+            0.11224489795918367,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['Homosexuality is a way of life that should be accepted by society', 'Homosexuality is a way of life that should not be accepted by society', 'Homosexuality should be accepted by society', 'Homosexuality should not be accepted by society', 'DK/Refused']",
+        "countries": [
+            "Nigeria",
+            "Spain",
+            "Germany"
+        ]
+    },
+    "Overall, how much influence do you think Iran is having on the way things are going in your country? Would you say it is having a great deal of influence, a fair amount, not too much, or no influence at all? ": {
+        "Turkey": [
+            0.0625,
+            0.1875,
+            0.5,
+            0.25
+        ],
+        "Tunisia": [
+            0.07692307692307693,
+            0.14102564102564102,
+            0.1794871794871795,
+            0.6025641025641025
+        ],
+        "Lebanon": [
+            0.6060606060606061,
+            0.25252525252525254,
+            0.0707070707070707,
+            0.0707070707070707
+        ],
+        "MC_options": "['Great deal', 'Fair amount', 'Not too much', 'No influence at all']",
+        "countries": [
+            "Turkey",
+            "Tunisia",
+            "Lebanon"
+        ]
+    },
+    "Here are some questions about international organizations. Many people don't know the answers to these questions, but if you do please tell me.\n\nWhich of the following problems does the organization Amnesty International deal with?": {
+        "Nigeria": [
+            0.051,
+            0.49100000000000005,
+            0.051,
+            0.401,
+            0.006999999999999999,
+            0.0
+        ],
+        "Jordan": [
+            0.016,
+            0.612,
+            0.046,
+            0.327,
+            0.0,
+            0.0
+        ],
+        "Turkey": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "MC_options": "['Climate change', 'Human rights', 'Destruction of historic monuments', \"Don't know\", 'No answer', 'Missing; Not available']",
+        "countries": [
+            "Nigeria",
+            "Jordan",
+            "Turkey"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of...Muslims": {
+        "Mexico": [
+            0.014492753623188406,
+            0.2028985507246377,
+            0.463768115942029,
+            0.3188405797101449,
+            0.0
+        ],
+        "Japan": [
+            0.014705882352941176,
+            0.3235294117647059,
+            0.5147058823529411,
+            0.14705882352941177,
+            0.0
+        ],
+        "Pakistan": [
+            0.875,
+            0.11458333333333333,
+            0.0,
+            0.010416666666666666,
+            0.0
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable', 'Never heard of']",
+        "countries": [
+            "Mexico",
+            "Japan",
+            "Pakistan"
+        ]
+    },
+    "I'm going to read you a list of issues that human rights organizations in your country might work on. As I read each one, please tell me how much of a priority you think it should be for these organizations - a top priority, important but lower priority, not too important or should human rights organizations in your country not work on this issue. \ng. guaranteeing that gays and lesbians have the same rights as other people": {
+        "Mexico": [
+            0.43,
+            0.32,
+            0.14,
+            0.07,
+            0.04
+        ],
+        "Indonesia": [
+            0.1188118811881188,
+            0.21782178217821782,
+            0.27722772277227725,
+            0.31683168316831684,
+            0.06930693069306931
+        ],
+        "Kenya": [
+            0.16161616161616163,
+            0.10101010101010101,
+            0.21212121212121213,
+            0.5050505050505051,
+            0.020202020202020204
+        ],
+        "MC_options": "['Top priority', 'Important but lower priority', 'Not too important', 'Should not work on this issue', 'DK/Refused']",
+        "countries": [
+            "Mexico",
+            "Indonesia",
+            "Kenya"
+        ]
+    },
+    "Now I'd like to ask your views about some additional political leaders. Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of Saudi King Abdullah?": {
+        "Pakistan": [
+            0.6086956521739131,
+            0.3188405797101449,
+            0.028985507246376812,
+            0.043478260869565216
+        ],
+        "Jordan": [
+            0.53,
+            0.38,
+            0.07,
+            0.02
+        ],
+        "Tunisia": [
+            0.0410958904109589,
+            0.2328767123287671,
+            0.1917808219178082,
+            0.5342465753424658
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable']",
+        "countries": [
+            "Pakistan",
+            "Jordan",
+            "Tunisia"
+        ]
+    },
+    "How satisfied are you with the following?\n\nThe healthcare system in our country": {
+        "Egypt": [
+            0.368,
+            0.452,
+            0.154,
+            0.017,
+            0.005,
+            0.004
+        ],
+        "Jordan": [
+            0.34500000000000003,
+            0.399,
+            0.19,
+            0.052000000000000005,
+            0.011000000000000001,
+            0.002
+        ],
+        "Lebanon": [
+            0.066,
+            0.195,
+            0.539,
+            0.162,
+            0.0,
+            0.037000000000000005
+        ],
+        "MC_options": "['Completely dissatisfied', 'Rather dissatisfied', 'Rather satisfied', 'Completely satisfied', \"Don't know\", 'No answer']",
+        "countries": [
+            "Egypt",
+            "Jordan",
+            "Lebanon"
+        ]
+    },
+    "I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?\n\nHaving the army rule": {
+        "Pakistan": [
+            0.28,
+            0.29600000000000004,
+            0.21600000000000003,
+            0.161,
+            0.040999999999999995,
+            0.006999999999999999,
+            0.0
+        ],
+        "Argentina": [
+            0.019,
+            0.075,
+            0.4,
+            0.36600000000000005,
+            0.12400000000000001,
+            0.017,
+            0.0
+        ],
+        "Turkey": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "MC_options": "['Very good', 'Fairly good', 'Fairly bad', 'Very bad', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "Pakistan",
+            "Argentina",
+            "Turkey"
+        ]
+    },
+    "Overall, would you say U.S. economic aid to your country is having a mostly positive impact, a mostly negative impact, or no impact on the way things are going in your country?": {
+        "Nigeria": [
+            0.6190476190476191,
+            0.19047619047619047,
+            0.19047619047619047
+        ],
+        "Egypt": [
+            0.24742268041237114,
+            0.5670103092783505,
+            0.18556701030927836
+        ],
+        "Kenya": [
+            0.8041237113402062,
+            0.12371134020618557,
+            0.07216494845360824
+        ],
+        "MC_options": "['Mostly positive', 'Mostly negative', 'No impact']",
+        "countries": [
+            "Nigeria",
+            "Egypt",
+            "Kenya"
+        ]
+    },
+    "I am going to list some different political and social actions that people can take. Have you done this ...  c. voted in an election": {
+        "Greece": [
+            0.1,
+            0.8,
+            0.06,
+            0.04,
+            0.0
+        ],
+        "Argentina": [
+            0.83,
+            0.1,
+            0.03,
+            0.03,
+            0.01
+        ],
+        "Kenya": [
+            0.66,
+            0.08,
+            0.16,
+            0.1,
+            0.0
+        ],
+        "MC_options": "['Have done in the past year', 'Have done in the more distant past', 'Have not done, but might do', 'Have not done and would never do', 'DK/Refused']",
+        "countries": [
+            "Greece",
+            "Argentina",
+            "Kenya"
+        ]
+    },
+    "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?\n\nThe World Bank": {
+        "Philippines": [
+            0.23399999999999999,
+            0.49100000000000005,
+            0.214,
+            0.039,
+            0.021,
+            0.0,
+            0.0
+        ],
+        "Egypt": [
+            0.003,
+            0.047,
+            0.102,
+            0.23500000000000001,
+            0.611,
+            0.002,
+            0.0
+        ],
+        "Indonesia": [
+            0.255,
+            0.44,
+            0.209,
+            0.043,
+            0.054000000000000006,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['A great deal', 'Quite a lot', 'Not very much', 'None at all', \"Don't know\", 'No answer', 'Missing; Unknown']",
+        "countries": [
+            "Philippines",
+            "Egypt",
+            "Indonesia"
+        ]
+    },
+    "And which one of these comes closer to your opinion? Homosexuality should be accepted by society OR Homosexuality should not be accepted by society": {
+        "Nigeria": [
+            0.07,
+            0.91,
+            0.02
+        ],
+        "Spain": [
+            0.89,
+            0.1,
+            0.01
+        ],
+        "Canada": [
+            0.8585858585858586,
+            0.10101010101010101,
+            0.04040404040404041
+        ],
+        "MC_options": "['Homosexuality should be accepted by society', 'Homosexuality should not be accepted by society', 'DK/Refused']",
+        "countries": [
+            "Nigeria",
+            "Spain",
+            "Canada"
+        ]
+    },
+    "Thinking about the first problem you mentioned, what country or international organization should take responsibility for dealing with this problem?": {
+        "Pakistan": [
+            0.11428571428571428,
+            0.014285714285714285,
+            0.12857142857142856,
+            0.0,
+            0.6857142857142857,
+            0.0,
+            0.014285714285714285,
+            0.04285714285714286
+        ],
+        "United States": [
+            0.42168674698795183,
+            0.012048192771084338,
+            0.1566265060240964,
+            0.0,
+            0.0,
+            0.24096385542168675,
+            0.024096385542168676,
+            0.14457831325301204
+        ],
+        "Ukraine": [
+            0.12658227848101267,
+            0.1518987341772152,
+            0.3291139240506329,
+            0.012658227848101266,
+            0.35443037974683544,
+            0.0,
+            0.0,
+            0.02531645569620253
+        ],
+        "MC_options": "['United States', 'European Union', 'United Nations', 'African Union', \"Respondent's own country\", 'All countries/organizations', 'No country/organization', 'Other (VOL)']",
+        "countries": [
+            "Pakistan",
+            "United States",
+            "Ukraine"
+        ]
+    },
+    "Do you personally believe that drinking alcohol is morally acceptable, morally unacceptable, or is it not a moral issue? ": {
+        "Pakistan": [
+            0.010101010101010102,
+            0.9494949494949495,
+            0.020202020202020204,
+            0.020202020202020204
+        ],
+        "Japan": [
+            0.6666666666666666,
+            0.06060606060606061,
+            0.25252525252525254,
+            0.020202020202020204
+        ],
+        "Britain": [
+            0.3838383838383838,
+            0.09090909090909091,
+            0.47474747474747475,
+            0.050505050505050504
+        ],
+        "MC_options": "['Morally acceptable', 'Morally unacceptable', 'Not a moral issue', 'Depends on the situation (VOL)']",
+        "countries": [
+            "Pakistan",
+            "Japan",
+            "Britain"
+        ]
+    },
+    "Now I'm going to read a list of political leaders.  For each, tell me how much confidence you have in each leader to do the right thing regarding world affairs - a lot of confidence, some confidence, not too much confidence, or no confidence at all?...U.S. Presidential candidate Hillary Clinton": {
+        "Japan": [
+            0.10891089108910891,
+            0.5841584158415841,
+            0.18811881188118812,
+            0.0297029702970297,
+            0.0891089108910891
+        ],
+        "Turkey": [
+            0.041666666666666664,
+            0.08333333333333333,
+            0.08333333333333333,
+            0.7916666666666666,
+            0.0
+        ],
+        "Germany": [
+            0.31683168316831684,
+            0.46534653465346537,
+            0.12871287128712872,
+            0.04950495049504951,
+            0.039603960396039604
+        ],
+        "MC_options": "['A lot of confidence', 'Some confidence', 'Not too much confidence', 'No confidence at all', 'DK/Refused']",
+        "countries": [
+            "Japan",
+            "Turkey",
+            "Germany"
+        ]
+    },
+    "On this list are various groups of people. Could you please mention any that you would not like to have as neighbors?\n\nHomosexuals": {
+        "Brazil": [
+            0.068,
+            0.932,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Jordan": [
+            0.938,
+            0.062000000000000006,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Germany": [
+            0.07400000000000001,
+            0.9009999999999999,
+            0.011000000000000001,
+            0.015,
+            0.0
+        ],
+        "MC_options": "['Mentioned', 'Not mentioned', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "Brazil",
+            "Jordan",
+            "Germany"
+        ]
+    },
+    "Now I'm going to read a list of political leaders.  For each, tell me how much confidence you have in each leader to do the right thing regarding world affairs - a lot of confidence, some confidence, not too much confidence, or no confidence at all?...British Prime Minister Tony Blair": {
+        "Australia": [
+            0.2828282828282828,
+            0.5252525252525253,
+            0.1414141414141414,
+            0.050505050505050504
+        ],
+        "Turkey": [
+            0.0,
+            0.08641975308641975,
+            0.07407407407407407,
+            0.8395061728395061
+        ],
+        "Japan": [
+            0.0625,
+            0.5416666666666666,
+            0.34375,
+            0.052083333333333336
+        ],
+        "MC_options": "['A lot of confidence', 'Some confidence', 'Not too much confidence', 'No confidence at all']",
+        "countries": [
+            "Australia",
+            "Turkey",
+            "Japan"
+        ]
+    },
+    "Did you follow news about the political demonstrations in countries such as Egypt, Tunisia, Bahrain and Libya, or not?": {
+        "Pakistan": [
+            0.22,
+            0.78
+        ],
+        "Jordan": [
+            0.98989898989899,
+            0.010101010101010102
+        ],
+        "Egypt": [
+            0.96,
+            0.04
+        ],
+        "MC_options": "['Yes', 'No']",
+        "countries": [
+            "Pakistan",
+            "Jordan",
+            "Egypt"
+        ]
+    },
+    "And how much of a role do you think Islam SHOULD play in the political life of our country - a very large role, a fairly large role, a fairly small role, or a very small role?": {
+        "Pakistan": [
+            0.8426966292134831,
+            0.12359550561797752,
+            0.011235955056179775,
+            0.02247191011235955
+        ],
+        "Turkey": [
+            0.23255813953488372,
+            0.2441860465116279,
+            0.1744186046511628,
+            0.3488372093023256
+        ],
+        "Lebanon": [
+            0.25842696629213485,
+            0.29213483146067415,
+            0.23595505617977527,
+            0.21348314606741572
+        ],
+        "MC_options": "['Very large role', 'Fairly large role', 'Fairly small role', 'Very small role']",
+        "countries": [
+            "Pakistan",
+            "Turkey",
+            "Lebanon"
+        ]
+    },
+    "Do you favor or oppose making the following the law in your country...punishments like whippings and cutting off of hands for crimes like theft and robbery?": {
+        "Pakistan": [
+            0.8631578947368421,
+            0.1368421052631579
+        ],
+        "Turkey": [
+            0.1368421052631579,
+            0.8631578947368421
+        ],
+        "Lebanon": [
+            0.13131313131313133,
+            0.8686868686868687
+        ],
+        "MC_options": "['Favor', 'Oppose']",
+        "countries": [
+            "Pakistan",
+            "Turkey",
+            "Lebanon"
+        ]
+    },
+    "As I read some statements about the role of religion here and elsewhere, please tell me whether you completely agree, mostly agree, mostly disagree, or completely disagree...There should be restrictions on men and women being employed in same workplace": {
+        "Jordan": [
+            0.24210526315789474,
+            0.3473684210526316,
+            0.29473684210526313,
+            0.11578947368421053
+        ],
+        "Turkey": [
+            0.07368421052631578,
+            0.042105263157894736,
+            0.06315789473684211,
+            0.8210526315789474
+        ],
+        "Egypt": [
+            0.2127659574468085,
+            0.35106382978723405,
+            0.30851063829787234,
+            0.1276595744680851
+        ],
+        "MC_options": "['Completely agree', 'Mostly agree', 'Mostly disagree', 'Completely disagree']",
+        "countries": [
+            "Jordan",
+            "Turkey",
+            "Egypt"
+        ]
+    },
+    "Please tell me whether you completely agree, mostly agree, mostly disagree, or completely disagree with the following statements...Women should have the right to decide if they wear a veil": {
+        "Jordan": [
+            0.20408163265306123,
+            0.2857142857142857,
+            0.24489795918367346,
+            0.2653061224489796
+        ],
+        "Egypt": [
+            0.2222222222222222,
+            0.29292929292929293,
+            0.25252525252525254,
+            0.23232323232323232
+        ],
+        "Lebanon": [
+            0.7346938775510204,
+            0.17346938775510204,
+            0.05102040816326531,
+            0.04081632653061224
+        ],
+        "MC_options": "['Completely agree', 'Mostly agree', 'Mostly disagree', 'Completely disagree']",
+        "countries": [
+            "Jordan",
+            "Egypt",
+            "Lebanon"
+        ]
+    },
+    "Overall, how much influence do you think Saudi Arabia is having on the way things are going in your country? Would you say it is having a great deal of influence, a fair amount, not too much, or no influence at all? (Ask if 'A great deal' or 'A fair amount':) Is this a good thing, a bad thing, or neither good nor bad?": {
+        "Jordan": [
+            0.6767676767676768,
+            0.08080808080808081,
+            0.24242424242424243
+        ],
+        "Egypt": [
+            0.65625,
+            0.07291666666666667,
+            0.2708333333333333
+        ],
+        "Turkey": [
+            0.1919191919191919,
+            0.6666666666666666,
+            0.1414141414141414
+        ],
+        "MC_options": "['Good', 'Bad', 'Neither']",
+        "countries": [
+            "Jordan",
+            "Egypt",
+            "Turkey"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of...Saudi Arabia": {
+        "Pakistan": [
+            0.8315789473684211,
+            0.16842105263157894,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "United States": [
+            0.03529411764705882,
+            0.24705882352941178,
+            0.4117647058823529,
+            0.3058823529411765,
+            0.0
+        ],
+        "Turkey": [
+            0.08,
+            0.26,
+            0.26,
+            0.3,
+            0.1
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable', 'DK/Refused']",
+        "countries": [
+            "Pakistan",
+            "United States",
+            "Turkey"
+        ]
+    },
+    "Do you agree, disagree or neither agree nor disagree with the following statements?\n\nWhen jobs are scarce, men should have more right to a job than women": {
+        "United States": [
+            0.052000000000000005,
+            0.775,
+            0.171,
+            0.0,
+            0.002,
+            0.0
+        ],
+        "Egypt": [
+            0.8940000000000001,
+            0.057999999999999996,
+            0.047,
+            0.002,
+            0.0,
+            0.0
+        ],
+        "Canada": [
+            0.057,
+            0.826,
+            0.11699999999999999,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['Agree', 'Disagree', 'Neither agree nor disagree', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "United States",
+            "Egypt",
+            "Canada"
+        ]
+    },
+    "How much have ordinary people benefited from the changes since 1989/1991- a great deal, a fair amount, not too much, or not at all?": {
+        "Ukraine": [
+            0.01020408163265306,
+            0.10204081632653061,
+            0.15306122448979592,
+            0.7346938775510204
+        ],
+        "Russia": [
+            0.07368421052631578,
+            0.2,
+            0.2,
+            0.5263157894736842
+        ],
+        "Poland": [
+            0.09278350515463918,
+            0.3402061855670103,
+            0.3711340206185567,
+            0.1958762886597938
+        ],
+        "MC_options": "['Great deal', 'Fair amount', 'Not too much', 'Not at all']",
+        "countries": [
+            "Ukraine",
+            "Russia",
+            "Poland"
+        ]
+    },
+    "To what degree are you worried about the following situations?\n\nNot being able to give one's children a good education": {
+        "Indonesia": [
+            0.55,
+            0.212,
+            0.027999999999999997,
+            0.009000000000000001,
+            0.001,
+            0.0,
+            0.201
+        ],
+        "Mexico": [
+            0.8079999999999999,
+            0.091,
+            0.048,
+            0.044000000000000004,
+            0.005,
+            0.004,
+            0.0
+        ],
+        "Germany": [
+            0.059000000000000004,
+            0.121,
+            0.25,
+            0.43100000000000005,
+            0.026000000000000002,
+            0.113,
+            0.0
+        ],
+        "MC_options": "['Very much', 'A great deal', 'Not much', 'Not at all', \"Don't know\", 'No answer', 'Other missing; Not applicable; Multiple answers Mail (EVS)']",
+        "countries": [
+            "Indonesia",
+            "Mexico",
+            "Germany"
+        ]
+    },
+    "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?\n\nThe North Atlantic Treaty Organization (NATO)": {
+        "United States": [
+            0.086,
+            0.36,
+            0.418,
+            0.1,
+            0.004,
+            0.033,
+            0.0
+        ],
+        "Egypt": [
+            0.002,
+            0.005,
+            0.033,
+            0.212,
+            0.743,
+            0.003,
+            0.0
+        ],
+        "Canada": [
+            0.083,
+            0.48100000000000004,
+            0.363,
+            0.073,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['A great deal', 'Quite a lot', 'Not very much', 'None at all', \"Don't know\", 'No answer', 'Missing; Unknown']",
+        "countries": [
+            "United States",
+            "Egypt",
+            "Canada"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable or very unfavorable opinion of...the Islamic militant group in Iraq and Syria known as ISIS?": {
+        "Pakistan": [
+            0.010101010101010102,
+            0.08080808080808081,
+            0.09090909090909091,
+            0.1919191919191919,
+            0.6262626262626263
+        ],
+        "Jordan": [
+            0.0,
+            0.0297029702970297,
+            0.04950495049504951,
+            0.8811881188118812,
+            0.039603960396039604
+        ],
+        "Lebanon": [
+            0.0,
+            0.0,
+            0.009900990099009901,
+            0.9801980198019802,
+            0.009900990099009901
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable', \"Don't know/Refused\"]",
+        "countries": [
+            "Pakistan",
+            "Jordan",
+            "Lebanon"
+        ]
+    },
+    "Overall do you think that India's growing economy is a good thing or a bad thing for our country?": {
+        "Pakistan": [
+            0.3375,
+            0.6625
+        ],
+        "Japan": [
+            0.8735632183908046,
+            0.12643678160919541
+        ],
+        "Indonesia": [
+            0.7307692307692307,
+            0.2692307692307692
+        ],
+        "MC_options": "['Good', 'Bad']",
+        "countries": [
+            "Pakistan",
+            "Japan",
+            "Indonesia"
+        ]
+    },
+    "Aside from weddings and funerals how often do you attend religious services... more than once a week, once a week, once or twice a month, a few times a year, seldom, or never?": {
+        "Indonesia": [
+            0.4583333333333333,
+            0.3055555555555556,
+            0.125,
+            0.08333333333333333,
+            0.027777777777777776,
+            0.0
+        ],
+        "Japan": [
+            0.02,
+            0.02,
+            0.1,
+            0.38,
+            0.28,
+            0.2
+        ],
+        "France": [
+            0.01,
+            0.06,
+            0.06,
+            0.28,
+            0.15,
+            0.44
+        ],
+        "MC_options": "['More than once a week', 'Once a week', 'Once or twice a month', 'A few times a year', 'Seldom', 'Never']",
+        "countries": [
+            "Indonesia",
+            "Japan",
+            "France"
+        ]
+    },
+    "Now I'm going to read a list of political leaders.  For each, tell me how much confidence you have in each leader to do the right thing regarding world affairs - a lot of confidence, some confidence, not too much confidence, or no confidence at all?...Israeli Prime Minister Ariel Sharon": {
+        "United States": [
+            0.07954545454545454,
+            0.4772727272727273,
+            0.26136363636363635,
+            0.18181818181818182
+        ],
+        "Australia": [
+            0.043478260869565216,
+            0.34782608695652173,
+            0.3695652173913043,
+            0.2391304347826087
+        ],
+        "Jordan": [
+            0.0,
+            0.0,
+            0.02,
+            0.98
+        ],
+        "MC_options": "['A lot of confidence', 'Some confidence', 'Not too much confidence', 'No confidence at all']",
+        "countries": [
+            "United States",
+            "Australia",
+            "Jordan"
+        ]
+    },
+    "Do you think the European Union promotes prosperity?": {
+        "Greece": [
+            0.35,
+            0.63,
+            0.02
+        ],
+        "Spain": [
+            0.984375,
+            0.0,
+            0.015625
+        ],
+        "France": [
+            0.9818181818181818,
+            0.0,
+            0.01818181818181818
+        ],
+        "MC_options": "['Yes', 'No', 'DK/Refused']",
+        "countries": [
+            "Greece",
+            "Spain",
+            "France"
+        ]
+    },
+    "How satisfied are you with the following?\n\nThe system of social security in our country": {
+        "Egypt": [
+            0.41000000000000003,
+            0.42200000000000004,
+            0.14400000000000002,
+            0.009000000000000001,
+            0.012,
+            0.002
+        ],
+        "Jordan": [
+            0.368,
+            0.35200000000000004,
+            0.184,
+            0.055999999999999994,
+            0.034,
+            0.006999999999999999
+        ],
+        "Lebanon": [
+            0.102,
+            0.22399999999999998,
+            0.461,
+            0.111,
+            0.0,
+            0.10300000000000001
+        ],
+        "MC_options": "['Completely dissatisfied', 'Rather dissatisfied', 'Rather satisfied', 'Completely satisfied', \"Don't know\", 'No answer']",
+        "countries": [
+            "Egypt",
+            "Jordan",
+            "Lebanon"
+        ]
+    },
+    "Do you think the government of ____ respects the personal freedoms of its people or don\u2019t you think so? a. China": {
+        "Pakistan": [
+            0.8904109589041096,
+            0.1095890410958904,
+            0.0
+        ],
+        "Japan": [
+            0.06,
+            0.9,
+            0.04
+        ],
+        "Poland": [
+            0.05,
+            0.76,
+            0.19
+        ],
+        "MC_options": "['Yes, respects personal freedoms', 'No, does not respect personal freedoms', 'DK/Refused']",
+        "countries": [
+            "Pakistan",
+            "Japan",
+            "Poland"
+        ]
+    },
+    "Think of the changes that have taken place in your country since 1989  /  1991. Have those changes had a very good influence, a good influence, a bad influence or a very bad influence on the following? d. The standard of living": {
+        "Ukraine": [
+            0.04950495049504951,
+            0.22772277227722773,
+            0.31683168316831684,
+            0.25742574257425743,
+            0.0594059405940594,
+            0.0891089108910891
+        ],
+        "Germany": [
+            0.12871287128712872,
+            0.6138613861386139,
+            0.1782178217821782,
+            0.0297029702970297,
+            0.0297029702970297,
+            0.019801980198019802
+        ],
+        "Poland": [
+            0.18,
+            0.63,
+            0.11,
+            0.02,
+            0.03,
+            0.03
+        ],
+        "MC_options": "['Very good influence', 'Good influence', 'Bad influence', 'Very bad influence', 'No influence (DO NOT READ)', 'DK/Refused']",
+        "countries": [
+            "Ukraine",
+            "Germany",
+            "Poland"
+        ]
+    },
+    "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?\n\nThe Organization of the Islamic Cooperation": {
+        "Egypt": [
+            0.013000000000000001,
+            0.133,
+            0.14800000000000002,
+            0.179,
+            0.522,
+            0.004
+        ],
+        "Jordan": [
+            0.11800000000000001,
+            0.152,
+            0.198,
+            0.384,
+            0.129,
+            0.019
+        ],
+        "Tunisia": [
+            0.062000000000000006,
+            0.226,
+            0.517,
+            0.195,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['A great deal', 'Quite a lot', 'Not very much', 'None at all', \"Don't know\", 'No answer']",
+        "countries": [
+            "Egypt",
+            "Jordan",
+            "Tunisia"
+        ]
+    },
+    "Now I'm going to read a list of political leaders.  For each, tell me how much confidence you have in each leader to do the right thing regarding world affairs - a lot of confidence, some confidence, not too much confidence, or no confidence at all?...U.S. President Barack Obama.": {
+        "Philippines": [
+            0.53,
+            0.41,
+            0.05,
+            0.01,
+            0.0
+        ],
+        "Jordan": [
+            0.030927835051546393,
+            0.1134020618556701,
+            0.27835051546391754,
+            0.5773195876288659,
+            0.0
+        ],
+        "Russia": [
+            0.030927835051546393,
+            0.08247422680412371,
+            0.24742268041237114,
+            0.6391752577319587,
+            0.0
+        ],
+        "MC_options": "['A lot of confidence', 'Some confidence', 'Not too much confidence', 'No confidence at all', 'DK/Refused']",
+        "countries": [
+            "Philippines",
+            "Jordan",
+            "Russia"
+        ]
+    },
+    "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?\n\nThe World Trade Organization (WTO)": {
+        "Philippines": [
+            0.189,
+            0.508,
+            0.237,
+            0.04,
+            0.026000000000000002,
+            0.0,
+            0.0
+        ],
+        "Egypt": [
+            0.004,
+            0.043,
+            0.08199999999999999,
+            0.18600000000000003,
+            0.6809999999999999,
+            0.003,
+            0.0
+        ],
+        "Canada": [
+            0.051,
+            0.42100000000000004,
+            0.42700000000000005,
+            0.102,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['A great deal', 'Quite a lot', 'Not very much', 'None at all', \"Don't know\", 'No answer', 'Missing; Unknown']",
+        "countries": [
+            "Philippines",
+            "Egypt",
+            "Canada"
+        ]
+    },
+    "Do you favor or oppose making the following the law in your country...stoning people who commit adultery?": {
+        "Pakistan": [
+            0.8817204301075269,
+            0.11827956989247312
+        ],
+        "Egypt": [
+            0.8541666666666666,
+            0.14583333333333334
+        ],
+        "Turkey": [
+            0.17204301075268819,
+            0.8279569892473119
+        ],
+        "MC_options": "['Favor', 'Oppose']",
+        "countries": [
+            "Pakistan",
+            "Egypt",
+            "Turkey"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of...China": {
+        "Pakistan": [
+            0.7093023255813954,
+            0.2441860465116279,
+            0.03488372093023256,
+            0.011627906976744186,
+            0.0
+        ],
+        "Japan": [
+            0.0,
+            0.09,
+            0.34,
+            0.52,
+            0.05
+        ],
+        "Australia": [
+            0.010101010101010102,
+            0.1414141414141414,
+            0.36363636363636365,
+            0.45454545454545453,
+            0.030303030303030304
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable', 'DK/Refused']",
+        "countries": [
+            "Pakistan",
+            "Japan",
+            "Australia"
+        ]
+    },
+    "In the city or area where you live, are you satisfied or dissatisfied with the quality of the following?\n\nThe quality of health care": {
+        "Jordan": [
+            0.068,
+            0.2,
+            0.33299999999999996,
+            0.395,
+            0.004,
+            0.0
+        ],
+        "Egypt": [
+            0.057999999999999996,
+            0.278,
+            0.353,
+            0.311,
+            0.0,
+            0.0
+        ],
+        "Lebanon": [
+            0.244,
+            0.528,
+            0.135,
+            0.08800000000000001,
+            0.0,
+            0.005
+        ],
+        "MC_options": "['Very satisfied', 'Fairly satisfied', 'Fairly Dissatisfied', 'Very dissatisfied', \"Don't know\", 'No answer']",
+        "countries": [
+            "Jordan",
+            "Egypt",
+            "Lebanon"
+        ]
+    },
+    "Right now, is the United States having a positive or negative impact on economic conditions in  your country?": {
+        "Pakistan": [
+            0.10309278350515463,
+            0.865979381443299,
+            0.030927835051546393
+        ],
+        "Philippines": [
+            0.8787878787878788,
+            0.10101010101010101,
+            0.020202020202020204
+        ],
+        "Kenya": [
+            0.797979797979798,
+            0.1414141414141414,
+            0.06060606060606061
+        ],
+        "MC_options": "['Positive', 'Negative', 'Neither/both (VOL)']",
+        "countries": [
+            "Pakistan",
+            "Philippines",
+            "Kenya"
+        ]
+    },
+    "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?\n\nThe International Monetary Fund (IMF)": {
+        "Philippines": [
+            0.142,
+            0.47700000000000004,
+            0.292,
+            0.043,
+            0.045,
+            0.0,
+            0.0
+        ],
+        "Egypt": [
+            0.002,
+            0.031000000000000003,
+            0.11800000000000001,
+            0.292,
+            0.554,
+            0.002,
+            0.0
+        ],
+        "Indonesia": [
+            0.21100000000000002,
+            0.43700000000000006,
+            0.251,
+            0.044000000000000004,
+            0.057,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['A great deal', 'Quite a lot', 'Not very much', 'None at all', \"Don't know\", 'No answer', 'Missing; Not available']",
+        "countries": [
+            "Philippines",
+            "Egypt",
+            "Indonesia"
+        ]
+    },
+    "To what degree are you worried about the following situations?\n\nA civil war": {
+        "Indonesia": [
+            0.642,
+            0.287,
+            0.05,
+            0.022000000000000002,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Philippines": [
+            0.545,
+            0.36200000000000004,
+            0.077,
+            0.016,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Germany": [
+            0.07400000000000001,
+            0.092,
+            0.34600000000000003,
+            0.48200000000000004,
+            0.006999999999999999,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['Very much', 'A great deal', 'Not much', 'Not at all', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "Indonesia",
+            "Philippines",
+            "Germany"
+        ]
+    },
+    "Do you agree, disagree or neither agree nor disagree with the following statements?:\n\nIt is childs duty to take care of ill parent": {
+        "Brazil": [
+            0.0,
+            0.8370000000000001,
+            0.08800000000000001,
+            0.07,
+            0.0,
+            0.005,
+            0.0,
+            0.0
+        ],
+        "Egypt": [
+            0.8150000000000001,
+            0.163,
+            0.017,
+            0.003,
+            0.001,
+            0.001,
+            0.0,
+            0.0
+        ],
+        "Australia": [
+            0.0,
+            0.509,
+            0.3,
+            0.166,
+            0.0,
+            0.019,
+            0.005,
+            0.0
+        ],
+        "MC_options": "['Agree strongly', 'Agree', 'Neither agree nor disagree', 'Disagree', 'Disagree strongly', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "Brazil",
+            "Egypt",
+            "Australia"
+        ]
+    },
+    "When it comes to Germany\u2019s decision-making in the European Union, do you think Germany has too much influence, has too little influence or has about the right amount of influence?": {
+        "Greece": [
+            0.86,
+            0.04,
+            0.1,
+            0.0
+        ],
+        "France": [
+            0.35,
+            0.09,
+            0.54,
+            0.02
+        ],
+        "Germany": [
+            0.13131313131313133,
+            0.30303030303030304,
+            0.5252525252525253,
+            0.04040404040404041
+        ],
+        "MC_options": "['Has too much influence', 'Has too little influence', 'Has about the right amount of influence', 'DK/Refused']",
+        "countries": [
+            "Greece",
+            "France",
+            "Germany"
+        ]
+    },
+    "Which one of the following do you think is the most important cause of Islamic extremism in our country?  Is it due to: Government corruption; Immorality; U.S. policies and influence; Poverty and lack of jobs; Lack of education; Lawlessness?": {
+        "Indonesia": [
+            0.14736842105263157,
+            0.3684210526315789,
+            0.1368421052631579,
+            0.15789473684210525,
+            0.042105263157894736,
+            0.14736842105263157
+        ],
+        "Pakistan": [
+            0.11494252873563218,
+            0.05747126436781609,
+            0.13793103448275862,
+            0.4367816091954023,
+            0.1839080459770115,
+            0.06896551724137931
+        ],
+        "Lebanon": [
+            0.14583333333333334,
+            0.10416666666666667,
+            0.4166666666666667,
+            0.21875,
+            0.08333333333333333,
+            0.03125
+        ],
+        "Turkey": [
+            0.07228915662650602,
+            0.1686746987951807,
+            0.14457831325301204,
+            0.1686746987951807,
+            0.40963855421686746,
+            0.03614457831325301
+        ],
+        "MC_options": "['Government corruption', 'Immorality', 'US policies and influence', 'Poverty and lack of jobs', 'Lack of education', 'Lawlessness']",
+        "countries": [
+            "Indonesia",
+            "Pakistan",
+            "Lebanon",
+            "Turkey"
+        ]
+    },
+    "Is it more important for your country to have strong economic ties with China or with the United States?": {
+        "Pakistan": [
+            0.8470588235294118,
+            0.08235294117647059,
+            0.058823529411764705,
+            0.0,
+            0.011764705882352941,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Canada": [
+            0.13541666666666666,
+            0.7604166666666666,
+            0.08333333333333333,
+            0.0,
+            0.020833333333333332,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Tunisia": [
+            0.1414141414141414,
+            0.09090909090909091,
+            0.0,
+            0.0,
+            0.0,
+            0.6666666666666666,
+            0.020202020202020204,
+            0.08080808080808081
+        ],
+        "MC_options": "['China', 'United States', 'Both (VOL)', 'Both equally (VOL)', 'Neither (VOL)', 'Both (DO NOT READ)', 'Neither (DO NOT READ)', 'DK/Refused']",
+        "countries": [
+            "Pakistan",
+            "Canada",
+            "Tunisia"
+        ]
+    },
+    "Regardless of how you feel about the protests, were you sympathetic to Muslims who were offended by these cartoons, or not?": {
+        "Spain": [
+            0.17708333333333334,
+            0.8229166666666666
+        ],
+        "Jordan": [
+            0.99,
+            0.01
+        ],
+        "Egypt": [
+            0.98989898989899,
+            0.010101010101010102
+        ],
+        "MC_options": "['Yes, sympathetic', 'No, not sympathetic']",
+        "countries": [
+            "Spain",
+            "Jordan",
+            "Egypt"
+        ]
+    },
+    "Please tell me if you have a very favorable, somewhat favorable, somewhat unfavorable, or very unfavorable opinion of...Christians": {
+        "Ukraine": [
+            0.3854166666666667,
+            0.59375,
+            0.020833333333333332,
+            0.0
+        ],
+        "Turkey": [
+            0.011627906976744186,
+            0.046511627906976744,
+            0.2441860465116279,
+            0.6976744186046512
+        ],
+        "Lebanon": [
+            0.46938775510204084,
+            0.5204081632653061,
+            0.0,
+            0.01020408163265306
+        ],
+        "MC_options": "['Very favorable', 'Somewhat favorable', 'Somewhat unfavorable', 'Very unfavorable']",
+        "countries": [
+            "Ukraine",
+            "Turkey",
+            "Lebanon"
+        ]
+    },
+    "Now I\u2019m going to read a list of political leaders. For each, tell me how much confidence you have in each leader to do the right thing regarding world affairs \u2013 a lot of confidence, some confidence, not too much confidence, or no confidence at all...Chinese President Xi Jinping": {
+        "Pakistan": [
+            0.4444444444444444,
+            0.4,
+            0.022222222222222223,
+            0.13333333333333333,
+            0.0
+        ],
+        "Japan": [
+            0.01,
+            0.09,
+            0.41,
+            0.45,
+            0.04
+        ],
+        "Russia": [
+            0.19,
+            0.4,
+            0.1,
+            0.03,
+            0.28
+        ],
+        "MC_options": "['A lot of confidence', 'Some confidence', 'Not too much confidence', 'No confidence at all', 'DK/Refused']",
+        "countries": [
+            "Pakistan",
+            "Japan",
+            "Russia"
+        ]
+    },
+    "I will now read a list of groups. Which one do you think has the most influence on American policy toward other countries?": {
+        "United States": [
+            0.43010752688172044,
+            0.24731182795698925,
+            0.010752688172043012,
+            0.07526881720430108,
+            0.07526881720430108,
+            0.021505376344086023,
+            0.13978494623655913
+        ],
+        "Lebanon": [
+            0.030927835051546393,
+            0.1134020618556701,
+            0.6185567010309279,
+            0.13402061855670103,
+            0.030927835051546393,
+            0.030927835051546393,
+            0.041237113402061855
+        ],
+        "Russia": [
+            0.15789473684210525,
+            0.39473684210526316,
+            0.06578947368421052,
+            0.013157894736842105,
+            0.2236842105263158,
+            0.039473684210526314,
+            0.10526315789473684
+        ],
+        "MC_options": "['The  media', 'Business corporations', 'Jews', 'Christian conservatives', 'The military', 'Liberals', 'Ordinary Americans']",
+        "countries": [
+            "United States",
+            "Lebanon",
+            "Russia"
+        ]
+    },
+    "Do you agree, disagree or neither agree nor disagree with the following statements?:\n\nDuty towards society to have children": {
+        "United States": [
+            0.026000000000000002,
+            0.075,
+            0.33799999999999997,
+            0.322,
+            0.228,
+            0.0,
+            0.01,
+            0.0
+        ],
+        "Jordan": [
+            0.508,
+            0.326,
+            0.083,
+            0.071,
+            0.008,
+            0.004,
+            0.0,
+            0.0
+        ],
+        "Canada": [
+            0.026000000000000002,
+            0.084,
+            0.245,
+            0.308,
+            0.337,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['Agree strongly', 'Agree', 'Neither agree nor disagree', 'Disagree', 'Disagree strongly', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "United States",
+            "Jordan",
+            "Canada"
+        ]
+    },
+    "Now I'm going to read a list of political leaders.  For each, tell me how much confidence you have in each leader to do the right thing regarding world affairs - a lot of confidence, some confidence, not too much confidence, or no confidence at all?...Saudi King Abdullah": {
+        "Pakistan": [
+            0.6363636363636364,
+            0.2987012987012987,
+            0.025974025974025976,
+            0.03896103896103896
+        ],
+        "Turkey": [
+            0.0379746835443038,
+            0.12658227848101267,
+            0.24050632911392406,
+            0.5949367088607594
+        ],
+        "Russia": [
+            0.029411764705882353,
+            0.17647058823529413,
+            0.38235294117647056,
+            0.4117647058823529
+        ],
+        "MC_options": "['A lot of confidence', 'Some confidence', 'Not too much confidence', 'No confidence at all']",
+        "countries": [
+            "Pakistan",
+            "Turkey",
+            "Russia"
+        ]
+    },
+    "Would you say that the economic situation for most your nationality people today is better, worse, or about the same as it was under communism?": {
+        "Ukraine": [
+            0.25,
+            0.54,
+            0.12,
+            0.09
+        ],
+        "Russia": [
+            0.27,
+            0.53,
+            0.13,
+            0.07
+        ],
+        "Poland": [
+            0.74,
+            0.09,
+            0.14,
+            0.03
+        ],
+        "MC_options": "['Better', 'Worse', 'About the same', 'DK/Refused']",
+        "countries": [
+            "Ukraine",
+            "Russia",
+            "Poland"
+        ]
+    },
+    "I'm going to describe various types of political systems and ask what you think about each as a way of governing this country. For each one, would you say it is a very good, fairly good, fairly bad or very bad way of governing this country?\n\nHaving a system governed by religious law in which there are no political parties or elections": {
+        "Philippines": [
+            0.151,
+            0.47500000000000003,
+            0.278,
+            0.096,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Japan": [
+            0.004,
+            0.01,
+            0.10099999999999999,
+            0.7390000000000001,
+            0.141,
+            0.005,
+            0.0
+        ],
+        "Germany": [
+            0.006999999999999999,
+            0.02,
+            0.12400000000000001,
+            0.823,
+            0.02,
+            0.006999999999999999,
+            0.0
+        ],
+        "MC_options": "['Very good', 'Fairly good', 'Bad', 'Very bad', \"Don't know\", 'No answer', 'Missing; Not available']",
+        "countries": [
+            "Philippines",
+            "Japan",
+            "Germany"
+        ]
+    },
+    "Now I'm going to read a list of political leaders.  For each, tell me how much confidence you have in each leader to do the right thing regarding world affairs - a lot of confidence, some confidence, not too much confidence, or no confidence at all?...U.S. Presidential candidate Barack Obama": {
+        "Japan": [
+            0.12222222222222222,
+            0.6777777777777778,
+            0.17777777777777778,
+            0.022222222222222223
+        ],
+        "Turkey": [
+            0.03076923076923077,
+            0.07692307692307693,
+            0.07692307692307693,
+            0.8153846153846154
+        ],
+        "Germany": [
+            0.2553191489361702,
+            0.5212765957446809,
+            0.1702127659574468,
+            0.05319148936170213
+        ],
+        "MC_options": "['A lot of confidence', 'Some confidence', 'Not too much confidence', 'No confidence at all']",
+        "countries": [
+            "Japan",
+            "Turkey",
+            "Germany"
+        ]
+    },
+    "In your view, how often do the following things occur in this country\u2019s elections?\n\nVoters are bribed": {
+        "Nigeria": [
+            0.568,
+            0.271,
+            0.107,
+            0.028999999999999998,
+            0.025,
+            0.0,
+            0.0
+        ],
+        "Argentina": [
+            0.01,
+            0.067,
+            0.204,
+            0.355,
+            0.341,
+            0.022000000000000002,
+            0.0
+        ],
+        "Germany": [
+            0.013999999999999999,
+            0.07,
+            0.24600000000000002,
+            0.524,
+            0.136,
+            0.01,
+            0.0
+        ],
+        "MC_options": "['Very often', 'Fairly often', 'Not often', 'Not at all often', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "Nigeria",
+            "Argentina",
+            "Germany"
+        ]
+    },
+    "When it comes to Germany\u2019s influence in decision-making in the European Union, do you think Germany ____?": {
+        "Greece": [
+            0.89,
+            0.05,
+            0.05,
+            0.01
+        ],
+        "Italy": [
+            0.68,
+            0.1,
+            0.14,
+            0.08
+        ],
+        "Germany": [
+            0.10101010101010101,
+            0.26262626262626265,
+            0.6060606060606061,
+            0.030303030303030304
+        ],
+        "MC_options": "['Has too much influence', 'Has too little influence', 'Has about the right amount of influence', 'DK/Refused']",
+        "countries": [
+            "Greece",
+            "Italy",
+            "Germany"
+        ]
+    },
+    "Which of the following is taking the best approach to fixing the global economic crisis - the United States, China, or the European Union?": {
+        "Pakistan": [
+            0.25,
+            0.546875,
+            0.046875,
+            0.140625,
+            0.015625
+        ],
+        "Jordan": [
+            0.43,
+            0.32,
+            0.1,
+            0.14,
+            0.01
+        ],
+        "Germany": [
+            0.14130434782608695,
+            0.06521739130434782,
+            0.7391304347826086,
+            0.05434782608695652,
+            0.0
+        ],
+        "MC_options": "['United States', 'China', 'European Union', 'None/No difference (VOL)', 'Other (VOL)']",
+        "countries": [
+            "Pakistan",
+            "Jordan",
+            "Germany"
+        ]
+    },
+    "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?\n\nThe World Health Organization (WHO)": {
+        "Philippines": [
+            0.335,
+            0.485,
+            0.149,
+            0.018000000000000002,
+            0.013000000000000001,
+            0.0,
+            0.0
+        ],
+        "Australia": [
+            0.025,
+            0.414,
+            0.308,
+            0.004,
+            0.017,
+            0.006,
+            0.227
+        ],
+        "Egypt": [
+            0.019,
+            0.109,
+            0.10800000000000001,
+            0.17600000000000002,
+            0.585,
+            0.002,
+            0.0
+        ],
+        "MC_options": "['A great deal', 'Quite a lot', 'Not very much', 'None at all', \"Don't know\", 'No answer', 'Missing; Unknown']",
+        "countries": [
+            "Philippines",
+            "Australia",
+            "Egypt"
+        ]
+    },
+    "Again thinking back to 1989, do you strongly approve, approve, disapprove or strongly disapprove that our country moved from having a state controlled economy to having a market economy?": {
+        "Ukraine": [
+            0.058823529411764705,
+            0.3411764705882353,
+            0.43529411764705883,
+            0.16470588235294117,
+            0.0
+        ],
+        "Germany": [
+            0.3617021276595745,
+            0.5106382978723404,
+            0.11702127659574468,
+            0.010638297872340425,
+            0.0
+        ],
+        "Poland": [
+            0.4,
+            0.45,
+            0.06,
+            0.02,
+            0.07
+        ],
+        "MC_options": "['Strongly approve', 'Approve', 'Disapprove', 'Strongly disapprove', 'DK/Refused']",
+        "countries": [
+            "Ukraine",
+            "Germany",
+            "Poland"
+        ]
+    },
+    "Do you agree or disagree with the following statements?\n\nWork should always come first, even if it means less spare time": {
+        "Japan": [
+            0.01,
+            0.091,
+            0.28500000000000003,
+            0.441,
+            0.149,
+            0.021,
+            0.003,
+            0.0
+        ],
+        "Egypt": [
+            0.612,
+            0.307,
+            0.038,
+            0.023,
+            0.01,
+            0.01,
+            0.001,
+            0.0
+        ],
+        "Jordan": [
+            0.513,
+            0.36200000000000004,
+            0.055,
+            0.061,
+            0.006999999999999999,
+            0.002,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['Agree strongly', 'Agree', 'Neither agree nor disagree', 'Disagree', 'Disagree strongly', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "Japan",
+            "Egypt",
+            "Jordan"
+        ]
+    },
+    "In your view, how often do the following things occur in this country\u2019s elections?\n\nVoters are threatened with violence at the polls": {
+        "Nigeria": [
+            0.39299999999999996,
+            0.33799999999999997,
+            0.19,
+            0.057999999999999996,
+            0.019,
+            0.002,
+            0.0
+        ],
+        "Philippines": [
+            0.21100000000000002,
+            0.42600000000000005,
+            0.28300000000000003,
+            0.08,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Germany": [
+            0.006,
+            0.006999999999999999,
+            0.057999999999999996,
+            0.853,
+            0.065,
+            0.011000000000000001,
+            0.0
+        ],
+        "MC_options": "['Very often', 'Fairly often', 'Not often', 'Not at all often', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "Nigeria",
+            "Philippines",
+            "Germany"
+        ]
+    },
+    "Please tell me whether you completely agree, mostly agree, mostly disagree, or completely disagree with the following statements...When jobs are scarce, men should have more right to a job than women": {
+        "Pakistan": [
+            0.6161616161616161,
+            0.20202020202020202,
+            0.08080808080808081,
+            0.10101010101010101,
+            0.0
+        ],
+        "Egypt": [
+            0.46875,
+            0.3541666666666667,
+            0.10416666666666667,
+            0.07291666666666667,
+            0.0
+        ],
+        "Canada": [
+            0.03,
+            0.08,
+            0.21,
+            0.67,
+            0.01
+        ],
+        "MC_options": "['Completely agree', 'Mostly agree', 'Mostly disagree', 'Completely disagree', 'DK/Refused']",
+        "countries": [
+            "Pakistan",
+            "Egypt",
+            "Canada"
+        ]
+    },
+    "I am going to name a number of organizations. For each one, could you tell me how much confidence you have in them: is it a great deal of confidence, quite a lot of confidence, not very much confidence or none at all?\n\nInternational Criminal Court (ICC)": {
+        "Philippines": [
+            0.152,
+            0.454,
+            0.308,
+            0.045,
+            0.04,
+            0.0,
+            0.0
+        ],
+        "Egypt": [
+            0.008,
+            0.046,
+            0.071,
+            0.207,
+            0.667,
+            0.002,
+            0.0
+        ],
+        "Canada": [
+            0.067,
+            0.446,
+            0.394,
+            0.09300000000000001,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['A great deal', 'Quite a lot', 'Not very much', 'None at all', \"Don't know\", 'No answer', 'Missing; Unknown']",
+        "countries": [
+            "Philippines",
+            "Egypt",
+            "Canada"
+        ]
+    },
+    "Now I'd like you to look at this card. I'm going to read out some different forms of political action that people can take, and I'd like you to tell me, for each one, whether you have actually done any of these things, whether you might do it or would never, under any circumstances, do it.\n\nSigning a petition": {
+        "United States": [
+            0.5970000000000001,
+            0.309,
+            0.084,
+            0.001,
+            0.009000000000000001,
+            0.0
+        ],
+        "Egypt": [
+            0.059000000000000004,
+            0.049,
+            0.8620000000000001,
+            0.023,
+            0.006,
+            0.0
+        ],
+        "Canada": [
+            0.7020000000000001,
+            0.242,
+            0.055999999999999994,
+            0.0,
+            0.0,
+            0.0
+        ],
+        "MC_options": "['Have done', 'Might do', 'Would never do', \"Don't know\", 'No answer', 'Other missing; Multiple answers Mail (EVS)']",
+        "countries": [
+            "United States",
+            "Egypt",
+            "Canada"
+        ]
+    },
+    "Which one of these comes closest to your opinion, number 1 or number 2?...#1 - It is not necessary to believe in God in order to be moral and have good values or #2 - It is necessary to believe in God in order to be moral and have good values": {
+        "Indonesia": [
+            0.01,
+            0.99
+        ],
+        "France": [
+            0.85,
+            0.15
+        ],
+        "Pakistan": [
+            0.010101010101010102,
+            0.98989898989899
+        ],
+        "MC_options": "['Not necessary to believe in God to be moral/have good values', 'Necessary to believe in God to be moral/have good values']",
+        "countries": [
+            "Indonesia",
+            "France",
+            "Pakistan"
+        ]
+    }
+}

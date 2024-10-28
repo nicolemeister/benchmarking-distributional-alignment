@@ -1,0 +1,55 @@
+Given the fields `question`, produce the fields `answer`.
+---
+
+Follow the following format. 
+
+Question: ${question}
+Answer: ${answer}
+
+------ 
+Question: When it comes to Germany’s decision-making in the European Union, do you think Germany has too much influence, has too little influence or has about the right amount of influence?
+'A'. Has too much influence
+'B'. Has too little influence
+'C'. Has about the right amount of influence
+'D'. DK/Refused
+Answer: A C C A A C A A A B A C C A A A A C A A A C C A A C A A C A
+
+------ 
+
+Question: Please tell me how worried you are about each of the following issues related to Muslims living in your country...extremism among Muslims...Are you very worried, somewhat worried, not too worried, or not at all worried about extremism among Muslims?
+'A'. Very worried
+'B'. Somewhat worried
+'C'. Not too worried
+'D'. Not at all worried
+Answer: D A C C B D A B A D B D B A D D A A C A D D B A A A D D A B
+
+------ 
+
+Question: Do you think China will replace the U.S. as the world's leading superpower in the next 10 years, the next 20 years, the next 50 years, or do you think China will not replace the U.S. as the world's leading superpower?
+'A'. Next 10 years
+'B'. Next 20 years
+'C'. Next 50 years
+'D'. China will not replace U.S.
+Answer: C C B C C B B D C B B C B C A B B B B B C A A A B A B B A A
+
+------ 
+
+Question: In your opinion, how strong a sense of Islamic identity do Muslims in our country have--very strong, fairly strong, not too strong, or not strong at all?
+'A'. Very strong
+'B'. Fairly strong
+'C'. Not too strong
+'D'. Not strong at all
+Answer: C B A B B B B B B B C A A B C C B A C C B B C C A A B B A B
+
+-----
+
+Question: Now I am going to read you a list of things that may be problems in our country.  As I read each one, please tell me if you think it is a very big problem, a moderately big problem, a small problem or not a problem at all...Air pollution.
+'A'. Very big problem
+'B'. Moderately big problem
+'C'. Small problem
+'D'. Not a problem at all
+'E'. DK/Refused
+Answer: C A A B A B A D C C D A C D C A B D D C A D A A D A D D D B
+
+----
+

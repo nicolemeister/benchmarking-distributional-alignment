@@ -20,7 +20,7 @@ def main():
     # parser.add_argument('--task', type=int, default=0)
     parser.add_argument('--task', nargs='+', default=[])
     parser.add_argument('--eval_metric', type=str, default='total_variation')
-    parser.add_argument('--task3_type', type=str, default=None , choices=['all_but_one', 'easy', 'easy_hard'])
+    parser.add_argument('--task3_type', type=str, default='easy_hard')
     parser.add_argument('--ficticious_group_ablation', action='store_true')
     parser.add_argument('--shuffled_incontext_labels', action='store_true')
     parser.add_argument('--task_align', action='store_true')

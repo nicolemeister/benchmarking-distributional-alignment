@@ -1626,155 +1626,6 @@ def task_disagree500(q_IDS, demographic, data_path, model, args, waves, demograp
             # breakpoint()
     return
 
-'''
-def task(q_IDS, demographic, data_path, model, args, waves, demographic_group, question_type='task_1', k=1, ficticious_group_ablation=False, shuffled_incontext_labels=False):
-    results_per_q = {}
-    assert len(waves)==len(q_IDS)
-
-
-    wave=waves[0]
-    data = json.load(open(data_path + wave + '/' + demographic_group + "_data.json"))
-
-    # make folder if it doesnt exist
-    folder_path = '{}/results/opinionqa/{}/'.format(os.getcwd(), args.output_type)
-    if not os.path.exists(folder_path): os.makedirs(folder_path)
-    folder_path = '{}/results/opinionqa/{}/{}/'.format(os.getcwd(), args.output_type, model)
-    if not os.path.exists(folder_path): os.makedirs(folder_path)
-
-    if question_type == 'task3': 
-        # folder_path += '{}/'.format(args.task3_type)
-        # if not os.path.exists(folder_path): os.makedirs(folder_path)
-
-        folder_path = '{}/results/opinionqa/{}/{}/{}/'.format(os.getcwd(), args.output_type, model, question_type+"_{}".format(args.task3_type))
-        if not os.path.exists(folder_path): os.makedirs(folder_path)
-
-    else: 
-        folder_path = '{}/results/opinionqa/{}/{}/{}/'.format(os.getcwd(), args.output_type, model, question_type)
-        if not os.path.exists(folder_path): os.makedirs(folder_path)
-        
-    if question_type=='align': wave_name = 'all_waves'
-    else: wave_name = wave
-
-    folder_path += '{}/'.format(wave_name)
-    if not os.path.exists(folder_path): os.makedirs(folder_path)
-    folder_path += '{}'.format(demographic_group)
-    if not os.path.exists(folder_path): os.makedirs(folder_path)
-
-    # if os.path.exists(folder_path+ '/{}.json'.format(demographic)): return 
-
-    for i, q_ID in enumerate(q_IDS):
-        expected_results = {} 
-        n = (sum(data[q_ID][demographic].values()))
-        for j, MC_option in enumerate(data[q_ID][demographic]):
-            expected_results[options[j]] = data[q_ID][demographic][MC_option]/n
-        
-        actual_results = {key: [] for key in expected_results}
-        responses = []
-
-        task_prompt = get_prompt_opinionqa(args, question_type, data, q_ID, demographic, wave, demographic_group, k=k, ficticious_group_ablation=ficticious_group_ablation, shuffled_incontext_labels=shuffled_incontext_labels)
-        if args.output_type=='sequence': 
-            for _ in range(args.n_seq):
-                response = get_sequence(task_prompt, model)
-                proportions = calculate_proportions(response, list(data[q_ID][demographic].keys()), output_type=args.output_type)
-                if proportions: 
-                    for mc in proportions.keys():
-                        actual_results[mc].append(proportions[mc])
-                responses.append(response)
-
-        elif args.output_type=='model_logprobs':
-            for _ in range(args.n_sample):
-                response, token_to_prob = get_model_logprob(task_prompt, model)
-                for token in list(token_to_prob.keys()): 
-                    logic = False
-                    for answer_choice in list(expected_results.keys()):
-                        logic = logic or (token == answer_choice.lower())
-                    
-                    if logic: 
-                        actual_results[token.upper()].append(token_to_prob[token])
-                responses.append(response)
-
-        elif args.output_type=='express_distribution':
-            for _ in range(args.n_seq):
-                response = get_expressed_distribution(task_prompt, model)
-                proportions = calculate_proportions(response, list(data[q_ID][demographic].keys()), output_type=args.output_type)
-                if proportions:
-                    for mc in actual_results.keys():
-                        if mc in proportions.keys():
-                            actual_results[mc].append(proportions[mc])
-
-                # if proportions:
-                #     for mc in proportions.keys():
-                #         try: actual_results[mc].append(proportions[mc])
-                #         except: breakpoint()
-                responses.append(response)
-        # elif args.output_type=='incontext_avg':
-        #     proportions = avg_incontext_ex(wave, q_ID, demographic, data)
-            
-        #     response = ''
-        #     for mc in proportions.keys():
-        #         if mc in actual_results.keys(): actual_results[mc].append(proportions[mc])
-
-        # to do: average results
-        avg_actual_results, std_actual_results = {}, {}
-        for key in actual_results.keys():
-            if actual_results[key]: 
-                avg = np.mean(actual_results[key])
-                std = np.std(actual_results[key])
-            else: 
-                actual_results[key] = list(np.zeros(args.n_seq))
-                avg = 0
-                std = 0
-            avg_actual_results[key] = avg
-            std_actual_results[key] = std
-
-        # actual results: model's output probs
-        # expected results: opinionQA GT
-
-        results = {'actual_results': actual_results, 'avg_actual_results': avg_actual_results, 'std_actual_results': std_actual_results, 'response': responses}
-        if question_type=='task0':
-            for demographic_group_temp in dem_group_to_dem_mapping.keys(): 
-                data_temp = json.load(open(data_path + wave + '/' + demographic_group_temp + "_data.json"))
-
-                for demographic_temp in dem_group_to_dem_mapping[demographic_group_temp]:
-                    expected_results = {} 
-                    n = (sum(data_temp[q_ID][demographic_temp].values()))
-                    for j, MC_option in enumerate(data_temp[q_ID][demographic_temp]):
-                        expected_results[options[j]] = data_temp[q_ID][demographic_temp][MC_option]/n
-                    results['expected_results_{}_{}'.format(demographic_group_temp, demographic_temp)] = expected_results
-
-        else: 
-            results['expected_results'] = expected_results
-        
-        print(expected_results, results['avg_actual_results'])
-
-        # need to calculate sample probabilities too
-        if args.output_type=='model_logprobs': 
-            tokens, counts = np.unique(responses, return_counts=True)
-            token_to_count = dict(zip(tokens, counts))
-            results['actual_results_sampled'] = {}
-            for key in actual_results.keys():
-                if key in token_to_count.keys(): results['actual_results_sampled'][key] = token_to_count[key]/args.n_sample
-                else: results['actual_results_sampled'][key] = 0
-
-        results_per_q[q_ID] = results
-
-        if ficticious_group_ablation:                
-            with open(folder_path + '/{}.json'.format(ficticious_group_ablation_mapping[demographic]), 'w') as f:
-                json.dump(results_per_q, f)
-        
-        elif shuffled_incontext_labels:
-            with open(folder_path + '/{}_{}.json'.format(demographic, 'shuffled'), 'w') as f:
-                json.dump(results_per_q, f)
-
-        elif question_type=='task4' or question_type=='align':                
-            with open(folder_path + '/{}_{}.json'.format(demographic, k), 'w') as f:
-                json.dump(results_per_q, f)
-
-        else: 
-            with open(folder_path + '/{}.json'.format(demographic), 'w') as f:
-                json.dump(results_per_q, f)
-    return 
-''' 
 
 def extract_boxed_text(text):
     # Define the regular expression pattern
@@ -1947,7 +1798,7 @@ def compute_tv_GT(task='task1', model='gpt-4', demographic_group = 'POLPARTY', d
 
 ### TO DO: make this eval slightly different for task 0 where
 # make this for a specific demographci in the demographic group 
-def compute_tv(task='task1', model='gpt-4', demographic_group = 'POLPARTY', dataset='opinionqa', demographic='Democrat', wave = 'American_Trends_Panel_W26', k=None, output_type='sequence',ficticious_group_ablation=False, shuffled_incontext_labels=False, uniform=False):
+def compute_tv(task='task1', model='gpt-4', demographic_group = 'POLPARTY', dataset='opinionqa', demographic='Democrat', wave = 'American_Trends_Panel_W26', k=None, output_type='sequence',ficticious_group_ablation=False, shuffled_incontext_labels=False, uniform=False, LB1=False, LB2=False):
     print(task, demographic)
     # print(demographic_group, demographic, wave)
     # for task 0: get data from the NONE json and get the entry with the demographic  
@@ -1981,11 +1832,34 @@ def compute_tv(task='task1', model='gpt-4', demographic_group = 'POLPARTY', data
 
         # actual_results = list(data[question]['avg_actual_results'].values())
         actual_results = list(data[question]['avg_actual_results'].values())
+
         if uniform: 
             actual_results = data[question]['actual_results']
             len_actual_results = len(actual_results.keys())
             for key in list(actual_results.keys()): actual_results[key]=1/len_actual_results
             actual_results =list(actual_results.values())
+            if dataset=='nytimes': assert(len_actual_results==4)
+            
+        
+        if LB1: 
+            actual_results = data[question]['actual_results']
+            # get the key with the highest value
+            max_key = max(actual_results, key=actual_results.get)
+            # set all values to 0 except for the max key which is set to 1  
+            for key in list(actual_results.keys()): actual_results[key]=0
+            actual_results[max_key]=1
+            actual_results =list(actual_results.values())
+
+        if LB2: 
+            actual_results = data[question]['actual_results']
+            # get the key with the highest value
+            min_key = min(actual_results, key=actual_results.get)
+            # set all values to 0 except for the max key which is set to 1  
+            for key in list(actual_results.keys()): actual_results[key]=0
+            actual_results[min_key]=1
+            actual_results =list(actual_results.values())
+
+            
         if actual_results != {} and actual_results != [] : 
             if task=='task0' and dataset=='opinionqa':
                 data_path = '{}/opinions_qa/data/human_resp/'.format(os.getcwd())

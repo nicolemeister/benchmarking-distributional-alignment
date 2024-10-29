@@ -164,7 +164,7 @@ def main():
 
                             if args.dataset=='opinionqa': q_IDS, waves = get_q_IDs_waves_disagree(data_path, foldername=args.wave, args=args)
                             elif args.dataset=='globalvalues':
-                                q_IDS = get_q_IDs_waves_disagree(data_path, foldername=demographic, args=args)
+                                q_IDS = get_q_IDs_waves_disagree(data_path, foldername='globalvalues', args=args)
                                 waves = None
                             elif args.dataset=='nytimes': 
                                 q_IDS = get_q_IDs_waves_disagree(data_path, foldername=demographic_group, args=args)
@@ -174,21 +174,5 @@ def main():
                             
                             task_disagree500(q_IDS, demographic, data_path, model, args, waves, demographic_group, question_type='task{}'.format(str(task_num)), ficticious_group_ablation=args.ficticious_group_ablation, pipeline=pipeline)
                             
-                            # task(q_IDS, demographic, data_path, model, args, waves, demographic_group, question_type='task{}'.format(str(task_num)), ficticious_group_ablation=args.ficticious_group_ablation)
-                            
-                            # if args.task_align: task(q_IDS, demographic, data_path, model, args, waves, demographic_group, question_type='align', k=args.k)
-
-                            # Evaluation & Plot
-                            # Store TV in big results file
-                            # TV = compute_tv(task='task{}'.format(str(args.task)), model=model, demographic_group=demographic_group, demographic=demographic, wave=wave, output_type=args.output_type)
-                            # eval_metric.append(TV)
-                            # plot and save the jpg in the same folder as results json 
-                            # plot(task='task{}'.format(str(args.task)), model=model, demographic_group=demographic_group, wave=wave, output_type=args.output_type)
-
-                            # plotting: for each question in the wave, have a dot that represents (expected prob, actual prob)
-                            # eval (numbers): report total variation for each task 
-                        # print('{:.6f}'.format(np.mean(eval_metric)))
-
-
 if __name__ == "__main__":
     main()

@@ -34,11 +34,8 @@ dem_to_color = {'Democrat': 'blue', 'Independent': 'green', 'Republican': 'purpl
 dem_group_to_dem_mapping = {'NONE': ['Democrat'], 
                             'POLPARTY': ['Democrat', 'Republican'],
                             'SEX': ['Male', 'Female'],
-                            'CREGION': ['Northeast', 'South'], 
-                            'EDUCATION': ['Less than high school', 'College graduate or some postgrad'], 
-                            'INCOME': ['Less than $30,000', '$100,000 or more'], 
-                            'RACE': ['Black', 'White'] , 
-                            # 'COUNTRIES': ['Britain', 'France', 'Japan', 'Kenya', 'Poland', 'Spain', 'United States', 'Germany', 'Indonesia', 'Jordan', 'Lebanon', 'Russia', 'Turkey']
+                            'RACE': ['Black', 'White'] ,
+                            'globalvalues': ['0', '1', '2'] 
                             }
 
 ficticious_group_ablation_mapping = {'Democrat': 'Foo', 'Independent': 'Bar', 'Republican': 'Baz', 'Male': 'Foo', 'Female': 'Bar'}
@@ -413,6 +410,17 @@ def get_ICL_qIDs(icl_data, q_ID, task3_type, wave, demographic, data_path, datas
                 easy = sorted_list_qIDs[:5]
                 easy_hard = easy_hard + sorted_list_qIDs[5:]
 
+        elif dataset=='global_values': 
+
+            data_path = '{}/globalvalues/question_similarity.json'.format(os.getcwd())
+            f = open(data_path)
+
+            question_similarity_top10 = json.load(f)
+            top5 = list(question_similarity_top10[q_ID][demographic].keys())[:5]
+            easy_hard = top5
+            easy = top5
+
+
         elif dataset=='nytimes': 
             f = open(data_path + '/question_similarity_top10.json')
             question_similarity_top10 = json.load(f)
@@ -440,7 +448,6 @@ def get_ICL_qIDs(icl_data, q_ID, task3_type, wave, demographic, data_path, datas
             # if len(easy)>len(easy_hard): split based on similarity to ground truth distribution 
             if len(easy)>len(easy_hard):
                 num_to_transfer = len(easy) - 5
-                distrib_dist = []
                 q_ID_values = np.array(list(icl_data[q_ID][demographic].values()))/np.sum(list(icl_data[q_ID][demographic].values()))
                 for easy_qID in easy: 
                     icl_values = []
@@ -451,8 +458,7 @@ def get_ICL_qIDs(icl_data, q_ID, task3_type, wave, demographic, data_path, datas
                         else: icl_values.append(0)
                         
                     icl_values = np.array(icl_values)/np.sum(icl_values)
-                    try: distrib_dist.append(total_variation(icl_values, q_ID_values))
-                    except: distrib_dist.append(1)
+
                 sorted_pairs = sorted(zip(distrib_dist, easy))
                 # order qIDs based on smallest to largest distribution difference
                 sorted_list_qIDs= [pair[1] for pair in sorted_pairs]
@@ -472,7 +478,6 @@ def get_ICL_qIDs(icl_data, q_ID, task3_type, wave, demographic, data_path, datas
     else: breakpoint()
 
     return 
-
 
 def get_prompt_nytimes(args, model, question_type, data, q_ID, demographic, wave, demographic_group, k=None, ficticious_group_ablation=False, shuffled_incontext_labels=False):
     prompt_names = {"Republican" : 'a Republican person', "Democrat" : 'a Democrat person', "Male" : 'a man', "Female" : 'a woman'}

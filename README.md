@@ -15,7 +15,8 @@ You can start by cloning our repository and following these steps.
 
 1. **Datasets**
     1. **OpinionQA**: `./opinions_qa` contains our 100-question subset of the 500 contentious OpinionQA questions [(source)](https://worksheets.codalab.org/worksheets/0x6fb693719477478aac73fc07db333f69) preprocessed into each demographic group's distributional results across multiple choice answer. 
-    2. **NYT Books**: `./nytimes` contains our preprocessed NYT Books dataset, ```data.json```, that maps "Book Title" to ["Multiple Choice Options", "Genre", "Summary", and the distributional results of Democrats, Republicans, Men, and Women and  ```question_similarity_top10.json``` maps each book title to the 10 most similar books. 
+    2. **NYT Books**: `./nytimes` contains our preprocessed NYT Books dataset, ```data.json```, that maps "Book Title" to ["Multiple Choice Options", "Genre", "Summary", and the distributional results of Democrats, Republicans, Men, and Women and  ```question_similarity_top10.json``` maps each book title to the 10 most similar books.
+    3. **Global Values**: `./Global_Values` contains the our 100-question subset of the contentious questions from GlobalOpinionQA [(source)](https://huggingface.co/datasets/Anthropic/llm_global_opinions). 
   
 2. **Compute LM opinion distributions**: U
     1. Use  ```lm_steering.py``` given example use cases in the job script ```job.sh``` (note: require two environment variables, `OPENAI_API_KEY` and `ANTHROPIC_API_KEY`). This produces `./results/opinions_qa` and `./results/nytimes`.
@@ -34,8 +35,4 @@ Here is a brief description of other individual components
 
 #### LM Prompts
 ```./inputs/```: Contains exact prompts for each dataset (OQA, NYT), distribution expression method (express distribution, model log probs, sequence), along with the biased coin flip experiments. 
-
-#### Temperature Scaling
-
-```temp_scale.ipynb```: Performs temperature scaling on input model log probabilities. 
 

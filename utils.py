@@ -12,13 +12,12 @@ import matplotlib.pyplot as plt
 from scipy.spatial import distance
 from scipy.stats import wasserstein_distance
 import anthropic
-from openai import AzureOpenAI
 from openai import OpenAI
 
-from transformers import AutoModelForCausalLM, AutoTokenizer
-import transformers
-import bitsandbytes
-import accelerate
+# from transformers import AutoTokenizer
+# import transformers
+# import bitsandbytes
+# import accelerate
 import torch
 
 
@@ -1218,13 +1217,13 @@ def get_response(prompt, model, logprobs=False, top_logprobs=None, pipeline=None
             except: print('anthropic error')
 
 
-    elif model=='deepseek-coder-1.3b' or model=='deepseek-coder-6.7b' or model=='deepseek-coder-33b':
-        tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/{}-base".format(model), trust_remote_code=True)
+    # elif model=='deepseek-coder-1.3b' or model=='deepseek-coder-6.7b' or model=='deepseek-coder-33b':
+    #     tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/{}-base".format(model), trust_remote_code=True)
 
-        # for deepseek, the variable pipeline contains the model 
-        inputs = tokenizer(prompt, return_tensors="pt").to(pipeline.device)
-        outputs = pipeline.generate(**inputs, max_new_tokens=128)
-        response = tokenizer.decode(outputs[0], skip_special_tokens=True)[len(prompt):]
+    #     # for deepseek, the variable pipeline contains the model 
+    #     inputs = tokenizer(prompt, return_tensors="pt").to(pipeline.device)
+    #     outputs = pipeline.generate(**inputs, max_new_tokens=128)
+    #     response = tokenizer.decode(outputs[0], skip_special_tokens=True)[len(prompt):]
 
 
     elif model=='llama3-8b' or model=='llama3-70b' or model=='phi-2' or model=='llama-2-7b' or model=='llama-2-13b' or model=='llama-2-70b' or model=='falcon-1b' or model=='falcon-7b' or model=='falcon-40b' or model=='falcon-180b': 
@@ -1709,7 +1708,7 @@ def calc_wasserstein(p,q):
 
 
 
-def compute_tv_GT(task='task1', model='gpt-4', demographic_group = 'POLPARTY', demographic='Democrat', wave = 'American_Trends_Panel_W26', k=None, output_type='sequence',ficticious_group_ablation=False, shuffled_incontext_labels=False, dataset='opinionqa'):
+def compute_tv_GT(task='task1', model='gpt-4', demographic_group = 'POLPARTY', demographic='Democrat', wave=None, k=None, output_type='sequence', dataset='opinionqa'):
     print(task, demographic)
     # print(demographic_group, demographic, wave)
     # for task 0: get data from the NONE json and get the entry with the demographic  
@@ -1729,6 +1728,24 @@ def compute_tv_GT(task='task1', model='gpt-4', demographic_group = 'POLPARTY', d
         else: 
             path = '{}/results/{}/{}/{}/{}/{}'.format(os.getcwd(), dataset, output_type, model, task, demographic_group)
             with open(path + '/{}.json'.format(demographic), 'r') as file: data = json.load(file)
+
+
+    elif dataset=='nytimes':
+        if task=='task0': 
+            path = '{}/results/{}/{}/{}/{}/{}'.format(os.getcwd(), dataset, output_type, model, task, 'NONE')
+            with open(path + '/{}.json'.format('Democrat'), 'r') as file: data = json.load(file)
+        else: 
+            path = '{}/results/{}/{}/{}/{}/{}'.format(os.getcwd(), dataset, output_type, model, task, demographic_group)
+            with open(path + '/{}.json'.format(demographic), 'r') as file: data = json.load(file)
+
+
+ 
+    elif dataset=='globalvalues':
+        path = '{}/results/{}/{}/{}/{}/{}'.format(os.getcwd(), dataset, output_type, model, task, demographic_group)
+        with open(path + '/{}.json'.format(demographic), 'r') as file: data = json.load(file)
+    
+        
+
 
     all_tvs, all_jsds, all_wassersteins = [], [], []
     print(len(list(data.keys())))
@@ -1757,22 +1774,12 @@ def compute_tv_GT(task='task1', model='gpt-4', demographic_group = 'POLPARTY', d
                         else: expected_results[options[j]] = 0
                 expected_results = list(expected_results.values())
             
-            # if task=='task0' and dataset=='nytimes': 
-            #     data_path = '{}/opinions_qa/data/human_resp/'.format(os.getcwd())
-            #     expected_results = {} 
-            #     data_temp = json.load(open(data_path + wave + '/' + demographic_group + "_data.json"))
-            #     try: n = (sum(data_temp[question][demographic].values()))
-            #     except: breakpoint()
-            #     for j, MC_option in enumerate(data_temp[question]['MC_options']):
-            #         if options[j] in data[question]['avg_actual_results'].keys():
-            #             if MC_option in data_temp[question][demographic].keys(): 
-            #                 expected_results[options[j]] = data_temp[question][demographic][MC_option]/n
-            #             else: expected_results[options[j]] = 0
-            #     expected_results = list(expected_results.values())
 
+            elif task=='task0' and dataset=='nytimes':
+                expected_results = list(data[question]['expected_results_{}_{}'.format(demographic_group, demographic)].values())
 
-            else: expected_results = list(data[question]['expected_results'].values())
-            
+            else: 
+                expected_results = list(data[question]['expected_results'].values())
 
             # COMPUTE NEW ACTUAL RESULTS based on the expected results 
             probs = expected_results
@@ -1863,7 +1870,6 @@ def compute_tv(task='task1', model='gpt-4', demographic_group = 'POLPARTY', data
             for key in list(actual_results.keys()): actual_results[key]=0
             actual_results[min_key]=1
             actual_results =list(actual_results.values())
-
             
         if actual_results != {} and actual_results != [] : 
             if task=='task0' and dataset=='opinionqa':

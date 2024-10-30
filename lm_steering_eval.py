@@ -8,13 +8,10 @@ import pandas as pd
 import eval_utils
 
 def main():
-
    
     # Define column names
     columns = ['Task Type', 'Model', 'Dataset', 'Wave', 'Demographic Group/Avg', 'Demographic/Avg', 'Output Type', 'TV']
     outputtype_to_model = {'express_distribution': ['gpt-3.5-turbo-0125', 'anthropic_haiku', 'anthropic_opus', 'gpt-4', 'llama3-70b'], 'sequence': ['gpt-3.5-turbo-0125', 'anthropic_haiku', 'anthropic_opus', 'gpt-4', 'llama3-70b'], 'model_logprobs': ['gpt-3.5-turbo-0125', 'gpt-4', 'llama3-70b'],'rescaled_model_logprobs': ['gpt-3.5-turbo-0125', 'gpt-4', 'llama3-70b']}
-    
-
     # Take in results from ./results and compute the TV for each task, model, output type, wave, demographic group, demographic. 
     # Store it in this csv file. 
     eval_result_df_path = '{}/results/eval_disagreement_bootstrapping.csv'.format(os.getcwd())
@@ -46,16 +43,15 @@ def main():
             # Save the DataFrame to a CSV file
             df.to_csv(eval_result_df_path, index=False)
 
-    '''
 
-
-    '''
     # 2. Human Eval 
     eval_utils.human_eval(eval_result_df_path)
-    '''
 
+    '''
     # 3. Generate Leaderboard 1: Distributional Alignment Task
-    
+    # eval_utils.distrib_alignment_leaderboard(eval_result_df_path, leaderboard_path='{}/results/leaderboard_distrib_alignment.csv'.format(os.getcwd()))
+
+    eval_utils.distrib_alignment_leaderboard_all(eval_result_df_path, leaderboard_path='{}/results/leaderboard_distrib_alignment_all.csv'.format(os.getcwd()))
 
     # 4. Generate Leaderboard 2: Knowledge to Simulation Gap
 

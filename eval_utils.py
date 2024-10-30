@@ -5,7 +5,8 @@ import argparse
 from utils import *
 from collections import defaultdict
 import pandas as pd
-
+from matplotlib import pyplot as plt
+import seaborn as sns
 
 
 def eval_metrics(df, task_type, model, demographic_group, demographic, wave, output_type, dataset):
@@ -64,20 +65,22 @@ def eval_metrics(df, task_type, model, demographic_group, demographic, wave, out
         
     return df 
 
-
+# bootstrapping and mean of one dataset
 def compute_one(input_data):   
     # print(np.array(input_data).shape)
-    data = input_data
+    data = []
+
     # convert the list of lists into a full list 
-    # for lst in input_data:
-    #     print(lst)
-    #     data.extend(list(lst))
+    for lst in input_data:
+        data.extend(eval(lst))
+
 
     num_bootstraps = 1000
 
     def compute_statistic(sample):
         # todo: weighted average so that nytimes is weighted 50% and opinionqa is weighted 50%
-        return np.mean(sample)  
+        try: return np.mean(sample)  
+        except: breakpoint()
 
     # Bootstrapping process
     bootstrap_statistics = []
@@ -96,7 +99,69 @@ def compute_one(input_data):
     
     return np.mean(bootstrap_statistics), (upper_bound-lower_bound)/2
 
+
+# bootstrapping and mean of three datasets
+def compute_three(opinionqa_data, nytimes_data, globalvalues_data, human_data=False):     
+    opinionqa, nytimes, globalvalues = [], [], []   
+    
+
+    # convert the list of lists into a full list 
+    if not human_data: 
+        for lst in opinionqa_data:
+            
+            try: opinionqa.extend(eval(lst))
+            except: breakpoint()
+            # except: opinionqa.extend(list(lst))
+    else: opinionqa = opinionqa_data
+
+    # convert the list of lists into a full list 
+    if not human_data: 
+        for lst in nytimes_data:
+            nytimes.extend(eval(lst))
+            # except: nytimes.extend(list(lst))
+    else: nytimes = nytimes_data
+
+    if not human_data: 
+        for lst in globalvalues_data:
+            globalvalues.extend(eval(lst))
+            # except: globalvalues.extend(list(lst))
+    else: globalvalues = globalvalues_data
+
+
+    num_bootstraps = 1000
+    def compute_statistic(opinionqa, nytimes, globalvalues):
+        
+        # Calculate averages
+        try: average_opinionqa= np.mean(opinionqa)
+        except: print(opinionqa)
+        try: average_nytimes = np.mean(nytimes)
+        except: print(nytimes)
+        try: average_globalvalues = np.mean(globalvalues)
+        except: print(globalvalues) 
+        weighted_average = (1.0/3.0) * average_opinionqa + (1.0/3.0) * average_nytimes + (1.0/3.0) * average_globalvalues
+        return weighted_average
+
+    # Bootstrapping process
+    bootstrap_statistics = []
+    for _ in range(num_bootstraps):
+        bootstrap_sample_oqa = np.random.choice(opinionqa, size=len(opinionqa), replace=True)
+        bootstrap_sample_nyt = np.random.choice(nytimes, size=len(nytimes), replace=True)
+        bootstrap_sample_gv = np.random.choice(globalvalues, size=len(globalvalues), replace=True)
+        statistic = compute_statistic(bootstrap_sample_oqa, bootstrap_sample_nyt, bootstrap_sample_gv)
+        bootstrap_statistics.append(statistic)
+
+    # 95% confidence interval
+    confidence_level = 0.95
+    alpha = (1 - confidence_level) / 2
+    lower_percentile = alpha * 100
+    upper_percentile = (1 - alpha) * 100
+    lower_bound = np.percentile(bootstrap_statistics, lower_percentile)
+    upper_bound = np.percentile(bootstrap_statistics, upper_percentile)
+    return np.mean(bootstrap_statistics), (upper_bound-lower_bound)/2
+
+
 def normalize(array):
+    
   total_sum = np.sum(array)
   normalized_array = array / total_sum
   return normalized_array
@@ -360,4 +425,239 @@ def human_eval(eval_result_df_path):
        df = add_humanevaldata_to_df(df, dataset, task_type, OQA_human_annotation_data)
     df.to_csv(eval_result_df_path, index=False)
     
+    return 
+
+
+def compute_both(opinionqa_data, nytimes_data, human_data=False):     
+    opinionqa, nytimes = [], []
+    
+
+    # convert the list of lists into a full list 
+    if not human_data: 
+        for lst in opinionqa_data:
+            opinionqa.extend(eval(lst))
+            # except: opinionqa.extend(list(lst))
+    else: opinionqa = opinionqa_data
+
+    # convert the list of lists into a full list 
+    if not human_data: 
+        for lst in nytimes_data:
+            nytimes.extend(eval(lst))
+            # except: nytimes.extend(list(lst))
+    else: nytimes = nytimes_data
+
+    print(len(opinionqa), len(nytimes))
+    num_bootstraps = 1000
+    def compute_statistic(opinionqa, nytimes):
+        
+        # Calculate averages
+        try: average_opinionqa= np.mean(opinionqa)
+        except: print(opinionqa)
+        try: average_nytimes = np.mean(nytimes)
+        except: print(nytimes)
+        weighted_average = 0.5 * average_opinionqa + 0.5 * average_nytimes
+        return weighted_average
+
+    # Bootstrapping process
+    bootstrap_statistics = []
+    for _ in range(num_bootstraps):
+        bootstrap_sample_oqa = np.random.choice(opinionqa, size=len(opinionqa), replace=True)
+        bootstrap_sample_nyt = np.random.choice(nytimes, size=len(nytimes), replace=True)
+        statistic = compute_statistic(bootstrap_sample_oqa, bootstrap_sample_nyt)
+        bootstrap_statistics.append(statistic)
+
+    # 95% confidence interval
+    confidence_level = 0.95
+    alpha = (1 - confidence_level) / 2
+    lower_percentile = alpha * 100
+    upper_percentile = (1 - alpha) * 100
+    lower_bound = np.percentile(bootstrap_statistics, lower_percentile)
+    upper_bound = np.percentile(bootstrap_statistics, upper_percentile)
+    return np.mean(bootstrap_statistics), (upper_bound-lower_bound)/2
+
+
+
+
+
+
+def distrib_alignment_leaderboard(eval_result_df_path, leaderboard_path):
+
+    df=pd.read_csv(eval_result_df_path)
+    if os.path.exists(leaderboard_path):
+        leaderboard_df = pd.read_csv(leaderboard_path)
+    else: leaderboard_df = pd.DataFrame(columns=['Model Name', 'Dataset', 'Task Type', 'Alignment Mean', 'Alignment Error'])
+    
+
+    output_type_to_latex = {'express_distribution': "V", 'sequence': "Seq", 'model_logprobs': "Log-p", 'rescaled_model_logprobs': "TS-Log-p"}
+
+    models = ['gpt-3.5-turbo-0125', 'gpt-4', 'anthropic_haiku', 'anthropic_opus', 'llama3-70b']
+    output_types = ['express_distribution', 'sequence', 'model_logprobs', 'rescaled_model_logprobs']
+
+    for model in models: 
+        print(model)
+        for output_type in output_types: 
+            print(output_type)
+            
+            opinionqa_data = df[(df.Model==model) & (df['Output Type']==output_type) & (df['Dataset']=='opinionqa') & ((df['Task Type']=='task1') | (df['Task Type']=='task3_easy_hard'))]['all_tvs']
+            nytimes_data = df[(df.Model==model) & (df['Output Type']==output_type) & (df['Dataset']=='nytimes') & ((df['Task Type']=='task1') | (df['Task Type']=='task3_easy_hard'))]['all_tvs']
+            globalvalues_data = df[(df.Model==model) & (df['Output Type']==output_type) & (df['Dataset']=='globalvalues') & ((df['Task Type']=='task1') | (df['Task Type']=='task3_easy_hard'))]['all_tvs']
+            mean, bs = compute_three(opinionqa_data, nytimes_data, globalvalues_data) 
+
+            # Adding a data entry
+            new_entry = pd.DataFrame({
+                'Model Name': ["{} ({})".format(model, output_type_to_latex[output_type])],
+                'Dataset': ['three'],
+                'Task Type': ['task1_task3'],
+                'Alignment Mean': [mean],
+                'Alignment Error': [bs]
+            })
+
+            # Adding the new entry to the dataframe
+            leaderboard_df = pd.concat([leaderboard_df, new_entry], ignore_index=True)
+
+            print('{:.4f} +/- {:.4f}'.format(mean, bs))
+
+        leaderboard_df.to_csv(leaderboard_path, index=False)
+
+
+    task_types = ['ground_truth', 'uniform', 'LB1', 'LB2']
+    # output_types = ['express_distribution', 'sequence']
+    for task_type in task_types:
+
+        opinionqa_data = df[(df.Model=='simulated') & (df['Task Type']==task_type) & (df['Dataset']=='opinionqa')]['all_tvs']
+        nytimes_data = df[(df.Model=='simulated') & (df['Task Type']==task_type) & (df['Dataset']=='nytimes')]['all_tvs']
+        globalvalues_data = df[(df.Model=='simulated') & (df['Task Type']==task_type) & (df['Dataset']=='globalvalues')]['all_tvs']
+        mean, bs = compute_three(opinionqa_data, nytimes_data, globalvalues_data)
+
+        # Adding a data entry
+        new_entry = pd.DataFrame({
+            'Model Name': ['simulated'],
+            'Dataset': ['three'],
+            'Task Type': [task_type],
+            'Alignment Mean': [mean],
+            'Alignment Error': [bs]
+        })
+
+        # Adding the new entry to the dataframe
+        leaderboard_df = pd.concat([leaderboard_df, new_entry], ignore_index=True)
+
+        print('{:.4f} +/- {:.4f}'.format(mean, bs))
+    
+    leaderboard_df.to_csv(leaderboard_path, index=False)
+
+    return 
+
+# TO DO: FIX THIS! 
+def distrib_alignment_leaderboard_all(eval_result_df_path, leaderboard_path):
+
+    df=pd.read_csv(eval_result_df_path)
+    if os.path.exists(leaderboard_path):
+        leaderboard_df = pd.read_csv(leaderboard_path)
+    else: leaderboard_df = pd.DataFrame(columns=['Model Name', 'Dataset', 'Task Type', 'Alignment Mean', 'Alignment Error'])
+    
+
+    output_type_to_latex = {'express_distribution': "V", 'sequence': "Seq", 'model_logprobs': "Log-p", 'rescaled_model_logprobs': "TS-Log-p"}
+
+    models = ['gpt-3.5-turbo-0125', 'gpt-4', 'anthropic_haiku', 'anthropic_opus', 'llama3-70b']
+    output_types = ['express_distribution', 'sequence', 'model_logprobs', 'rescaled_model_logprobs']
+    task_types = ['task0', 'task1','task3_easy_hard']
+
+    for dataset in ['opinionqa', 'nytimes', 'globalvalues']:
+        for task_type in task_types:
+            print(task_type)
+            for model in models: 
+                print(model)
+                for output_type in output_types: 
+                    print(output_type)
+                    
+                    input_data = df[(df.Model==model) & (df['Output Type']==output_type) & (df['Dataset']==dataset) & (df['Task Type']==task_type)]['all_tvs']
+                    mean, bs = compute_one(input_data)
+
+                    # Adding a data entry
+                    new_entry = pd.DataFrame({
+                        'Model Name': ["{} ({})".format(model, output_type_to_latex[output_type])],
+                        'Dataset': [dataset],
+                        'Task Type': [task_type],
+                        'Alignment Mean': [mean],
+                        'Alignment Error': [bs]
+                    })
+
+                    # Adding the new entry to the dataframe
+                    leaderboard_df = pd.concat([leaderboard_df, new_entry], ignore_index=True)
+
+                    print('{:.4f} +/- {:.4f}'.format(mean, bs))
+    
+    # simulated values
+    task_types = ['ground_truth', 'uniform', 'LB1', "LB2"]
+    for task_type in task_types:
+        for dataset in ['opinionqa', 'nytimes', 'globalvalues']:
+            print(task_type)
+            input_data = df[(df.Model=='simulated') & (df['Task Type']==task_type) & (df['Dataset']==dataset)]['all_tvs']
+            mean, bs = compute_one(input_data)
+
+            # Adding a data entry
+            new_entry = pd.DataFrame({
+                'Model Name': ['simulated'],
+                'Dataset': [dataset],
+                'Task Type': [task_type],
+                'Alignment Mean': [mean],
+                'Alignment Error': [bs]
+            })
+
+            # Adding the new entry to the dataframe
+            leaderboard_df = pd.concat([leaderboard_df, new_entry], ignore_index=True)
+
+            print('{:.4f} +/- {:.4f}'.format(mean, bs))
+
+
+
+    # compute avg of OQA and NYT for the human results leaderboard 
+
+
+    for model in models: 
+        print(model)
+        for output_type in output_types: 
+            print(output_type)
+            
+            opinionqa_data = df[(df.Model==model) & (df['Output Type']==output_type) & (df['Dataset']=='opinionqa') & ((df['Task Type']=='task1') | (df['Task Type']=='task3_easy_hard'))]['all_tvs']
+            nytimes_data = df[(df.Model==model) & (df['Output Type']==output_type) & (df['Dataset']=='nytimes') & ((df['Task Type']=='task1') | (df['Task Type']=='task3_easy_hard'))]['all_tvs']
+            mean, bs = compute_both(opinionqa_data, nytimes_data)
+
+            # Adding a data entry
+            new_entry = pd.DataFrame({
+                'Model Name': ["{} ({})".format(model, output_type_to_latex[output_type])],
+                'Dataset': ['both'],
+                'Task Type': ['task1_task3'],
+                'Alignment Mean': [mean],
+                'Alignment Error': [bs]
+            })
+
+            # Adding the new entry to the dataframe
+            leaderboard_df = pd.concat([leaderboard_df, new_entry], ignore_index=True)
+
+            print('{:.4f} +/- {:.4f}'.format(mean, bs))
+
+    leaderboard_df.to_csv(leaderboard_path, index=False)
+
+
+    # human eval
+    opinionqa_data = df[(df.Model=='human') & (df['Dataset']=='opinionqa') & ((df['Task Type']=='task1') | (df['Task Type']=='task3_easy_hard'))]['all_tvs']
+    nytimes_data = df[(df.Model=='human') & (df['Dataset']=='nytimes') & ((df['Task Type']=='task1') | (df['Task Type']=='task3_easy_hard'))]['all_tvs']
+    mean, bs = compute_both(opinionqa_data, nytimes_data)
+
+    # Adding a data entry
+    new_entry = pd.DataFrame({
+        'Model Name': ['human'],
+        'Dataset': ['both'],
+        'Task Type': ['task1_task3'],
+        'Alignment Mean': [mean],
+        'Alignment Error': [bs]})
+
+    # Adding the new entry to the dataframe
+    leaderboard_df = pd.concat([leaderboard_df, new_entry], ignore_index=True)
+
+    print('{:.4f} +/- {:.4f}'.format(mean, bs))
+
+    leaderboard_df.to_csv(leaderboard_path, index=False)
+
     return 

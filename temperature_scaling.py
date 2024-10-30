@@ -22,7 +22,7 @@ def rescale_prob(model_probs: np.array, reference_probs: np.array) -> np.array:
             
             total_tv += 0.5*np.sum(np.abs(p-q))
         return total_tv
-    res = minimize_scalar(objective, bounds=(0.0, 50), method='bounded')
+    res = minimize_scalar(objective, bounds=(0.0, 10), method='bounded')
     print(res.x)
     scaled = []
     for model_p in model_probs:
@@ -32,10 +32,9 @@ def rescale_prob(model_probs: np.array, reference_probs: np.array) -> np.array:
     return scaled, res.fun
 
 
-if __name__ == '__main__': 
+def main(): 
 
-
-    dataset_to_demgroup = {'opinionqa': ['POLPARTY', 'SEX', 'RACE'], 'nytimes': ['POLPARTY', 'SEX'], 'global_values': ['globalvalues'] }
+    dataset_to_demgroup = {'opinionqa': ['POLPARTY', 'SEX', 'RACE'], 'nytimes': ['POLPARTY', 'SEX'], 'globalvalues': ['globalvalues'] }
     dem_group_to_dem_mapping = {'POLPARTY': ['Democrat', 'Republican'],
                                 'SEX': ['Male', 'Female'],
                                 'RACE': ['Black', 'White'], 
@@ -43,10 +42,10 @@ if __name__ == '__main__':
 
 
     for model in ['llama3-70b', 'gpt-4', 'gpt-3.5-turbo-0125']:
-        for dataset in ['nytimes', 'opinionqa', 'global_values']:
-            for steering_method in ['task0', 'task1', 'task3_easy_hard']:
-                if steering_method=='task0' and dataset=='global_values': continue # did not compute task0 for global values
-                model_ps, reference_ps = [], []
+        for dataset in ['nytimes', 'opinionqa', 'globalvalues']:
+            for steering_method in ['task0', 'task1', 'task3_easy_hard']: 
+                model_ps, reference_ps = [], [] # compute a temperature for each steering method in each dataset of each model\
+                if steering_method=='task0' and dataset=='globalvalues': continue # did not compute task0 for global values
                 
                 for dem_group in dataset_to_demgroup[dataset]:
                     for dem in dem_group_to_dem_mapping[dem_group]:
@@ -108,3 +107,7 @@ if __name__ == '__main__':
                         
                         with open(rescaled_filename, 'w') as json_file:
                             json.dump(dem_data, json_file)
+
+
+if __name__ == '__main__': 
+    main()

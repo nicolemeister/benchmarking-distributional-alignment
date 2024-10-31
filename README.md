@@ -17,7 +17,7 @@ We provide an example job script ```job.sh``` that contains the file execution o
         1. If you are interested in the individual annotations, check out `./nytimes/individual_annotations` which contains each book summary with annotator ids mapped to their likert rating, and another CSV mapping the annotator id to their demographic information.
     3. **Global Values**: `./Global_Values` contains the our 100-question subset of the contentious questions from GlobalOpinionQA [(source)](https://huggingface.co/datasets/Anthropic/llm_global_opinions). 
   
-2. **Generate Distributional Survey Results on OQA, NYT, GlobalValues**: 
+2. **Generate Distributional Survey Results on OQA, NYT, GlobalValues**:  ```lm_steering.py```
     1. ```lm_steering.py``` generates model opinion distributions for each dataset, steering method, and distribution estimation method. All calls to this script are in ```job.sh``` and produces `./results/opinions_qa`,  `./results/nytimes`, and `./results/globalvalues`.
         1. Note: this requires two environment variables, `OPENAI_API_KEY` and `ANTHROPIC_API_KEY`. 
         2. All prompts are in `./inputs/`.
@@ -31,7 +31,7 @@ We provide an example job script ```job.sh``` that contains the file execution o
         1. The distributional alignment task leaderboard is `./results/leaderboard_distrib_alignment.csv` 
         2. The knowledge to simulation gap leaderboard is `./results/k2s_gap.csv`.
         3. The distributional alignment task leaderboard with all models, datasets, steering methods, and distribution estimation methods is `./results/leaderboard_distrib_alignment_all.csv`.
-        4. Recreate figures in the paper with ```analysis/figures.ipynb```.
+        4. Recreate figures in the paper with ```./analysis/figures.ipynb```.
 
 ## Maintainers
 

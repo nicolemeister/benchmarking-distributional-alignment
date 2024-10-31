@@ -4,11 +4,6 @@
 
 ![](benchmarking_pipeline.png)
 
-```bibtex
-    @Article{TODO
-    }
-```
-
 
 ## Usage
 
@@ -41,3 +36,10 @@ We provide an example job script ```job.sh``` that contains the file execution o
 
 [Nicole Meister](nicolemeister.github.io)
 
+
+
+
+```bibtex
+    @Article{TODO
+    }
+```

@@ -109,7 +109,7 @@ def compute_three(opinionqa_data, nytimes_data, globalvalues_data, human_data=Fa
     if not human_data: 
         for lst in opinionqa_data:
             
-            try: opinionqa.extend(eval(lst))
+            try: opinionqa.extend(eval(str(lst)))
             except: breakpoint()
             # except: opinionqa.extend(list(lst))
     else: opinionqa = opinionqa_data
@@ -117,13 +117,15 @@ def compute_three(opinionqa_data, nytimes_data, globalvalues_data, human_data=Fa
     # convert the list of lists into a full list 
     if not human_data: 
         for lst in nytimes_data:
-            nytimes.extend(eval(lst))
+            try: nytimes.extend(eval(str(lst)))
+            except: breakpoint()
             # except: nytimes.extend(list(lst))
     else: nytimes = nytimes_data
 
     if not human_data: 
         for lst in globalvalues_data:
-            globalvalues.extend(eval(lst))
+            try: globalvalues.extend(eval(str(lst)))
+            except: breakpoint()
             # except: globalvalues.extend(list(lst))
     else: globalvalues = globalvalues_data
 
@@ -475,6 +477,34 @@ def compute_both(opinionqa_data, nytimes_data, human_data=False):
     upper_bound = np.percentile(bootstrap_statistics, upper_percentile)
     return np.mean(bootstrap_statistics), (upper_bound-lower_bound)/2
 
+
+def compute_K2S_gap(distrib_alignment_leaderboard_path, leaderboard_path):
+    distrib_alignment_df=pd.read_csv(distrib_alignment_leaderboard_path)
+    
+    if os.path.exists(leaderboard_path):
+        leaderboard_df = pd.read_csv(leaderboard_path)
+    else: leaderboard_df = pd.DataFrame(columns=['Model Name', 'Dataset', 'Task Type', 'K2S Mean'])
+
+    models = ['gpt-3.5-turbo-0125', 'gpt-4', 'anthropic_haiku', 'anthropic_opus', 'llama3-70b']
+
+    for model in models: 
+        print(model)
+        verb = distrib_alignment_df[(distrib_alignment_df['Model Name']=="{} {}".format(model, "(V)"))]['Alignment Mean'].iloc[0]
+        seq = distrib_alignment_df[(distrib_alignment_df['Model Name']=="{} {}".format(model, "(Seq)"))]['Alignment Mean'].iloc[0]
+        KS_gap = ((seq/verb)-1)
+        # Adding a data entry
+        new_entry = pd.DataFrame({
+            'Model Name': [model],
+            'Dataset': ['three'],
+            'Task Type': ['knowledge_to_sim_gap'],
+            'K2S Mean': [KS_gap],
+        })
+
+        # Adding the new entry to the dataframe
+        leaderboard_df = pd.concat([leaderboard_df, new_entry], ignore_index=True)
+
+    leaderboard_df.to_csv(leaderboard_path, index=False)
+    return 
 
 
 

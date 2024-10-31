@@ -1,0 +1,6 @@
+Model Name,Dataset,Task Type,K2S Mean
+gpt-3.5-turbo-0125,three,knowledge_to_sim_gap,0.09173233380465096
+gpt-4,three,knowledge_to_sim_gap,0.21348040964550918
+anthropic_haiku,three,knowledge_to_sim_gap,0.2148665781053285
+anthropic_opus,three,knowledge_to_sim_gap,0.43633138734431465
+llama3-70b,three,knowledge_to_sim_gap,0.346513391107373

@@ -19,7 +19,6 @@ def main():
         df = pd.DataFrame(columns=columns)
     else: df = pd.read_csv(eval_result_df_path)
 
-    '''
     # 1. MODEL EVAL 
     dem_group_to_dem_mapping_dataset = {'opinionqa': {'POLPARTY': ['Democrat', 'Republican'], 'SEX': ['Male', 'Female'], 'RACE': ['Black', 'White']}, 
                                         'nytimes': {'POLPARTY': ['Democrat', 'Republican'], 'SEX': ['Male', 'Female']}, 
@@ -47,15 +46,14 @@ def main():
     # 2. Human Eval 
     eval_utils.human_eval(eval_result_df_path)
 
-    '''
+    
     # 3. Generate Leaderboard 1: Distributional Alignment Task
-    # eval_utils.distrib_alignment_leaderboard(eval_result_df_path, leaderboard_path='{}/results/leaderboard_distrib_alignment.csv'.format(os.getcwd()))
+    eval_utils.distrib_alignment_leaderboard(eval_result_df_path, leaderboard_path='{}/results/leaderboard_distrib_alignment.csv'.format(os.getcwd()))
 
     eval_utils.distrib_alignment_leaderboard_all(eval_result_df_path, leaderboard_path='{}/results/leaderboard_distrib_alignment_all.csv'.format(os.getcwd()))
 
     # 4. Generate Leaderboard 2: Knowledge to Simulation Gap
-
-
+    eval_utils.compute_K2S_gap(distrib_alignment_leaderboard_path='{}/results/leaderboard_distrib_alignment.csv'.format(os.getcwd()), leaderboard_path='{}/results/k2s_gap.csv'.format(os.getcwd()))
 
 if __name__ == "__main__":
     main()

@@ -70,7 +70,7 @@ python lm_steering.py --task 1 3 \
      
 # Step 2. Rescale model log_probs 
 
-python rescale_model_logprobs.py
+python temperature_scaling.py
 
 # Step 3. Evaluate Distributional Survey Results on OQA, NYT, GlobalValues
 

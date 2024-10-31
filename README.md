@@ -31,6 +31,7 @@ We provide an example job script ```job.sh``` that contains the file execution o
         1. The distributional alignment task leaderboard is `./results/leaderboard_distrib_alignment.csv` 
         2. The knowledge to simulation gap leaderboard is `./results/k2s_gap.csv`.
         3. The distributional alignment task leaderboard with all models, datasets, steering methods, and distribution estimation methods is `./results/leaderboard_distrib_alignment_all.csv`.
+        4. Recreate figures in the paper with ```analysis/figures.ipynb```.
 
 ## Maintainers
 
